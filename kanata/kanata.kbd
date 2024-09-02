@@ -1,0 +1,56 @@
+(defcfg
+  concurrent-tap-hold yes
+  process-unmapped-keys yes
+)
+
+(defsrc
+  esc f1   f2   f3   f4   f5   f6   f7   f8   f9   f10  f11  f12
+  grv  1    2    3    4    5    6    7    8    9    0    -    =    bspc
+  tab  q    w    e    r    t    y    u    i    o    p    [    ]    \
+  caps a    s    d    f    g    h    j    k    l    ;    '    ret
+  lsft z    x    c    v    b    n    m    ,    .    /    rsft
+  lctl lmet lalt           spc            ralt comp rctl
+)
+
+(deflayer dvorak
+  esc f1   f2   f3   f4   f5   f6   f7   f8   f9   f10  f11  f12
+  grv  1    2    3    4    5    6    7    8    9    0    [    ]    bspc
+  tab  '    ,    .    p    y    f    g    c    r    l    /    =    \
+  @ck @a   @o   @e   @u    i    d   @h   @t   @n   @s    -    ret
+  @cpw ;    q    j    k    x    b    m    w    v    z    @cpw
+  lctl lalt lmet          spc            ralt comp rctl
+)
+
+(deflayer arrows
+  _    _    _    _    _    _    _    _    _    _    _    _    _
+  _    _    _    _    _    _    _    _    _    _    _    _    _    _
+  _    _    _    _    _    _    _    _    _    _   rght  _    _    _
+  _    _    _    _    _    _    _   lft   _    _    _    _    _
+  _    _    _  down  up    _    _    _    _    _    _    _
+  _    _    _             bspc            _    _    _
+
+)
+
+(defvar
+      tap-time 150
+      hold-time 250
+)
+
+(defalias
+  cpw (caps-word 2000)
+  ck (tap-hold $tap-time $hold-time esc (layer-toggle arrows))
+  a (tap-hold $tap-time $hold-time a lmet)
+  o (tap-hold $tap-time $hold-time o lalt)
+  e (tap-hold $tap-time $hold-time e lsft)
+  u (tap-hold $tap-time $hold-time u lctl)
+  h (tap-hold $tap-time $hold-time h rctl)
+  t (tap-hold $tap-time $hold-time t rsft)
+  n (tap-hold $tap-time $hold-time n lalt)
+  s (tap-hold $tap-time $hold-time s lmet)
+)
+
+(defchordsv2-experimental
+  (w r) M-tab 150 all-released ( arrows )
+  (w e) A-tab 150 all-released ( arrows )
+  (e r) ret 150 all-released ( arrows )
+)

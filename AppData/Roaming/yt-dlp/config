@@ -1,0 +1,5 @@
+-o "%(title)s.%(ext)s"
+-I :10
+-S "res:720"
+--merge-output-format mp4
+--restrict-filenames
