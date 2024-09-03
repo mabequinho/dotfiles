@@ -13,7 +13,7 @@
 )
 
 (deflayer dvorak
-  esc pgup pgdn home end  f5   prev pp next mute voldwn volu f12
+  esc pgup pgdn f13 f14 f5   prev pp next mute voldwn volu f12
   grv  1    2    3    4    5    6    7    8    9    0    [    ]    bspc
   tab  '    ,    .    p    y    f    g    c    r    l    /    =    \
   @ck @a   @o   @e   @u    i    d   @h   @t   @n   @s    -    ret
@@ -26,7 +26,7 @@
   _    _    _    _    _    _    _    _    _    _    _    _    _    _
   _    _    _    _    _    _    _    _    _    _   rght  _    _    _
   _    _    _    _    _    _    _   lft   _    _    _    _    _
-  _    _    _  down  up    _    _    _    _    _    _    _
+  _    _    _  down  up    _    _    _    A-f4 _    _    _
   _    _    _             bspc            _    _    _
 
 )
