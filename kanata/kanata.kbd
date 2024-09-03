@@ -13,7 +13,7 @@
 )
 
 (deflayer dvorak
-  esc f1   f2   f3   f4   f5   f6   f7   f8   f9   f10  f11  f12
+  esc pgup pgdn home end  f5   prev pp next mute voldwn volu f12
   grv  1    2    3    4    5    6    7    8    9    0    [    ]    bspc
   tab  '    ,    .    p    y    f    g    c    r    l    /    =    \
   @ck @a   @o   @e   @u    i    d   @h   @t   @n   @s    -    ret
@@ -22,7 +22,7 @@
 )
 
 (deflayer arrows
-  _    _    _    _    _    _    _    _    _    _    _    _    _
+  _   f1   f2   f3   f4   f5   f6   f7   f8   f9   f10  f11  f12
   _    _    _    _    _    _    _    _    _    _    _    _    _    _
   _    _    _    _    _    _    _    _    _    _   rght  _    _    _
   _    _    _    _    _    _    _   lft   _    _    _    _    _
@@ -50,7 +50,6 @@
 )
 
 (defchordsv2-experimental
-  (w r) M-tab 150 all-released ( arrows )
-  (w e) A-tab 150 all-released ( arrows )
-  (e r) ret 150 all-released ( arrows )
+  (c v) A-tab 50 all-released ( arrows )
+  (d f) ret 50 all-released ( arrows )
 )
