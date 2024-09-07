@@ -1,5 +1,5 @@
 {
-  "show_inline_completions": false,
+  "show_inline_completions": true,
   "autosave": "on_focus_change",
   "ui_font_family": "FiraCode Nerd Font Mono",
   "ui_font_size": 16,
@@ -45,7 +45,7 @@
     "dock": "right",
     "default_model": {
       "provider": "copilot_chat",
-      "model": "gpt-4o"
+      "model": "gpt-3.5-turbo"
     },
     "version": "2",
     "button": true,
