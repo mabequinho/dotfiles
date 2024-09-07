@@ -38,10 +38,7 @@
     "font_size": 18,
     "font_weight": 600,
     "dock": "bottom",
-    "copy_on_select": true,
-    "shell": {
-      "program": "nu"
-    }
+    "copy_on_select": true
   },
   "auto_update": false,
   "assistant": {
