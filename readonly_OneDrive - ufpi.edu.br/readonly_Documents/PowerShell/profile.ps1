@@ -55,7 +55,7 @@ function o {
 function oo { Start-Process (fzf) }
 
 # --- Editor aliases using $EDITOR ---
-$env:EDITOR = "zed"
+$env:EDITOR = "vi"
 function note { & $env:EDITOR ("$(Get-Date -Format 'ddd_MMM_dd-HH:mm:ss').txt") }
 function e { & $env:EDITOR @args }
 function ee { & $env:EDITOR (fzf) }
