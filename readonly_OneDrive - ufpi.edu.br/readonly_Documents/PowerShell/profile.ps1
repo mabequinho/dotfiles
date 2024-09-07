@@ -65,7 +65,7 @@ function ee { & $env:EDITOR (fzf) }
 function x { exit }
 
 Set-PSReadLineOption -EditMode Vi
-Set-PSReadLineKeyHandler -Chord Ctrl-f -Function ForwardWord
+Set-PSReadLineKeyHandler -Chord Ctrl-f -Function ViForwardChar
 
 Remove-Alias -Name gp -Force
 Remove-Alias -Name gc -Force
