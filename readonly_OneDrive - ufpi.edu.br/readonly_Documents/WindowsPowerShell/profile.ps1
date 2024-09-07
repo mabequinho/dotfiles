@@ -1,3 +1,4 @@
+
 #region mamba initialize
 # !! Contents within this block are managed by 'mamba shell init' !!
 $Env:MAMBA_ROOT_PREFIX = "C:\Users\Lucio Araujo\micromamba"
