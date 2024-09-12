@@ -1,3 +1,5 @@
 [user]
 	name = Lucio Araujo
 	email = lucio_a.khfzo@aleeas.com
+[credential "helperselector"]
+	selected = <no helper>
