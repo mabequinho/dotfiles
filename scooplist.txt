@@ -1,0 +1,59 @@
+
+Name                          Version                 Source      Updated             I
+                                                                                      n
+                                                                                      f
+                                                                                      o
+----                          -------                 ------      -------             -
+7zip                          24.08                   main        2024-09-13 11:34:32 
+7zip19.00-helper              19.00                   main        2024-09-13 12:09:19 
+aria2                         1.37.0-1                main        2024-09-13 13:46:50 
+bat                           0.24.0                  main        2024-09-13 13:47:40 
+biglybt-np                    3.6.0.0                 nonportable 2024-09-13 13:49:15 
+busybox                       5398-g89ae34445         main        2024-09-13 13:49:54 
+calibre-normal                7.18.0                  extras      2024-09-13 13:57:52 
+Cascadia-Code                 2404.23                 nerd-fonts  2024-09-13 13:57:19 
+chezmoi                       2.52.2                  main        2024-09-13 11:49:53 
+dbeaver                       24.2.0                  extras      2024-09-13 13:52:26 
+devdocs                       0.7.2                   extras      2024-09-13 13:52:10 
+discord                       1.0.9156-20             extras      2024-09-13 13:52:57 
+duplicati                     2.0.8.1_beta_2024-05-07 extras      2024-09-13 13:53:22 
+equalizer-apo-np              1.4                     nonportable 2024-09-13 13:54:20 
+eza                           0.19.3                  main        2024-09-13 13:55:29 
+fd                            10.2.0                  main        2024-09-13 13:55:42 
+ffmpeg                        7.0.2                   main        2024-09-13 13:56:12 
+FiraCode-NF-Mono              3.2.1                   nerd-fonts  2024-09-13 13:57:49 
+fzf                           0.55.0                  main        2024-09-13 13:56:17 
+gimp                          2.10.38                 extras      2024-09-13 14:06:17 
+git                           2.46.0                  main        2024-09-13 11:36:30 
+grex                          1.4.5                   main        2024-09-13 13:58:13 
+handbrake                     1.8.2                   extras      2024-09-13 13:58:30 
+innounp                       0.50                    main        2024-09-13 13:57:56 
+innounp-unicode               1.72                    versions    2024-09-13 14:07:18 
+k-lite-codec-pack-standard-np 18.5.5                  nonportable 2024-09-13 14:01:54 
+NerdFontsSymbolsOnly          3.2.1                   nerd-fonts  2024-09-13 13:59:34 
+nosleep                       1.2.0                   extras      2024-09-13 16:43:24 
+obs-studio                    30.2.3                  extras      2024-09-13 14:00:25 
+office-365-apps-minimal-np    16.0.17830.20162        nonportable 2024-09-13 12:13:31 
+olive-editor-nightly          617ff876                versions    2024-09-13 14:04:31 
+pandoc                        3.4                     main        2024-09-13 14:06:17 
+poppler                       24.07.0-0               main        2024-09-13 14:06:27 
+procs                         0.14.6                  main        2024-09-13 14:00:44 
+psreadline                    2.3.5                   extras      2024-09-13 14:05:51 
+pwsh                          7.4.5                   main        2024-09-13 14:01:43 
+qview                         6.1                     extras      2024-09-13 14:05:22 
+rga                           0.10.6                  main        2024-09-13 14:06:34 
+ripgrep                       14.1.1                  main        2024-09-13 14:06:29 
+spotube                       3.8.0                   extras      2024-09-13 14:07:31 
+starship                      1.20.1                  main        2024-09-13 14:06:58 
+stretchly                     1.16.0                  extras      2024-09-13 14:07:54 
+sudo                          0.2020.01.26            main        2024-09-13 13:53:29 
+sumatrapdf                    3.5.2                   extras      2024-09-13 14:07:51 
+thunderbird                   128.2.0esr              extras      2024-09-13 16:27:29 
+twinkle-tray                  1.15.5                  extras      2024-09-13 14:08:21 
+winaero-tweaker               1.63.0.0                extras      2024-09-13 17:04:50 
+windows-terminal              1.21.2361.0             extras      2024-09-13 13:43:07 
+xmousebuttoncontrol           2.20.5                  extras      2024-09-13 14:08:26 
+yt-dlp                        2024.08.06              main        2024-09-13 14:08:41 
+zed-nightly                   20240913                versions    2024-09-13 14:08:49 
+zoxide                        0.9.5                   main        2024-09-13 14:08:52 
+
