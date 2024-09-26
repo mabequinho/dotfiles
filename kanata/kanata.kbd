@@ -36,12 +36,12 @@
 
 (defvar
       tap-time 150
-      hold-time 250
+      hold-time 200
 )
 
 (defalias
   bgt (cmd C:\Windows\System32\schtasks.exe /run /tn bgnoise)
-  cpw (caps-word 2000)
+  cpw (caps-word 1000)
   ck (tap-hold $tap-time $hold-time esc (layer-toggle arrows))
   a (tap-hold $tap-time $hold-time a lmet)
   o (tap-hold $tap-time $hold-time o lalt)
@@ -54,6 +54,6 @@
 )
 
 (defchordsv2-experimental
-  (c v) A-tab 50 all-released ( arrows )
-  (d f) ret 50 all-released ( arrows )
+  (c v) A-tab 30 all-released ( arrows )
+  (e r) ret 30 all-released ( arrows )
 )
