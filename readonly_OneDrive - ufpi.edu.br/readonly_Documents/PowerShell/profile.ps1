@@ -44,8 +44,8 @@ function ... { z ../../ }
 $env:FZF_DEFAULT_OPTS = "--ansi --preview-window 'right:60%' --preview 'bat --color=always --style=header,grid --line-range :300 {}'"
 
 # --- Other command aliases ---
-function c { bat --theme=ansi @args }
-function cc { bat --theme=ansi (fzf) }
+function c { bat @args }
+function cc { bat (fzf) }
 function rm { Remove-Item @args -Force -Recurse; Remove-Item @args -Recycle }
 function mkdir { New-Item -Path $args[0] -ItemType Directory -Force }
 
@@ -66,6 +66,7 @@ function x { exit }
 
 Set-PSReadLineOption -EditMode Vi
 Set-PSReadLineKeyHandler -Chord Ctrl-f -Function ViForwardChar
+Set-PSReadLineKeyHandler -Key Tab -Function Complete
 
 Remove-Alias -Name gp -Force
 Remove-Alias -Name gc -Force
