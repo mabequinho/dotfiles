@@ -1,400 +1,393 @@
 {
+    "apps": [
+        {
+            "Source": "main",
+            "Name": "7zip",
+            "Version": "24.08",
+            "Info": "",
+            "Updated": "2024-09-13T20:53:50.0104396-03:00"
+        },
+        {
+            "Source": "main",
+            "Name": "7zip19.00-helper",
+            "Version": "19.00",
+            "Info": "",
+            "Updated": "2024-09-13T21:07:08.3370097-03:00"
+        },
+        {
+            "Source": "main",
+            "Name": "aria2",
+            "Version": "1.37.0-1",
+            "Info": "",
+            "Updated": "2024-09-13T21:22:38.9594939-03:00"
+        },
+        {
+            "Source": "main",
+            "Name": "bat",
+            "Version": "0.24.0",
+            "Info": "",
+            "Updated": "2024-09-13T21:37:32.334947-03:00"
+        },
+        {
+            "Source": "nonportable",
+            "Name": "biglybt-np",
+            "Version": "3.6.0.0",
+            "Info": "",
+            "Updated": "2024-09-13T21:38:42.4736249-03:00"
+        },
+        {
+            "Source": "main",
+            "Name": "busybox",
+            "Version": "5467-g9376eebd8",
+            "Info": "",
+            "Updated": "2024-09-26T12:20:04.0363014-03:00"
+        },
+        {
+            "Source": "extras",
+            "Name": "calibre-normal",
+            "Version": "7.19.0",
+            "Info": "",
+            "Updated": "2024-10-03T13:21:41.5778963-03:00"
+        },
+        {
+            "Source": "main",
+            "Name": "chezmoi",
+            "Version": "2.52.3",
+            "Info": "",
+            "Updated": "2024-10-03T13:21:45.3192439-03:00"
+        },
+        {
+            "Source": "extras",
+            "Name": "dbeaver",
+            "Version": "24.2.2",
+            "Info": "",
+            "Updated": "2024-10-09T16:29:36.251434-03:00"
+        },
+        {
+            "Source": "extras",
+            "Name": "devdocs",
+            "Version": "0.7.2",
+            "Info": "",
+            "Updated": "2024-09-13T21:33:02.2042852-03:00"
+        },
+        {
+            "Source": "extras",
+            "Name": "duplicati",
+            "Version": "2.0.8.1_beta_2024-05-07",
+            "Info": "",
+            "Updated": "2024-09-13T21:32:49.2790332-03:00"
+        },
+        {
+            "Source": "nonportable",
+            "Name": "equalizer-apo-np",
+            "Version": "1.4",
+            "Info": "",
+            "Updated": "2024-09-13T21:35:34.8645366-03:00"
+        },
+        {
+            "Source": "main",
+            "Name": "eza",
+            "Version": "0.20.2",
+            "Info": "",
+            "Updated": "2024-10-09T16:29:39.4521834-03:00"
+        },
+        {
+            "Source": "main",
+            "Name": "fastfetch",
+            "Version": "2.27.1",
+            "Info": "",
+            "Updated": "2024-10-06T07:57:46.5965127-03:00"
+        },
+        {
+            "Source": "main",
+            "Name": "fd",
+            "Version": "10.2.0",
+            "Info": "",
+            "Updated": "2024-09-13T21:32:03.268616-03:00"
+        },
+        {
+            "Source": "main",
+            "Name": "ffmpeg",
+            "Version": "7.1",
+            "Info": "",
+            "Updated": "2024-10-03T13:22:07.8530375-03:00"
+        },
+        {
+            "Source": "nerd-fonts",
+            "Name": "FiraCode-NF-Mono",
+            "Version": "3.2.1",
+            "Info": "",
+            "Updated": "2024-10-07T14:38:37.9898718-03:00"
+        },
+        {
+            "Source": "main",
+            "Name": "fzf",
+            "Version": "0.55.0",
+            "Info": "",
+            "Updated": "2024-09-13T21:31:34.1323229-03:00"
+        },
+        {
+            "Source": "extras",
+            "Name": "gimp",
+            "Version": "2.10.38-1",
+            "Info": "",
+            "Updated": "2024-10-06T08:03:50.1911886-03:00"
+        },
+        {
+            "Source": "main",
+            "Name": "git",
+            "Version": "2.47.0",
+            "Info": "",
+            "Updated": "2024-10-09T16:30:13.6272744-03:00"
+        },
+        {
+            "Source": "main",
+            "Name": "grex",
+            "Version": "1.4.5",
+            "Info": "",
+            "Updated": "2024-09-13T21:28:54.1341878-03:00"
+        },
+        {
+            "Source": "main",
+            "Name": "gtypist",
+            "Version": "2.9.5",
+            "Info": "",
+            "Updated": "2024-10-06T07:56:59.0783179-03:00"
+        },
+        {
+            "Source": "extras",
+            "Name": "handbrake",
+            "Version": "1.8.2",
+            "Info": "",
+            "Updated": "2024-09-13T21:27:59.3402262-03:00"
+        },
+        {
+            "Source": "main",
+            "Name": "innounp",
+            "Version": "0.50",
+            "Info": "",
+            "Updated": "2024-09-13T21:31:01.7027312-03:00"
+        },
+        {
+            "Source": "versions",
+            "Name": "innounp-unicode",
+            "Version": "1.72",
+            "Info": "",
+            "Updated": "2024-10-06T08:00:37.7573531-03:00"
+        },
+        {
+            "Source": "nonportable",
+            "Name": "k-lite-codec-pack-standard-np",
+            "Version": "18.6.0",
+            "Info": "",
+            "Updated": "2024-10-06T08:05:05.4740212-03:00"
+        },
+        {
+            "Source": "extras",
+            "Name": "kdenlive",
+            "Version": "24.08.1",
+            "Info": "",
+            "Updated": "2024-09-29T20:26:11.4924079-03:00"
+        },
+        {
+            "Source": "extras",
+            "Name": "mpv",
+            "Version": "0.39.0",
+            "Info": "",
+            "Updated": "2024-10-03T13:22:16.5292157-03:00"
+        },
+        {
+            "Source": "main",
+            "Name": "neovim",
+            "Version": "0.10.2",
+            "Info": "",
+            "Updated": "2024-10-03T13:22:30.5203483-03:00"
+        },
+        {
+            "Source": "nerd-fonts",
+            "Name": "NerdFontsSymbolsOnly",
+            "Version": "3.2.1",
+            "Info": "",
+            "Updated": "2024-09-13T21:27:13.8501058-03:00"
+        },
+        {
+            "Source": "extras",
+            "Name": "obs-studio",
+            "Version": "30.2.3",
+            "Info": "",
+            "Updated": "2024-09-13T21:26:26.6314878-03:00"
+        },
+        {
+            "Source": "nonportable",
+            "Name": "office-365-apps-minimal-np",
+            "Version": "16.0.18129.20030",
+            "Info": "",
+            "Updated": "2024-10-09T16:32:27.3584986-03:00"
+        },
+        {
+            "Source": "main",
+            "Name": "pandoc",
+            "Version": "3.5",
+            "Info": "",
+            "Updated": "2024-10-06T08:05:12.4357398-03:00"
+        },
+        {
+            "Source": "main",
+            "Name": "poppler",
+            "Version": "24.08.0-0",
+            "Info": "",
+            "Updated": "2024-10-09T16:32:32.1655401-03:00"
+        },
+        {
+            "Source": "main",
+            "Name": "procs",
+            "Version": "0.14.6",
+            "Info": "",
+            "Updated": "2024-09-13T21:24:42.619641-03:00"
+        },
+        {
+            "Source": "extras",
+            "Name": "psreadline",
+            "Version": "2.3.6",
+            "Info": "",
+            "Updated": "2024-10-06T08:05:13.4946843-03:00"
+        },
+        {
+            "Source": "main",
+            "Name": "pwsh",
+            "Version": "7.4.5",
+            "Info": "",
+            "Updated": "2024-09-13T21:16:51.6659081-03:00"
+        },
+        {
+            "Source": "extras",
+            "Name": "qview",
+            "Version": "6.1",
+            "Info": "",
+            "Updated": "2024-09-13T21:24:07.8520086-03:00"
+        },
+        {
+            "Source": "main",
+            "Name": "rga",
+            "Version": "0.10.6",
+            "Info": "",
+            "Updated": "2024-09-13T21:23:44.3979782-03:00"
+        },
+        {
+            "Source": "main",
+            "Name": "ripgrep",
+            "Version": "14.1.1",
+            "Info": "",
+            "Updated": "2024-09-13T21:23:08.4837812-03:00"
+        },
+        {
+            "Source": "extras",
+            "Name": "spotube",
+            "Version": "3.8.3",
+            "Info": "",
+            "Updated": "2024-10-09T18:01:10.2264089-03:00"
+        },
+        {
+            "Source": "main",
+            "Name": "starship",
+            "Version": "1.20.1",
+            "Info": "",
+            "Updated": "2024-09-13T21:22:50.9860468-03:00"
+        },
+        {
+            "Source": "extras",
+            "Name": "stretchly",
+            "Version": "1.16.0",
+            "Info": "",
+            "Updated": "2024-09-13T21:22:28.1629625-03:00"
+        },
+        {
+            "Source": "extras",
+            "Name": "sumatrapdf",
+            "Version": "3.5.2",
+            "Info": "",
+            "Updated": "2024-09-13T21:21:39.6610575-03:00"
+        },
+        {
+            "Source": "extras",
+            "Name": "twinkle-tray",
+            "Version": "1.16.1",
+            "Info": "",
+            "Updated": "2024-10-06T08:09:52.7105013-03:00"
+        },
+        {
+            "Source": "extras",
+            "Name": "vscode",
+            "Version": "1.94.1",
+            "Info": "",
+            "Updated": "2024-10-09T16:32:55.4690428-03:00"
+        },
+        {
+            "Source": "extras",
+            "Name": "windows-terminal",
+            "Version": "1.21.2701.0",
+            "Info": "",
+            "Updated": "2024-10-06T08:09:07.4950275-03:00"
+        },
+        {
+            "Source": "extras",
+            "Name": "windowsdesktop-runtime-lts",
+            "Version": "8.0.8",
+            "Info": "",
+            "Updated": "2024-09-16T10:51:09.3862054-03:00"
+        },
+        {
+            "Source": "extras",
+            "Name": "xmousebuttoncontrol",
+            "Version": "2.20.5",
+            "Info": "",
+            "Updated": "2024-09-13T21:20:43.8629776-03:00"
+        },
+        {
+            "Source": "main",
+            "Name": "yt-dlp",
+            "Version": "2024.10.07",
+            "Info": "",
+            "Updated": "2024-10-09T16:32:58.3475446-03:00"
+        },
+        {
+            "Source": "main",
+            "Name": "zoxide",
+            "Version": "0.9.6",
+            "Info": "",
+            "Updated": "2024-09-26T12:21:24.8762765-03:00"
+        }
+    ],
     "buckets": [
         {
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
-            "Updated": "2024-10-01T09:37:24-03:00",
-            "Manifests": 1343
+            "Updated": "2024-10-09T13:30:44-03:00",
+            "Manifests": 1344
         },
         {
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
-            "Updated": "2024-10-01T09:33:56-03:00",
-            "Manifests": 2080
+            "Updated": "2024-10-09T13:32:04-03:00",
+            "Manifests": 2084
         },
         {
             "Name": "versions",
             "Source": "https://github.com/ScoopInstaller/Versions",
-            "Updated": "2024-10-01T09:57:17-03:00",
+            "Updated": "2024-10-09T13:41:48-03:00",
             "Manifests": 469
         },
         {
             "Name": "nerd-fonts",
             "Source": "https://github.com/matthewjberger/scoop-nerd-fonts",
-            "Updated": "2024-09-30T02:21:40-03:00",
+            "Updated": "2024-10-04T19:20:09-03:00",
             "Manifests": 336
         },
         {
             "Name": "nonportable",
             "Source": "https://github.com/ScoopInstaller/Nonportable",
-            "Updated": "2024-10-01T09:56:28-03:00",
+            "Updated": "2024-10-09T09:54:46-03:00",
             "Manifests": 127
-        }
-    ],
-    "apps": [
-        {
-            "Updated": "2024-09-13T20:53:50.0104396-03:00",
-            "Source": "main",
-            "Info": "",
-            "Version": "24.08",
-            "Name": "7zip"
-        },
-        {
-            "Updated": "2024-09-13T21:07:08.3370097-03:00",
-            "Source": "main",
-            "Info": "",
-            "Version": "19.00",
-            "Name": "7zip19.00-helper"
-        },
-        {
-            "Updated": "2024-09-13T21:22:38.9594939-03:00",
-            "Source": "main",
-            "Info": "",
-            "Version": "1.37.0-1",
-            "Name": "aria2"
-        },
-        {
-            "Updated": "2024-09-13T21:37:32.334947-03:00",
-            "Source": "main",
-            "Info": "",
-            "Version": "0.24.0",
-            "Name": "bat"
-        },
-        {
-            "Updated": "2024-09-13T21:38:42.4736249-03:00",
-            "Source": "nonportable",
-            "Info": "",
-            "Version": "3.6.0.0",
-            "Name": "biglybt-np"
-        },
-        {
-            "Updated": "2024-09-26T12:20:04.0363014-03:00",
-            "Source": "main",
-            "Info": "",
-            "Version": "5467-g9376eebd8",
-            "Name": "busybox"
-        },
-        {
-            "Updated": "2024-09-13T21:40:26.6912845-03:00",
-            "Source": "extras",
-            "Info": "",
-            "Version": "7.18.0",
-            "Name": "calibre-normal"
-        },
-        {
-            "Updated": "2024-09-13T20:53:07.340666-03:00",
-            "Source": "main",
-            "Info": "",
-            "Version": "2.52.2",
-            "Name": "chezmoi"
-        },
-        {
-            "Updated": "2024-09-26T12:20:24.5346185-03:00",
-            "Source": "extras",
-            "Info": "",
-            "Version": "24.2.1",
-            "Name": "dbeaver"
-        },
-        {
-            "Updated": "2024-09-13T21:33:02.2042852-03:00",
-            "Source": "extras",
-            "Info": "",
-            "Version": "0.7.2",
-            "Name": "devdocs"
-        },
-        {
-            "Updated": "2024-09-13T21:32:49.2790332-03:00",
-            "Source": "extras",
-            "Info": "",
-            "Version": "2.0.8.1_beta_2024-05-07",
-            "Name": "duplicati"
-        },
-        {
-            "Updated": "2024-09-13T21:35:34.8645366-03:00",
-            "Source": "nonportable",
-            "Info": "",
-            "Version": "1.4",
-            "Name": "equalizer-apo-np"
-        },
-        {
-            "Updated": "2024-09-26T12:20:26.791223-03:00",
-            "Source": "main",
-            "Info": "",
-            "Version": "0.20.0",
-            "Name": "eza"
-        },
-        {
-            "Updated": "2024-09-26T12:20:29.2453337-03:00",
-            "Source": "main",
-            "Info": "",
-            "Version": "2.25.0",
-            "Name": "fastfetch"
-        },
-        {
-            "Updated": "2024-09-13T21:32:03.268616-03:00",
-            "Source": "main",
-            "Info": "",
-            "Version": "10.2.0",
-            "Name": "fd"
-        },
-        {
-            "Updated": "2024-09-13T21:23:30.7444949-03:00",
-            "Source": "main",
-            "Info": "",
-            "Version": "7.0.2",
-            "Name": "ffmpeg"
-        },
-        {
-            "Updated": "2024-09-13T21:31:34.1323229-03:00",
-            "Source": "main",
-            "Info": "",
-            "Version": "0.55.0",
-            "Name": "fzf"
-        },
-        {
-            "Updated": "2024-09-13T21:34:51.790415-03:00",
-            "Source": "extras",
-            "Info": "",
-            "Version": "2.10.38",
-            "Name": "gimp"
-        },
-        {
-            "Updated": "2024-09-26T12:21:00.4807591-03:00",
-            "Source": "main",
-            "Info": "",
-            "Version": "2.46.2",
-            "Name": "git"
-        },
-        {
-            "Updated": "2024-09-13T21:28:54.1341878-03:00",
-            "Source": "main",
-            "Info": "",
-            "Version": "1.4.5",
-            "Name": "grex"
-        },
-        {
-            "Updated": "2024-09-13T21:27:59.3402262-03:00",
-            "Source": "extras",
-            "Info": "",
-            "Version": "1.8.2",
-            "Name": "handbrake"
-        },
-        {
-            "Updated": "2024-09-13T21:31:01.7027312-03:00",
-            "Source": "main",
-            "Info": "",
-            "Version": "0.50",
-            "Name": "innounp"
-        },
-        {
-            "Updated": "2024-09-13T21:28:24.2115494-03:00",
-            "Source": "nonportable",
-            "Info": "",
-            "Version": "18.5.5",
-            "Name": "k-lite-codec-pack-standard-np"
-        },
-        {
-            "Updated": "2024-09-29T20:26:11.4924079-03:00",
-            "Source": "extras",
-            "Info": "",
-            "Version": "24.08.1",
-            "Name": "kdenlive"
-        },
-        {
-            "Updated": "2024-09-17T14:10:07.9812124-03:00",
-            "Source": "extras",
-            "Info": "",
-            "Version": "0.38.0",
-            "Name": "mpv"
-        },
-        {
-            "Updated": "2024-10-01T12:13:20.9248938-03:00",
-            "Source": "main",
-            "Info": "",
-            "Version": "0.10.1",
-            "Name": "neovim"
-        },
-        {
-            "Updated": "2024-09-13T21:27:13.8501058-03:00",
-            "Source": "nerd-fonts",
-            "Info": "",
-            "Version": "3.2.1",
-            "Name": "NerdFontsSymbolsOnly"
-        },
-        {
-            "Updated": "2024-09-13T21:26:18.0029782-03:00",
-            "Source": "extras",
-            "Info": "",
-            "Version": "1.2.0",
-            "Name": "nosleep"
-        },
-        {
-            "Updated": "2024-09-13T21:26:26.6314878-03:00",
-            "Source": "extras",
-            "Info": "",
-            "Version": "30.2.3",
-            "Name": "obs-studio"
-        },
-        {
-            "Updated": "2024-09-13T23:18:52.4744545-03:00",
-            "Source": "nonportable",
-            "Info": "",
-            "Version": "16.0.17830.20162",
-            "Name": "office-365-apps-minimal-np"
-        },
-        {
-            "Updated": "2024-09-13T21:26:20.9296826-03:00",
-            "Source": "versions",
-            "Info": "",
-            "Version": "617ff876",
-            "Name": "olive-editor-nightly"
-        },
-        {
-            "Updated": "2024-09-13T21:23:36.1519618-03:00",
-            "Source": "main",
-            "Info": "",
-            "Version": "3.4",
-            "Name": "pandoc"
-        },
-        {
-            "Updated": "2024-09-13T21:23:40.7539011-03:00",
-            "Source": "main",
-            "Info": "",
-            "Version": "24.07.0-0",
-            "Name": "poppler"
-        },
-        {
-            "Updated": "2024-09-14T14:53:10.2641237-03:00",
-            "Source": "nonportable",
-            "Info": "",
-            "Version": "0.84.1",
-            "Name": "powertoys-np"
-        },
-        {
-            "Updated": "2024-09-13T21:24:42.619641-03:00",
-            "Source": "main",
-            "Info": "",
-            "Version": "0.14.6",
-            "Name": "procs"
-        },
-        {
-            "Updated": "2024-09-13T21:19:39.9581258-03:00",
-            "Source": "extras",
-            "Info": "",
-            "Version": "2.3.5",
-            "Name": "psreadline"
-        },
-        {
-            "Updated": "2024-09-13T21:16:51.6659081-03:00",
-            "Source": "main",
-            "Info": "",
-            "Version": "7.4.5",
-            "Name": "pwsh"
-        },
-        {
-            "Updated": "2024-09-13T21:24:07.8520086-03:00",
-            "Source": "extras",
-            "Info": "",
-            "Version": "6.1",
-            "Name": "qview"
-        },
-        {
-            "Updated": "2024-09-13T21:23:44.3979782-03:00",
-            "Source": "main",
-            "Info": "",
-            "Version": "0.10.6",
-            "Name": "rga"
-        },
-        {
-            "Updated": "2024-09-13T21:23:08.4837812-03:00",
-            "Source": "main",
-            "Info": "",
-            "Version": "14.1.1",
-            "Name": "ripgrep"
-        },
-        {
-            "Updated": "2024-09-13T21:22:50.9860468-03:00",
-            "Source": "main",
-            "Info": "",
-            "Version": "1.20.1",
-            "Name": "starship"
-        },
-        {
-            "Updated": "2024-09-13T21:22:28.1629625-03:00",
-            "Source": "extras",
-            "Info": "",
-            "Version": "1.16.0",
-            "Name": "stretchly"
-        },
-        {
-            "Updated": "2024-09-13T21:21:39.6610575-03:00",
-            "Source": "extras",
-            "Info": "",
-            "Version": "3.5.2",
-            "Name": "sumatrapdf"
-        },
-        {
-            "Updated": "2024-09-26T12:21:13.8617081-03:00",
-            "Source": "extras",
-            "Info": "",
-            "Version": "128.2.3esr",
-            "Name": "thunderbird"
-        },
-        {
-            "Updated": "2024-09-13T21:21:09.3796909-03:00",
-            "Source": "extras",
-            "Info": "",
-            "Version": "1.15.5",
-            "Name": "twinkle-tray"
-        },
-        {
-            "Updated": "2024-10-01T12:06:49.691182-03:00",
-            "Source": "extras",
-            "Info": "",
-            "Version": "1.93.1",
-            "Name": "vscode"
-        },
-        {
-            "Updated": "2024-09-13T21:18:44.9036574-03:00",
-            "Source": "extras",
-            "Info": "",
-            "Version": "1.21.2361.0",
-            "Name": "windows-terminal"
-        },
-        {
-            "Updated": "2024-09-16T10:51:09.3862054-03:00",
-            "Source": "extras",
-            "Info": "",
-            "Version": "8.0.8",
-            "Name": "windowsdesktop-runtime-lts"
-        },
-        {
-            "Updated": "2024-09-13T21:20:43.8629776-03:00",
-            "Source": "extras",
-            "Info": "",
-            "Version": "2.20.5",
-            "Name": "xmousebuttoncontrol"
-        },
-        {
-            "Updated": "2024-09-13T21:16:14.8117074-03:00",
-            "Source": "main",
-            "Info": "",
-            "Version": "2024.08.06",
-            "Name": "yt-dlp"
-        },
-        {
-            "Updated": "2024-09-26T12:21:22.7384714-03:00",
-            "Source": "versions",
-            "Info": "",
-            "Version": "20240926",
-            "Name": "zed-nightly"
-        },
-        {
-            "Updated": "2024-09-26T12:21:24.8762765-03:00",
-            "Source": "main",
-            "Info": "",
-            "Version": "0.9.6",
-            "Name": "zoxide"
         }
     ]
 }
