@@ -41,11 +41,12 @@ function .. { z .. }
 function ... { z ../../ }
 
 # --- Environment Variables ---
-$env:FZF_DEFAULT_OPTS = "--ansi --preview-window 'right:60%' --preview 'bat --color=always --style=header,grid --line-range :300 {}'"
+$env:BAT_PAGER = " "
+$env:FZF_DEFAULT_OPTS = "--ansi --preview-window 'right:60%' --preview 'bat --theme=ansi --color=always --style=header,grid --line-range :300 {}'"
 
 # --- Other command aliases ---
-function c { bat @args }
-function cc { bat (fzf) }
+function c { bat --theme=ansi @args }
+function cc { bat --theme=ansi (fzf) }
 function rm { Remove-Item @args -Force -Recurse; Remove-Item @args -Recycle }
 function mkdir { New-Item -Path $args[0] -ItemType Directory -Force }
 
@@ -56,7 +57,7 @@ function o {
 function oo { Start-Process (fzf) }
 
 # --- Editor aliases using $EDITOR ---
-$env:EDITOR = "vi"
+$env:EDITOR = "nvim"
 function note { & $env:EDITOR ("$(Get-Date -Format 'ddd_MMM_dd-HH:mm:ss').txt") }
 function e { & $env:EDITOR @args }
 function ee { & $env:EDITOR (fzf) }
