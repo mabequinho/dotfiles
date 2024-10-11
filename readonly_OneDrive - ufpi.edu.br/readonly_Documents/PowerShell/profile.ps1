@@ -1,11 +1,3 @@
-
-#region mamba initialize
-# !! Contents within this block are managed by 'mamba shell init' !!
-$Env:MAMBA_ROOT_PREFIX = "C:\Users\Lu\micromamba"
-$Env:MAMBA_EXE = "C:\Users\Lu\AppData\Local\micromamba\micromamba.exe"
-(& $Env:MAMBA_EXE 'shell' 'hook' -s 'powershell' -p $Env:MAMBA_ROOT_PREFIX) | Out-String | Invoke-Expression
-#endregion
-
 # Define function for 'l' command
 function l {
     eza --group-directories-first --colour=auto --icons=auto --no-user --no-permissions --smart-group --git --git-ignore -F -l @args
@@ -74,3 +66,11 @@ Remove-Alias -Name gc -Force
 
 Invoke-Expression (&starship init powershell)
 Invoke-Expression (& { (zoxide init powershell | Out-String) })
+
+#region conda initialize
+# !! Contents within this block are managed by 'conda init' !!
+If (Test-Path "C:\Users\Lu\scoop\apps\mambaforge\current\Scripts\conda.exe") {
+    (& "C:\Users\Lu\scoop\apps\mambaforge\current\Scripts\conda.exe" "shell.powershell" "hook") | Out-String | ?{$_} | Invoke-Expression
+}
+#endregion
+
