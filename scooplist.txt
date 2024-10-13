@@ -11,6 +11,7 @@ calibre-normal                7.19.0                   extras      2024-10-03 13
 chezmoi                       2.52.4                   main        2024-10-11 18:45:16 
 dbeaver                       24.2.2                   extras      2024-10-09 16:29:36 
 devdocs                       0.7.2                    extras      2024-09-13 21:33:02 
+discord                       1.0.9156-20              extras      2024-10-12 19:44:08 
 duplicati                     2.0.8.1_beta_2024-05-07  extras      2024-09-13 21:32:49 
 equalizer-apo-np              1.4                      nonportable 2024-09-13 21:35:34 
 eza                           0.20.2                   main        2024-10-09 16:29:39 
@@ -44,14 +45,16 @@ pwsh                          7.4.5                    main        2024-09-13 21
 qview                         6.1                      extras      2024-09-13 21:24:07 
 rga                           0.10.6                   main        2024-09-13 21:23:44 
 ripgrep                       14.1.1                   main        2024-09-13 21:23:08 
+scoop-completion              0.3.0                    extras      2024-10-13 08:57:17 
 spotube                       3.8.3                    extras      2024-10-09 18:01:10 
 starship                      1.20.1                   main        2024-09-13 21:22:50 
+stretchly                     1.16.0                   extras      2024-10-12 13:24:23 
 sumatrapdf                    3.5.2                    extras      2024-09-13 21:21:39 
 twinkle-tray                  1.16.2                   extras      2024-10-11 21:54:46 
+ventoy                        1.0.99                   extras      2024-10-12 19:42:39 
 vscode                        1.94.2                   extras      2024-10-11 18:46:17 
 windows-terminal              1.21.2701.0              extras      2024-10-06 08:09:07 
 windowsdesktop-runtime-lts    8.0.8                    extras      2024-09-16 10:51:09 
-workrave                      1.10.52                  extras      2024-10-11 21:43:42 
 xmousebuttoncontrol           2.20.5                   extras      2024-09-13 21:20:43 
 yt-dlp                        2024.10.07               main        2024-10-09 16:32:58 
 zoxide                        0.9.6                    main        2024-09-26 12:21:24 
