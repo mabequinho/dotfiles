@@ -11,49 +11,62 @@
   caps a    s    d    f    g    h    j    k    l    ;    '    ret
   lsft z    x    c    v    b    n    m    ,    .    /    rsft
   lctl lmet lalt           spc            ralt comp rctl
+
   nlck
 )
 
 (deflayer dvorak
   esc pgdn pgup end  home f5   prev pp next mute voldwn volu f12
   grv  1    2    3    4    5    6    7    8    9    0    [    ]    bspc
-  tab  '    ,    .    p    y    f    g    c    r    l    /    =    \
-  @ck @a   @o   @e   @u    i    d   @h   @t   @n   @s    -    ret
-  @cpw ;    q    j    k    x    b    m    w    v    z    @cpw
-  lctl lalt M-grv       spc            ralt comp rctl
+  tab @'   @,   @.   @p    y    f    g    c    r    l    /    =    \
+ @l2  @a   @o   @e   @u    i    d    h    t    n    s    -    ret
+ @cpw @;   @q   @j   @k    x    b    m    w    v    z    @cpw
+  lctl lalt M-grv         spc             ralt comp rctl
+
   @bgt
 )
 
-(deflayer arrows
+(deflayer l2
   _   f1   f2   f3   f4   f5   f6   f7   f8   f9   f10  f11  f12
   _    _    _    _    _    _    _    _    _    _    _    _    _    _
-  _    _   up    _    _    _    _    _    _    _   rght  _    _    _
-  _  lft down rght    _    _    _   lft   _    _    _    _    _
-  _    _    _  down  up    _    _    _    A-f4 _    _    _
-  _    _  del             bspc            _    _    _
+  _    _   up    _    _    _    _    _    _    _    _    _    _    _
+  _  lft down rght    _    _    _    _    _    _    _    _    _
+  _    _    _    _    _    _    _    _    A-f4 _    _    _
+  _    _  C-del         C-bspc            _    _    _
+
   _
 )
 
 (defvar
-      tap-time 90
-      hold-time 150
+      tap-time 80
+      hold-time 140
 )
 
 (defalias
   bgt (cmd C:\Windows\System32\schtasks.exe /run /tn bgnoise)
+
   cpw (caps-word 1000)
-  ck (tap-hold $tap-time $hold-time esc (layer-toggle arrows))
+
+  l2 (tap-hold $tap-time $hold-time esc (layer-toggle l2))
+
   a (tap-hold $tap-time $hold-time a lmet)
   o (tap-hold $tap-time $hold-time o lalt)
   e (tap-hold $tap-time $hold-time e lsft)
   u (tap-hold $tap-time $hold-time u lctl)
-  h (tap-hold $tap-time $hold-time h rctl)
-  t (tap-hold $tap-time $hold-time t rsft)
-  n (tap-hold $tap-time $hold-time n lalt)
-  s (tap-hold $tap-time $hold-time s lmet)
+
+  ' (tap-hold $tap-time $hold-time ' rctl)
+  , (tap-hold $tap-time $hold-time , rsft)
+  . (tap-hold $tap-time $hold-time . lalt)
+  p (tap-hold $tap-time $hold-time p lmet)
+
+  k (tap-hold $tap-time $hold-time k lmet)
+  j (tap-hold $tap-time $hold-time j lalt)
+  q (tap-hold $tap-time $hold-time q lsft)
+  ; (tap-hold $tap-time $hold-time ; lctl)
 )
 
 (defchordsv2-experimental
-  (c v) A-tab 30 all-released ( arrows )
-  (e r) ret 30 all-released ( arrows )
+  (x c) M-tab 30 all-released ( l2 )
+  (c v) A-tab 30 all-released ( l2 )
+  (e r) ret 30 all-released ( l2 )
 )
