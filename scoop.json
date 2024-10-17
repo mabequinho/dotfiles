@@ -3,19 +3,19 @@
         {
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
-            "Updated": "2024-10-17T09:32:03-03:00",
+            "Updated": "2024-10-17T13:31:00-03:00",
             "Manifests": 1344
         },
         {
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
-            "Updated": "2024-10-17T09:33:28-03:00",
+            "Updated": "2024-10-17T13:32:55-03:00",
             "Manifests": 2088
         },
         {
             "Name": "versions",
             "Source": "https://github.com/ScoopInstaller/Versions",
-            "Updated": "2024-10-17T09:56:47-03:00",
+            "Updated": "2024-10-17T13:44:14-03:00",
             "Manifests": 469
         },
         {
@@ -27,416 +27,409 @@
         {
             "Name": "nonportable",
             "Source": "https://github.com/ScoopInstaller/Nonportable",
-            "Updated": "2024-10-17T05:39:28-03:00",
+            "Updated": "2024-10-17T13:41:51-03:00",
             "Manifests": 127
         }
     ],
     "apps": [
         {
-            "Name": "7zip",
-            "Source": "main",
             "Updated": "2024-09-13T20:53:50.0104396-03:00",
+            "Name": "7zip",
             "Version": "24.08",
-            "Info": ""
+            "Info": "",
+            "Source": "main"
         },
         {
-            "Name": "7zip19.00-helper",
-            "Source": "main",
             "Updated": "2024-09-13T21:07:08.3370097-03:00",
+            "Name": "7zip19.00-helper",
             "Version": "19.00",
-            "Info": ""
+            "Info": "",
+            "Source": "main"
         },
         {
-            "Name": "aria2",
-            "Source": "main",
             "Updated": "2024-09-13T21:22:38.9594939-03:00",
+            "Name": "aria2",
             "Version": "1.37.0-1",
-            "Info": ""
+            "Info": "",
+            "Source": "main"
         },
         {
-            "Name": "bat",
-            "Source": "main",
             "Updated": "2024-09-13T21:37:32.334947-03:00",
+            "Name": "bat",
             "Version": "0.24.0",
-            "Info": ""
+            "Info": "",
+            "Source": "main"
         },
         {
-            "Name": "biglybt-np",
-            "Source": "nonportable",
             "Updated": "2024-09-13T21:38:42.4736249-03:00",
+            "Name": "biglybt-np",
             "Version": "3.6.0.0",
-            "Info": ""
+            "Info": "",
+            "Source": "nonportable"
         },
         {
-            "Name": "busybox",
-            "Source": "main",
             "Updated": "2024-09-26T12:20:04.0363014-03:00",
+            "Name": "busybox",
             "Version": "5467-g9376eebd8",
-            "Info": ""
+            "Info": "",
+            "Source": "main"
         },
         {
-            "Name": "calibre-normal",
-            "Source": "extras",
             "Updated": "2024-10-03T13:21:41.5778963-03:00",
+            "Name": "calibre-normal",
             "Version": "7.19.0",
-            "Info": ""
+            "Info": "",
+            "Source": "extras"
         },
         {
-            "Name": "chezmoi",
-            "Source": "main",
             "Updated": "2024-10-11T18:45:16.8205099-03:00",
+            "Name": "chezmoi",
             "Version": "2.52.4",
-            "Info": ""
+            "Info": "",
+            "Source": "main"
         },
         {
-            "Name": "dbeaver",
-            "Source": "extras",
             "Updated": "2024-10-09T16:29:36.251434-03:00",
+            "Name": "dbeaver",
             "Version": "24.2.2",
-            "Info": ""
+            "Info": "",
+            "Source": "extras"
         },
         {
-            "Name": "devdocs",
-            "Source": "extras",
             "Updated": "2024-09-13T21:33:02.2042852-03:00",
+            "Name": "devdocs",
             "Version": "0.7.2",
-            "Info": ""
+            "Info": "",
+            "Source": "extras"
         },
         {
-            "Name": "discord",
-            "Source": "extras",
-            "Updated": "2024-10-12T19:44:08.5758601-03:00",
-            "Version": "1.0.9156-20",
-            "Info": ""
-        },
-        {
-            "Name": "duplicati",
-            "Source": "extras",
             "Updated": "2024-09-13T21:32:49.2790332-03:00",
+            "Name": "duplicati",
             "Version": "2.0.8.1_beta_2024-05-07",
-            "Info": ""
+            "Info": "",
+            "Source": "extras"
         },
         {
-            "Name": "equalizer-apo-np",
-            "Source": "nonportable",
             "Updated": "2024-09-13T21:35:34.8645366-03:00",
+            "Name": "equalizer-apo-np",
             "Version": "1.4",
-            "Info": ""
+            "Info": "",
+            "Source": "nonportable"
         },
         {
+            "Updated": "2024-10-17T14:12:50.611522-03:00",
             "Name": "eza",
-            "Source": "main",
-            "Updated": "2024-10-09T16:29:39.4521834-03:00",
-            "Version": "0.20.2",
-            "Info": ""
+            "Version": "0.20.3",
+            "Info": "",
+            "Source": "main"
         },
         {
-            "Name": "fastfetch",
-            "Source": "main",
             "Updated": "2024-10-06T07:57:46.5965127-03:00",
+            "Name": "fastfetch",
             "Version": "2.27.1",
-            "Info": ""
+            "Info": "",
+            "Source": "main"
         },
         {
-            "Name": "fd",
-            "Source": "main",
             "Updated": "2024-09-13T21:32:03.268616-03:00",
+            "Name": "fd",
             "Version": "10.2.0",
-            "Info": ""
+            "Info": "",
+            "Source": "main"
         },
         {
-            "Name": "ffmpeg",
-            "Source": "main",
             "Updated": "2024-10-03T13:22:07.8530375-03:00",
+            "Name": "ffmpeg",
             "Version": "7.1",
-            "Info": ""
+            "Info": "",
+            "Source": "main"
         },
         {
-            "Name": "FiraCode-NF-Mono",
-            "Source": "nerd-fonts",
             "Updated": "2024-10-07T14:38:37.9898718-03:00",
+            "Name": "FiraCode-NF-Mono",
             "Version": "3.2.1",
-            "Info": ""
+            "Info": "",
+            "Source": "nerd-fonts"
         },
         {
-            "Name": "fzf",
-            "Source": "main",
             "Updated": "2024-09-13T21:31:34.1323229-03:00",
+            "Name": "fzf",
             "Version": "0.55.0",
-            "Info": ""
+            "Info": "",
+            "Source": "main"
         },
         {
-            "Name": "ghostscript",
-            "Source": "main",
             "Updated": "2024-10-11T18:38:01.6856966-03:00",
+            "Name": "ghostscript",
             "Version": "10.04.0",
-            "Info": ""
+            "Info": "",
+            "Source": "main"
         },
         {
-            "Name": "gimp",
-            "Source": "extras",
             "Updated": "2024-10-06T08:03:50.1911886-03:00",
+            "Name": "gimp",
             "Version": "2.10.38-1",
-            "Info": ""
+            "Info": "",
+            "Source": "extras"
         },
         {
-            "Name": "git",
-            "Source": "main",
             "Updated": "2024-10-09T16:30:13.6272744-03:00",
+            "Name": "git",
             "Version": "2.47.0",
-            "Info": ""
+            "Info": "",
+            "Source": "main"
         },
         {
-            "Name": "grex",
-            "Source": "main",
             "Updated": "2024-09-13T21:28:54.1341878-03:00",
+            "Name": "grex",
             "Version": "1.4.5",
-            "Info": ""
+            "Info": "",
+            "Source": "main"
         },
         {
-            "Name": "gtypist",
-            "Source": "main",
             "Updated": "2024-10-06T07:56:59.0783179-03:00",
+            "Name": "gtypist",
             "Version": "2.9.5",
-            "Info": ""
+            "Info": "",
+            "Source": "main"
         },
         {
-            "Name": "handbrake",
-            "Source": "extras",
             "Updated": "2024-09-13T21:27:59.3402262-03:00",
+            "Name": "handbrake",
             "Version": "1.8.2",
-            "Info": ""
+            "Info": "",
+            "Source": "extras"
         },
         {
-            "Name": "inkscape",
-            "Source": "extras",
             "Updated": "2024-10-10T11:59:07.9364045-03:00",
+            "Name": "inkscape",
             "Version": "1.3.2_2023-11-25_091e20e",
-            "Info": ""
+            "Info": "",
+            "Source": "extras"
         },
         {
-            "Name": "innounp",
-            "Source": "main",
             "Updated": "2024-09-13T21:31:01.7027312-03:00",
+            "Name": "innounp",
             "Version": "0.50",
-            "Info": ""
+            "Info": "",
+            "Source": "main"
         },
         {
-            "Name": "innounp-unicode",
-            "Source": "versions",
             "Updated": "2024-10-11T18:45:25.0600956-03:00",
+            "Name": "innounp-unicode",
             "Version": "1.73",
-            "Info": ""
+            "Info": "",
+            "Source": "versions"
         },
         {
-            "Name": "k-lite-codec-pack-standard-np",
-            "Source": "nonportable",
             "Updated": "2024-10-06T08:05:05.4740212-03:00",
+            "Name": "k-lite-codec-pack-standard-np",
             "Version": "18.6.0",
-            "Info": ""
+            "Info": "",
+            "Source": "nonportable"
         },
         {
-            "Name": "kdenlive",
-            "Source": "extras",
             "Updated": "2024-09-29T20:26:11.4924079-03:00",
+            "Name": "kdenlive",
             "Version": "24.08.1",
-            "Info": ""
+            "Info": "",
+            "Source": "extras"
         },
         {
-            "Name": "mambaforge",
-            "Source": "extras",
             "Updated": "2024-10-11T15:09:01.9486382-03:00",
+            "Name": "mambaforge",
             "Version": "24.7.1-2",
-            "Info": ""
+            "Info": "",
+            "Source": "extras"
         },
         {
-            "Name": "mpv",
-            "Source": "extras",
             "Updated": "2024-10-03T13:22:16.5292157-03:00",
+            "Name": "mpv",
             "Version": "0.39.0",
-            "Info": ""
+            "Info": "",
+            "Source": "extras"
         },
         {
-            "Name": "neovim",
-            "Source": "main",
             "Updated": "2024-10-03T13:22:30.5203483-03:00",
+            "Name": "neovim",
             "Version": "0.10.2",
-            "Info": ""
+            "Info": "",
+            "Source": "main"
         },
         {
-            "Name": "NerdFontsSymbolsOnly",
-            "Source": "nerd-fonts",
             "Updated": "2024-09-13T21:27:13.8501058-03:00",
+            "Name": "NerdFontsSymbolsOnly",
             "Version": "3.2.1",
-            "Info": ""
+            "Info": "",
+            "Source": "nerd-fonts"
         },
         {
-            "Name": "obs-studio",
-            "Source": "extras",
             "Updated": "2024-09-13T21:26:26.6314878-03:00",
+            "Name": "obs-studio",
             "Version": "30.2.3",
-            "Info": ""
+            "Info": "",
+            "Source": "extras"
         },
         {
-            "Name": "office-365-apps-minimal-np",
-            "Source": "nonportable",
             "Updated": "2024-10-10T11:30:34.2100526-03:00",
+            "Name": "office-365-apps-minimal-np",
             "Version": "16.0.18129.20030",
-            "Info": ""
+            "Info": "",
+            "Source": "nonportable"
         },
         {
-            "Name": "okular",
-            "Source": "extras",
-            "Updated": "2024-10-17T11:41:04.1361101-03:00",
-            "Version": "24.08-5377",
-            "Info": ""
-        },
-        {
-            "Name": "pandoc",
-            "Source": "main",
             "Updated": "2024-10-06T08:05:12.4357398-03:00",
+            "Name": "pandoc",
             "Version": "3.5",
-            "Info": ""
+            "Info": "",
+            "Source": "main"
         },
         {
-            "Name": "pdfarranger",
-            "Source": "extras",
             "Updated": "2024-10-17T13:46:53.4807474-03:00",
+            "Name": "pdfarranger",
             "Version": "1.11.1",
-            "Info": ""
+            "Info": "",
+            "Source": "extras"
         },
         {
-            "Name": "poppler",
-            "Source": "main",
             "Updated": "2024-10-09T16:32:32.1655401-03:00",
+            "Name": "poppler",
             "Version": "24.08.0-0",
-            "Info": ""
+            "Info": "",
+            "Source": "main"
         },
         {
-            "Name": "procs",
-            "Source": "main",
             "Updated": "2024-09-13T21:24:42.619641-03:00",
+            "Name": "procs",
             "Version": "0.14.6",
-            "Info": ""
+            "Info": "",
+            "Source": "main"
         },
         {
-            "Name": "psreadline",
-            "Source": "extras",
             "Updated": "2024-10-06T08:05:13.4946843-03:00",
+            "Name": "psreadline",
             "Version": "2.3.6",
-            "Info": ""
+            "Info": "",
+            "Source": "extras"
         },
         {
-            "Name": "pwsh",
-            "Source": "main",
             "Updated": "2024-09-13T21:16:51.6659081-03:00",
+            "Name": "pwsh",
             "Version": "7.4.5",
-            "Info": ""
+            "Info": "",
+            "Source": "main"
         },
         {
-            "Name": "qview",
-            "Source": "extras",
             "Updated": "2024-09-13T21:24:07.8520086-03:00",
+            "Name": "qview",
             "Version": "6.1",
-            "Info": ""
+            "Info": "",
+            "Source": "extras"
         },
         {
-            "Name": "rga",
-            "Source": "main",
             "Updated": "2024-09-13T21:23:44.3979782-03:00",
+            "Name": "rga",
             "Version": "0.10.6",
-            "Info": ""
+            "Info": "",
+            "Source": "main"
         },
         {
-            "Name": "ripgrep",
-            "Source": "main",
             "Updated": "2024-09-13T21:23:08.4837812-03:00",
+            "Name": "ripgrep",
             "Version": "14.1.1",
-            "Info": ""
+            "Info": "",
+            "Source": "main"
         },
         {
-            "Name": "scoop-completion",
-            "Source": "extras",
             "Updated": "2024-10-13T08:57:17.5122101-03:00",
+            "Name": "scoop-completion",
             "Version": "0.3.0",
-            "Info": ""
+            "Info": "",
+            "Source": "extras"
         },
         {
-            "Name": "starship",
-            "Source": "main",
             "Updated": "2024-09-13T21:22:50.9860468-03:00",
+            "Name": "starship",
             "Version": "1.20.1",
-            "Info": ""
+            "Info": "",
+            "Source": "main"
         },
         {
-            "Name": "stretchly",
-            "Source": "extras",
             "Updated": "2024-10-12T13:24:23.4890151-03:00",
+            "Name": "stretchly",
             "Version": "1.16.0",
-            "Info": ""
+            "Info": "",
+            "Source": "extras"
         },
         {
-            "Name": "twinkle-tray",
-            "Source": "extras",
+            "Updated": "2024-10-17T16:28:39.752778-03:00",
+            "Name": "sumatrapdf",
+            "Version": "3.5.2",
+            "Info": "",
+            "Source": "extras"
+        },
+        {
             "Updated": "2024-10-11T21:54:46.4116738-03:00",
+            "Name": "twinkle-tray",
             "Version": "1.16.2",
-            "Info": ""
+            "Info": "",
+            "Source": "extras"
         },
         {
-            "Name": "ventoy",
-            "Source": "extras",
             "Updated": "2024-10-12T19:42:39.7748059-03:00",
+            "Name": "ventoy",
             "Version": "1.0.99",
-            "Info": ""
+            "Info": "",
+            "Source": "extras"
         },
         {
-            "Name": "vscode",
-            "Source": "extras",
             "Updated": "2024-10-11T18:46:17.3870411-03:00",
+            "Name": "vscode",
             "Version": "1.94.2",
-            "Info": ""
+            "Info": "",
+            "Source": "extras"
         },
         {
-            "Name": "wincompose",
-            "Source": "extras",
             "Updated": "2024-10-13T13:59:47.1577236-03:00",
+            "Name": "wincompose",
             "Version": "0.9.11",
-            "Info": ""
+            "Info": "",
+            "Source": "extras"
         },
         {
-            "Name": "windows-terminal",
-            "Source": "extras",
             "Updated": "2024-10-06T08:09:07.4950275-03:00",
+            "Name": "windows-terminal",
             "Version": "1.21.2701.0",
-            "Info": ""
+            "Info": "",
+            "Source": "extras"
         },
         {
-            "Name": "windowsdesktop-runtime-lts",
-            "Source": "extras",
             "Updated": "2024-09-16T10:51:09.3862054-03:00",
+            "Name": "windowsdesktop-runtime-lts",
             "Version": "8.0.8",
-            "Info": ""
+            "Info": "",
+            "Source": "extras"
         },
         {
-            "Name": "xmousebuttoncontrol",
-            "Source": "extras",
             "Updated": "2024-09-13T21:20:43.8629776-03:00",
+            "Name": "xmousebuttoncontrol",
             "Version": "2.20.5",
-            "Info": ""
+            "Info": "",
+            "Source": "extras"
         },
         {
-            "Name": "yt-dlp",
-            "Source": "main",
             "Updated": "2024-10-09T16:32:58.3475446-03:00",
+            "Name": "yt-dlp",
             "Version": "2024.10.07",
-            "Info": ""
+            "Info": "",
+            "Source": "main"
         },
         {
-            "Name": "zoxide",
-            "Source": "main",
             "Updated": "2024-09-26T12:21:24.8762765-03:00",
+            "Name": "zoxide",
             "Version": "0.9.6",
-            "Info": ""
+            "Info": "",
+            "Source": "main"
         }
     ]
 }
