@@ -73,3 +73,4 @@ If (Test-Path "C:\Users\lu\AppData\Local\miniforge3\Scripts\conda.exe") {
     (& "C:\Users\lu\AppData\Local\miniforge3\Scripts\conda.exe" "shell.powershell" "hook") | Out-String | ?{$_} | Invoke-Expression
 }
 #endregion
+conda activate basest

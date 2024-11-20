@@ -1,0 +1,8 @@
+
+name: basest
+channels:
+  - conda-forge
+dependencies:
+  - grex
+  - ghostscript
+  - poppler
