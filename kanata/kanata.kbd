@@ -1,0 +1,79 @@
+(defcfg
+  concurrent-tap-hold yes
+  process-unmapped-keys yes
+  danger-enable-cmd yes
+)
+
+(defsrc
+  esc f1   f2   f3   f4   f5   f6   f7   f8   f9   f10  f11  f12
+  grv  1    2    3    4    5    6    7    8    9    0    -    =    bspc
+  tab  q    w    e    r    t    y    u    i    o    p    [    ]    \
+  caps a    s    d    f    g    h    j    k    l    ;    '    ret
+  lsft z    x    c    v    b    n    m    ,    .    /    rsft
+  lctl lmet lalt           spc            ralt comp rctl
+
+  nlck
+)
+
+(deflayer dvorak
+  esc pgdn pgup end  home f5   prev pp next mute voldwn volu f12
+  grv  1    2    3    4    5    6    7    8    9    0    [    ]    bspc
+  tab @'   @,   @.   @p    y    f    g    c    r    l    /    =    \
+ @l2  @a   @o   @e   @u    i    d    h    t    n    s    -    ret
+ @cpw @;   @q   @j   @k    x    b    m    w    v    z    @cpw
+  lctl lalt M-grv         spc             ralt comp rctl
+
+  @bgt
+)
+
+(deflayer l2
+  _   f1   f2   f3   f4   f5   f6   f7   f8   f9   f10  f11  f12
+  _    _    _    _    _    _    _    _    _    _    _    _    _    _
+  _    _   up    _    _    _    _    _    _    _    _    _    _    _
+  _  lft down rght    _    _    _    _    _    _    _    _    _
+  _    _    _    _    _    _    _    _    A-f4 _    _    _
+  _    _  C-del         C-bspc            _    _    _
+
+  _
+)
+
+(defvar
+      tap-time 80
+      hold-time 140
+)
+
+(defalias
+  bgt (cmd C:\Windows\System32\schtasks.exe /run /tn bgnoise)
+
+  cpw (caps-word 1000)
+
+  l2 (tap-hold $tap-time $hold-time esc (layer-toggle l2))
+
+  a (tap-hold $tap-time $hold-time a lmet)
+  o (tap-hold $tap-time $hold-time o lalt)
+  e (tap-hold $tap-time $hold-time e lsft)
+  u (tap-hold $tap-time $hold-time u lctl)
+
+  ' (tap-hold $tap-time $hold-time ' rctl)
+  , (tap-hold $tap-time $hold-time , rsft)
+  . (tap-hold $tap-time $hold-time . lalt)
+  p (tap-hold $tap-time $hold-time p lmet)
+
+  k (tap-hold $tap-time $hold-time k lmet)
+  j (tap-hold $tap-time $hold-time j lalt)
+  q (tap-hold $tap-time $hold-time q lsft)
+  ; (tap-hold $tap-time $hold-time ; lctl)
+)
+
+(defchordsv2-experimental
+  (x c) M-tab 30 all-released ( l2 )
+  (c v) A-tab 30 all-released ( l2 )
+  (e r) ret 30 all-released ( l2 )
+  (q w) C-bspc 30 all-released ( l2 )
+  (z x) C-del 30 all-released ( l2 )
+  (f1 f4) up 30 all-released ( l2 )
+  (f2 f3) down 30 all-released ( l2 )
+  (f1 f2) lft 30 all-released ( l2 )
+  (f3 f4) rght 30 all-released ( l2 )
+
+)
