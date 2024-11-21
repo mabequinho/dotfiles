@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2024-11-20T20:27:37.478-00:00",
+	"CreationDate" : "2024-11-21T19:01:34.464-00:00",
 	"Sources" : 
 	[
 		{
@@ -10,13 +10,10 @@
 					"PackageIdentifier" : "7zip.7zip"
 				},
 				{
-					"PackageIdentifier" : "KRTirtho.Spotube"
-				},
-				{
-					"PackageIdentifier" : "Betterbird.Betterbird"
-				},
-				{
 					"PackageIdentifier" : "Git.Git"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.OneDrive"
 				},
 				{
 					"PackageIdentifier" : "Neovim.Neovim"
@@ -29,6 +26,9 @@
 				},
 				{
 					"PackageIdentifier" : "OlegShparber.Zeal"
+				},
+				{
+					"PackageIdentifier" : "ColdTurkeySoftware.ColdTurkeyBlocker"
 				},
 				{
 					"PackageIdentifier" : "Duplicati.Duplicati"
@@ -62,9 +62,6 @@
 				},
 				{
 					"PackageIdentifier" : "OBSProject.OBSStudio"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.OneDrive"
 				},
 				{
 					"PackageIdentifier" : "IPEP.Scantailor-Experimental"
@@ -157,6 +154,9 @@
 					"PackageIdentifier" : "twpayne.chezmoi"
 				},
 				{
+					"PackageIdentifier" : "uutils.coreutils"
+				},
+				{
 					"PackageIdentifier" : "yt-dlp.yt-dlp"
 				},
 				{
@@ -170,9 +170,6 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCLibs.Desktop.14"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.DevHome"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.WindowsTerminal"
