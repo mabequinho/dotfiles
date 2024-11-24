@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2024-11-21T19:01:34.464-00:00",
+	"CreationDate" : "2024-11-24T15:13:28.460-00:00",
 	"Sources" : 
 	[
 		{
@@ -13,6 +13,9 @@
 					"PackageIdentifier" : "Git.Git"
 				},
 				{
+					"PackageIdentifier" : "ImageMagick.ImageMagick"
+				},
+				{
 					"PackageIdentifier" : "Microsoft.OneDrive"
 				},
 				{
@@ -22,16 +25,10 @@
 					"PackageIdentifier" : "Microsoft.VCRedist.2010.x64"
 				},
 				{
-					"PackageIdentifier" : "SoftPerfect.RAMDisk"
-				},
-				{
 					"PackageIdentifier" : "OlegShparber.Zeal"
 				},
 				{
 					"PackageIdentifier" : "ColdTurkeySoftware.ColdTurkeyBlocker"
-				},
-				{
-					"PackageIdentifier" : "Duplicati.Duplicati"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.PowerShell"
@@ -56,9 +53,6 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.Edge"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.EdgeWebView2Runtime"
 				},
 				{
 					"PackageIdentifier" : "OBSProject.OBSStudio"
@@ -94,7 +88,7 @@
 					"PackageIdentifier" : "xanderfrangos.twinkletray"
 				},
 				{
-					"PackageIdentifier" : "Notion.Notion"
+					"PackageIdentifier" : "Kopia.KopiaUI"
 				},
 				{
 					"PackageIdentifier" : "Amazon.Kindle"
@@ -104,9 +98,6 @@
 				},
 				{
 					"PackageIdentifier" : "dbeaver.dbeaver"
-				},
-				{
-					"PackageIdentifier" : "Discord.Discord"
 				},
 				{
 					"PackageIdentifier" : "GIMP.GIMP"
@@ -122,9 +113,6 @@
 				},
 				{
 					"PackageIdentifier" : "SumatraPDF.SumatraPDF"
-				},
-				{
-					"PackageIdentifier" : "Notion.NotionCalendar"
 				},
 				{
 					"PackageIdentifier" : "ajeetdsouza.zoxide"
