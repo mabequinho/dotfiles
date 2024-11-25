@@ -3,6 +3,7 @@ name: basest
 channels:
   - conda-forge
 dependencies:
+  - python
   - grex
   - ghostscript
   - poppler

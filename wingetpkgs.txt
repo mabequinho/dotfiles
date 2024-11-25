@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2024-11-24T15:13:28.460-00:00",
+	"CreationDate" : "2024-11-25T15:41:55.694-00:00",
 	"Sources" : 
 	[
 		{
@@ -14,6 +14,9 @@
 				},
 				{
 					"PackageIdentifier" : "ImageMagick.ImageMagick"
+				},
+				{
+					"PackageIdentifier" : "CondaForge.Miniforge3"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.OneDrive"
@@ -46,6 +49,9 @@
 					"PackageIdentifier" : "JohnMacFarlane.Pandoc"
 				},
 				{
+					"PackageIdentifier" : "Amazon.Kindle"
+				},
+				{
 					"PackageIdentifier" : "HandBrake.HandBrake"
 				},
 				{
@@ -67,9 +73,6 @@
 					"PackageIdentifier" : "DEVCOM.JetBrainsMonoNerdFont"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x86"
-				},
-				{
 					"PackageIdentifier" : "FelipeEFdeCastro.Klavaro"
 				},
 				{
@@ -82,6 +85,9 @@
 					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.8"
 				},
 				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x86"
+				},
+				{
 					"PackageIdentifier" : "TomWatson.BreakTimer"
 				},
 				{
@@ -89,9 +95,6 @@
 				},
 				{
 					"PackageIdentifier" : "Kopia.KopiaUI"
-				},
-				{
-					"PackageIdentifier" : "Amazon.Kindle"
 				},
 				{
 					"PackageIdentifier" : "BurntSushi.ripgrep.MSVC"
@@ -107,9 +110,6 @@
 				},
 				{
 					"PackageIdentifier" : "Foundry376.Mailspring"
-				},
-				{
-					"PackageIdentifier" : "CondaForge.Miniforge3"
 				},
 				{
 					"PackageIdentifier" : "SumatraPDF.SumatraPDF"
@@ -158,6 +158,9 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCLibs.Desktop.14"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DevHome"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.WindowsTerminal"

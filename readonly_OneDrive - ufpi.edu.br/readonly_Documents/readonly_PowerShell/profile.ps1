@@ -69,8 +69,8 @@ Invoke-Expression (& { (zoxide init powershell | Out-String) })
 
 #region conda initialize
 # !! Contents within this block are managed by 'conda init' !!
-If (Test-Path "C:\Users\lu\AppData\Local\miniforge3\Scripts\conda.exe") {
-    (& "C:\Users\lu\AppData\Local\miniforge3\Scripts\conda.exe" "shell.powershell" "hook") | Out-String | ?{$_} | Invoke-Expression
+If (Test-Path "C:\ProgramData\miniforge3\Scripts\conda.exe") {
+    (& "C:\ProgramData\miniforge3\Scripts\conda.exe" "shell.powershell" "hook") | Out-String | ?{$_} | Invoke-Expression
 }
 #endregion
 conda activate basest
