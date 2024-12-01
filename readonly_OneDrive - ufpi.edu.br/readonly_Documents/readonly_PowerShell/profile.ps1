@@ -58,8 +58,9 @@ function ee { & $env:EDITOR (fzf) }
 function x { exit }
 
 Set-PSReadLineOption -EditMode Vi
+Set-PSReadLineKeyHandler -ViMode Insert -Key Ctrl+w -Function BackwardKillWord
 Set-PSReadLineKeyHandler -Chord Ctrl-f -Function ViForwardChar
-Set-PSReadLineKeyHandler -Key Tab -Function Complete
+# Set-PSReadLineKeyHandler -Key Tab -Function Complete
 
 Remove-Alias -Name gp -Force
 Remove-Alias -Name gc -Force
@@ -73,4 +74,9 @@ If (Test-Path "C:\ProgramData\miniforge3\Scripts\conda.exe") {
     (& "C:\ProgramData\miniforge3\Scripts\conda.exe" "shell.powershell" "hook") | Out-String | ?{$_} | Invoke-Expression
 }
 #endregion
-conda activate basest
+
+#Carapace Settings
+Set-PSReadLineOption -Colors @{ "Selection" = "`e[7m" }
+Set-PSReadlineKeyHandler -Key Tab -Function MenuComplete
+carapace _carapace | Out-String | Invoke-Expression
+

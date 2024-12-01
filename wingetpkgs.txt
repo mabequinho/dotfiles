@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2024-11-25T15:41:55.694-00:00",
+	"CreationDate" : "2024-12-01T13:13:50.429-00:00",
 	"Sources" : 
 	[
 		{
@@ -28,6 +28,9 @@
 					"PackageIdentifier" : "Microsoft.VCRedist.2010.x64"
 				},
 				{
+					"PackageIdentifier" : "calibre.calibre"
+				},
+				{
 					"PackageIdentifier" : "OlegShparber.Zeal"
 				},
 				{
@@ -40,16 +43,10 @@
 					"PackageIdentifier" : "PDFArranger.PDFArranger"
 				},
 				{
-					"PackageIdentifier" : "calibre.calibre"
-				},
-				{
 					"PackageIdentifier" : "Starship.Starship"
 				},
 				{
 					"PackageIdentifier" : "JohnMacFarlane.Pandoc"
-				},
-				{
-					"PackageIdentifier" : "Amazon.Kindle"
 				},
 				{
 					"PackageIdentifier" : "HandBrake.HandBrake"
@@ -97,6 +94,9 @@
 					"PackageIdentifier" : "Kopia.KopiaUI"
 				},
 				{
+					"PackageIdentifier" : "Amazon.Kindle"
+				},
+				{
 					"PackageIdentifier" : "BurntSushi.ripgrep.MSVC"
 				},
 				{
@@ -133,6 +133,9 @@
 					"PackageIdentifier" : "KDE.Kdenlive"
 				},
 				{
+					"PackageIdentifier" : "rsteube.Carapace"
+				},
+				{
 					"PackageIdentifier" : "sharkdp.bat"
 				},
 				{
@@ -152,6 +155,9 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.AppInstaller"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.UI.Xaml.2.7"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.UI.Xaml.2.8"
