@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2024-12-01T13:13:50.429-00:00",
+	"CreationDate" : "2024-12-01T15:18:28.044-00:00",
 	"Sources" : 
 	[
 		{
@@ -44,6 +44,9 @@
 				},
 				{
 					"PackageIdentifier" : "Starship.Starship"
+				},
+				{
+					"PackageIdentifier" : "GitHub.cli"
 				},
 				{
 					"PackageIdentifier" : "JohnMacFarlane.Pandoc"
