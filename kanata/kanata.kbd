@@ -16,9 +16,9 @@
 
 (deflayer dvorak
   esc pgdn pgup end  home f5   prev pp next M-S-s M-l @bgt M-A-k
-  grv  1    2    3    4    5    6    7    8    9    0    [    ]    bspc
+  grv  1    2    3    4    5    6    7    8    9    0    [    ]    @nope
   tab @'   @,   @.   @p    y    f    g    c    r    l    /    =    \
- @l2  @a   @o   @e   @u    i    d    h    t    n    s    -    ret
+ @l2  @a   @o   @e   @u    i    d    h    t    n    s    -   @nope 
  @cpw @;   @q   @j   @k    x    b    m    w    v    z    @cpw
   lctl lalt M-grv         spc             ralt comp rctl
 
@@ -27,9 +27,9 @@
 (deflayer l2
   _   f1   f2   f3   f4   f5   f6   f7   f8   f9   f10  f11  f12 
   _    _    _    _    _    _    _    _    _    _    _    _    _    _
-  _    _    _    _    _    _    _    _    _    _    _    _    _    _
-  _    _    _    _    _    _    _    _    _    _    _    _    _
-  _    _    _    _    _    _    _    _    A-f4 _    _    _
+  _    _    _    _    _    _    _    _    _    _  rght   _    _    _
+  _    _    _    _    _    _    _   lft   _    _    _    _    _
+  _    _    _  down  up    _    _    _    A-f4 _    _    _
   _    _    _              _              _    _    _
 
 )
@@ -43,6 +43,8 @@
   bgt (cmd C:\Windows\System32\schtasks.exe /run /tn bgnoise)
 
   cpw (caps-word 1000)
+
+  nope M-l
 
   l2 (tap-hold $tap-time $hold-time esc (layer-toggle l2))
 
@@ -65,13 +67,10 @@
 (defchordsv2-experimental
   (x c) M-tab 30 all-released ( l2 )
   (c v) A-tab 30 all-released ( l2 )
+
   (e r) ret 30 all-released ( l2 )
-  (q w) bspc 50 all-released ( l2 )
-  (z x) del 50 all-released ( l2 )
-  (f1 f4) up 50 all-released ( l2 )
-  (f2 f3) down 50 all-released ( l2 )
-  (f1 f2) lft 50 all-released ( l2 )
-  (f3 f4) rght 50 all-released ( l2 )
+  (w e) bspc 50 all-released ( l2 )
+  (w r) ralt 50 all-released ( l2 )
 
 )
 
