@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2024-12-01T15:18:28.044-00:00",
+	"CreationDate" : "2024-12-01T15:33:09.182-00:00",
 	"Sources" : 
 	[
 		{
@@ -116,6 +116,9 @@
 				},
 				{
 					"PackageIdentifier" : "SumatraPDF.SumatraPDF"
+				},
+				{
+					"PackageIdentifier" : "SamHocevar.WinCompose"
 				},
 				{
 					"PackageIdentifier" : "ajeetdsouza.zoxide"
