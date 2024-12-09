@@ -27,8 +27,8 @@
 (deflayer l2
   _   f1   f2   f3   f4   f5   f6   f7   f8   f9   f10  f11  f12 
   _    _    _    _    _    _    _    _    _    _    _    _    _    _
-  _    _    _    _    _    _    _    _    _    _  rght   _    _    _
-  _    _    _    _    _    _    _   lft   _    _    _    _    _
+  _    _   up    _    _    _    _    _    _    _  rght   _    _    _
+  _  lft down rght    _    _    _   lft   _    _    _    _    _
   _    _    _  down  up    _    _    _    A-f4 _    _    _
   _    _    _              _              _    _    _
 
@@ -65,12 +65,13 @@
 )
 
 (defchordsv2-experimental
-  (x c) M-tab 30 all-released ( l2 )
+  (x c) ralt 30 all-released ( l2 )
+
   (c v) A-tab 30 all-released ( l2 )
 
   (e r) ret 30 all-released ( l2 )
-  (w e) bspc 50 all-released ( l2 )
-  (w r) ralt 50 all-released ( l2 )
 
+  (w e) bspc 50 all-released ( l2 )
+  (w r) del 50 all-released ( l2 )
 )
 
