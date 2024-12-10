@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2024-12-01T16:31:51.350-00:00",
+	"CreationDate" : "2024-12-10T12:10:23.115-00:00",
 	"Sources" : 
 	[
 		{
@@ -31,10 +31,19 @@
 					"PackageIdentifier" : "calibre.calibre"
 				},
 				{
+					"PackageIdentifier" : "GitHub.cli"
+				},
+				{
 					"PackageIdentifier" : "OlegShparber.Zeal"
 				},
 				{
+					"PackageIdentifier" : "Exploitox.WebRadio"
+				},
+				{
 					"PackageIdentifier" : "ColdTurkeySoftware.ColdTurkeyBlocker"
+				},
+				{
+					"PackageIdentifier" : "JohnMacFarlane.Pandoc"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.PowerShell"
@@ -44,12 +53,6 @@
 				},
 				{
 					"PackageIdentifier" : "Starship.Starship"
-				},
-				{
-					"PackageIdentifier" : "GitHub.cli"
-				},
-				{
-					"PackageIdentifier" : "JohnMacFarlane.Pandoc"
 				},
 				{
 					"PackageIdentifier" : "HandBrake.HandBrake"
@@ -70,10 +73,10 @@
 					"PackageIdentifier" : "Highresolution.X-MouseButtonControl"
 				},
 				{
-					"PackageIdentifier" : "DEVCOM.JetBrainsMonoNerdFont"
+					"PackageIdentifier" : "FelipeEFdeCastro.Klavaro"
 				},
 				{
-					"PackageIdentifier" : "FelipeEFdeCastro.Klavaro"
+					"PackageIdentifier" : "DEVCOM.JetBrainsMonoNerdFont"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64"
@@ -104,6 +107,9 @@
 				},
 				{
 					"PackageIdentifier" : "dbeaver.dbeaver"
+				},
+				{
+					"PackageIdentifier" : "Japplis.DirectoryCrop"
 				},
 				{
 					"PackageIdentifier" : "GIMP.GIMP"
@@ -173,9 +179,6 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCLibs.Desktop.14"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.DevHome"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.WindowsTerminal"
