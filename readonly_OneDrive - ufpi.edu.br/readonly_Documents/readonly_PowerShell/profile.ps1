@@ -1,21 +1,30 @@
+#
+# Define a helper function for eza with common arguments
+function Invoke-Eza {
+    param (
+        [string[]]$ExtraArgs
+    )
+    eza --long --colour=auto --icons=auto --group-directories-first --no-user --no-permissions --total-size --smart-group --git --git-ignore --time=modified --reverse -F  @ExtraArgs
+}
+
 # Define function for 'l' command
 function l {
-    eza --group-directories-first --colour=auto --icons=auto --no-user --no-permissions --smart-group --git --git-ignore -F -l @args
+    Invoke-Eza @()
 }
 
 # Define function for 'la' command
 function la {
-    eza --group-directories-first --colour=auto --icons=auto --no-user --no-permissions --smart-group --git --git-ignore -F -l -a @args
+    Invoke-Eza -ExtraArgs @('--all')
 }
 
 # Define function for 't' command
 function t {
-    eza --group-directories-first --colour=auto --icons=auto --no-user --no-permissions --smart-group --git --git-ignore -F -t modified -l -T -L 2 @args
+    Invoke-Eza -ExtraArgs @('--tree','--level=3')
 }
 
 # Define function for 'ta' command
 function ta {
-    eza --group-directories-first --colour=auto --icons=auto --no-user --no-permissions --smart-group --git --git-ignore -F -t modified -l -T -L 2 -a @args
+    Invoke-Eza -ExtraArgs @('--tree','--level=3', '--all')
 }
 
 # Aliases
