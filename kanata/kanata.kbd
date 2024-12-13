@@ -15,20 +15,20 @@
 )
 
 (deflayer dvorak
-  esc pgdn pgup end  home f5   prev pp next M-S-s M-l @bgt M-A-k
-  grv  1    2    3    4    5    6    7    8    9    0    [    ]    @nope
-  tab @'   @,   @.   @p    y    f    g    c    r    l    /    =    \
- @l2  @a   @o   @e   @u    i    d    h    t    n    s    -   @nope 
- @cpw @;   @q   @j   @k    x    b    m    w    v    z    @cpw
-  lctl lalt M-grv         spc             ralt comp rctl
+ esc voldwn volu mute M-A-k @bgt  prev pp next M-S-s  _    _    _
+  grv   1    2    3    4     5    6    7    8    9    0    [    ]    @nope
+  tab   @'   @,   @.   @p    y    f    g    c    r    l    /    =    \
+  esc   @a   @o   @e   @u    i    d    h    t    n    s    -   @nope 
+ @cpw   @;   @q   @j   @k    x    b    m    w    v    z    @cpw
+  lctl lalt M-grv         @l2             ralt comp rctl
 
 )
 
 (deflayer l2
-  _   f1   f2   f3   f4   f5   f6   f7   f8   f9   f10  f11  f12 
-  _    _    _    _    _    _    _    _    _    _    _    _    _    _
-  _    _   up    _    _    _    _    _    _    _  rght   _    _    _
-  _  lft down rght    _    _    _   lft   _    _    _    _    _
+  _    _    _    _    _    _    _    _    _    _    _    _    _ 
+  _   f1   f2   f3   f4   f5   f6   f7   f8   f9   f10  f11  f12   _ 
+  _ pgdn pgup  end home    _    _    _    _    _  rght   _    _    _
+  _  lft down   up rght    _    _    _   lft   _    _    _    _   
   _    _    _  down  up    _    _    _    A-f4 _    _    _
   _    _    _              _              _    _    _
 
@@ -46,7 +46,7 @@
 
   nope M-l
 
-  l2 (tap-hold $tap-time $hold-time esc (layer-toggle l2))
+  l2 (tap-hold $tap-time $hold-time spc (layer-toggle l2))
 
   a (tap-hold $tap-time $hold-time a lmet)
   o (tap-hold $tap-time $hold-time o lalt)
