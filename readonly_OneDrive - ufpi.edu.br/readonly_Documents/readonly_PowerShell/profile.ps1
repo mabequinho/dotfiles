@@ -4,7 +4,7 @@ function Invoke-Eza {
     param (
         [string[]]$ExtraArgs
     )
-    eza --long --colour=auto --icons=auto --group-directories-first --no-user --no-permissions --total-size --smart-group --git --git-ignore --time=modified --reverse -F  @ExtraArgs
+    eza --long --colour=auto --icons=auto --group-directories-first --no-user --no-permissions --total-size --git --git-ignore --time modified --sort modified --header -F  @ExtraArgs
 }
 
 # Define function for 'l' command
