@@ -2,31 +2,43 @@
 # Define a helper function for eza with common arguments
 function Invoke-Eza {
     param (
-        [string[]]$ExtraArgs
+        [string[]]$ExtraArgs,
+        [string[]]$Paths
     )
-    eza --long --colour=auto --icons=auto --group-directories-first --no-user --no-permissions --total-size --git --git-ignore --time modified --sort modified --header -F  @ExtraArgs
+    eza --long --colour=auto --icons=auto --group-directories-first --no-user --no-permissions --total-size --git --git-ignore --time modified --sort modified --header -F @ExtraArgs @Paths
 }
 
 # Define function for 'l' command
 function l {
-    Invoke-Eza @()
+    param (
+        [string[]]$Paths = @('.')
+    )
+    Invoke-Eza -ExtraArgs @() -Paths $Paths
 }
 
 # Define function for 'la' command
 function la {
-    Invoke-Eza -ExtraArgs @('--all')
+    param (
+        [string[]]$Paths = @('.')
+    )
+    Invoke-Eza -ExtraArgs @('--all') -Paths $Paths
 }
 
 # Define function for 't' command
 function t {
-    Invoke-Eza -ExtraArgs @('--tree','--level=3')
+    param (
+        [string[]]$Paths = @('.')
+    )
+    Invoke-Eza -ExtraArgs @('--tree', '--level=3') -Paths $Paths
 }
 
 # Define function for 'ta' command
 function ta {
-    Invoke-Eza -ExtraArgs @('--tree','--level=3', '--all')
+    param (
+        [string[]]$Paths = @('.')
+    )
+    Invoke-Eza -ExtraArgs @('--tree', '--level=3', '--all') -Paths $Paths
 }
-
 # Aliases
 # --- Git aliases ---
 function g { git @args }
@@ -80,7 +92,7 @@ Invoke-Expression (& { (zoxide init powershell | Out-String) })
 #region conda initialize
 # !! Contents within this block are managed by 'conda init' !!
 If (Test-Path "C:\ProgramData\miniforge3\Scripts\conda.exe") {
-    (& "C:\ProgramData\miniforge3\Scripts\conda.exe" "shell.powershell" "hook") | Out-String | ?{$_} | Invoke-Expression
+    (& "C:\ProgramData\miniforge3\Scripts\conda.exe" "shell.powershell" "hook") | Out-String | ? { $_ } | Invoke-Expression
 }
 #endregion
 
