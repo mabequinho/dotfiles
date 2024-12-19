@@ -1,0 +1,10 @@
+{
+  "brightness_day": 100,
+  "brightness_night": 60,
+  "transition_mins": 40,
+  "location": {
+    "latitude": -5.08746,
+    "longitude": -42.80496
+  },
+  "overrides": []
+}

@@ -15,12 +15,12 @@
 )
 
 (deflayer dvorak
- esc voldwn volu mute M-A-k @bgt  prev pp next M-S-s  _    _    _
+ @bgt voldwn volu mute M-A-k M-S-s prev pp next  _    _    _    _
   grv   1    2    3    4     5    6    7    8    9    0    [    ]    @nope
   tab   @'   @,   @.   @p    y    f    g    c    r    l    /    =    \
-  @l2   @a   @o   @e   @u    i    d    h    t    n    s    -   @nope 
+  esc   @a   @o   @e   @u    i    d    h    t    n    s    -   @nope 
  @cpw   @;   @q   @j   @k    x    b    m    w    v    z    @cpw
-  lctl lalt M-grv         spc             ralt comp rctl
+  lctl lalt M-grv           @l2             ralt comp rctl
 
 )
 
@@ -46,7 +46,7 @@
 
   nope M-l
 
-  l2 (tap-hold $tap-time $hold-time esc (layer-toggle l2))
+  l2 (tap-hold $tap-time $hold-time spc (layer-toggle l2))
 
   a (tap-hold $tap-time $hold-time a lmet)
   o (tap-hold $tap-time $hold-time o lalt)
