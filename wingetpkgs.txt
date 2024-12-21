@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2024-12-12T13:39:43.344-00:00",
+	"CreationDate" : "2024-12-21T17:38:23.641-00:00",
 	"Sources" : 
 	[
 		{
@@ -8,6 +8,9 @@
 			[
 				{
 					"PackageIdentifier" : "7zip.7zip"
+				},
+				{
+					"PackageIdentifier" : "KRTirtho.Spotube"
 				},
 				{
 					"PackageIdentifier" : "Git.Git"
@@ -32,12 +35,6 @@
 				},
 				{
 					"PackageIdentifier" : "GitHub.cli"
-				},
-				{
-					"PackageIdentifier" : "OlegShparber.Zeal"
-				},
-				{
-					"PackageIdentifier" : "Exploitox.WebRadio"
 				},
 				{
 					"PackageIdentifier" : "ColdTurkeySoftware.ColdTurkeyBlocker"
@@ -91,16 +88,16 @@
 					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x86"
 				},
 				{
-					"PackageIdentifier" : "Doist.Todoist"
-				},
-				{
 					"PackageIdentifier" : "TomWatson.BreakTimer"
 				},
 				{
-					"PackageIdentifier" : "xanderfrangos.twinkletray"
+					"PackageIdentifier" : "SocialchainInc.PiNetwork"
 				},
 				{
 					"PackageIdentifier" : "Kopia.KopiaUI"
+				},
+				{
+					"PackageIdentifier" : "viarotel.Escrcpy"
 				},
 				{
 					"PackageIdentifier" : "Amazon.Kindle"
@@ -112,10 +109,13 @@
 					"PackageIdentifier" : "dbeaver.dbeaver"
 				},
 				{
-					"PackageIdentifier" : "Japplis.DirectoryCrop"
+					"PackageIdentifier" : "Dystroy.broot"
 				},
 				{
 					"PackageIdentifier" : "GIMP.GIMP"
+				},
+				{
+					"PackageIdentifier" : "Google.PlatformTools"
 				},
 				{
 					"PackageIdentifier" : "Gyan.FFmpeg"
