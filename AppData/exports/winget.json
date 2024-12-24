@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2024-12-24T14:06:26.127-00:00",
+	"CreationDate" : "2024-12-24T15:36:23.072-00:00",
 	"Sources" : 
 	[
 		{
@@ -41,6 +41,9 @@
 				},
 				{
 					"PackageIdentifier" : "ColdTurkeySoftware.ColdTurkeyBlocker"
+				},
+				{
+					"PackageIdentifier" : "Google.GoogleDrive"
 				},
 				{
 					"PackageIdentifier" : "JohnMacFarlane.Pandoc"
