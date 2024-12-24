@@ -1,11 +1,14 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2024-12-21T17:45:13.181-00:00",
+	"CreationDate" : "2024-12-24T14:06:26.127-00:00",
 	"Sources" : 
 	[
 		{
 			"Packages" : 
 			[
+				{
+					"PackageIdentifier" : "BiglySoftware.BiglyBT"
+				},
 				{
 					"PackageIdentifier" : "7zip.7zip"
 				},
@@ -64,6 +67,9 @@
 					"PackageIdentifier" : "OBSProject.OBSStudio"
 				},
 				{
+					"PackageIdentifier" : "martinrotter.RSSGuard"
+				},
+				{
 					"PackageIdentifier" : "IPEP.Scantailor-Experimental"
 				},
 				{
@@ -89,9 +95,6 @@
 				},
 				{
 					"PackageIdentifier" : "TomWatson.BreakTimer"
-				},
-				{
-					"PackageIdentifier" : "SocialchainInc.PiNetwork"
 				},
 				{
 					"PackageIdentifier" : "Kopia.KopiaUI"

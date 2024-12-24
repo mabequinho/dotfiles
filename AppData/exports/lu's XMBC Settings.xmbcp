@@ -1263,33 +1263,15 @@
 			<Disable layer1="false" layer2="false" layer3="false" layer4="false" layer5="false" layer6="false" layer7="false" layer8="false" layer9="false" layer10="false" />
 			<Left action="128" keys="" keyaction="2" keyrepeat="34" active="true" blockmouse="true" blockmouseactive="false" randomisedelay="false" app="" desc="">
 				<chords Description="" BlockUntilEstablished="true" UnblockAfterDelay="true" UnblockDelay="750" UnblockMovement="true" UnblockMPixels="5">
-					<Left action="40" keys="" keyaction="0" keyrepeat="0" active="false" blockmouse="true" blockmouseactive="false" randomisedelay="false" app="" desc="">
-						<mts Lock="0" Sticky="false" StickyBlock="false" Block="true" InvV="false" InvH="false" SensitivityX="5" SensitivityY="5" NoMovementAction="6" keys="" keyaction="0" keyrepeat="0" active="true" blockmouse="true" blockmouseactive="false" randomisedelay="false" app="" />
-					</Left>
-					<Right action="5" keys="" keyaction="0" keyrepeat="0" active="false" blockmouse="true" blockmouseactive="false" randomisedelay="false" app="" desc="">
-						<mts Lock="0" Sticky="false" StickyBlock="false" Block="true" InvV="false" InvH="false" SensitivityX="5" SensitivityY="5" NoMovementAction="6" keys="" keyaction="0" keyrepeat="0" active="true" blockmouse="true" blockmouseactive="false" randomisedelay="false" app="" />
-					</Right>
-					<Middle action="40" keys="" keyaction="0" keyrepeat="0" active="false" blockmouse="true" blockmouseactive="false" randomisedelay="false" app="" desc="">
-						<mts Lock="0" Sticky="false" StickyBlock="false" Block="true" InvV="false" InvH="false" SensitivityX="5" SensitivityY="5" NoMovementAction="6" keys="" keyaction="0" keyrepeat="0" active="true" blockmouse="true" blockmouseactive="false" randomisedelay="false" app="" />
-					</Middle>
-					<XLeft action="40" keys="" keyaction="0" keyrepeat="0" active="false" blockmouse="true" blockmouseactive="false" randomisedelay="false" app="" desc="">
-						<mts Lock="0" Sticky="false" StickyBlock="false" Block="true" InvV="false" InvH="false" SensitivityX="5" SensitivityY="5" NoMovementAction="6" keys="" keyaction="0" keyrepeat="0" active="true" blockmouse="true" blockmouseactive="false" randomisedelay="false" app="" />
-					</XLeft>
-					<XRight action="40" keys="" keyaction="0" keyrepeat="0" active="false" blockmouse="true" blockmouseactive="false" randomisedelay="false" app="" desc="">
-						<mts Lock="0" Sticky="false" StickyBlock="false" Block="true" InvV="false" InvH="false" SensitivityX="5" SensitivityY="5" NoMovementAction="6" keys="" keyaction="0" keyrepeat="0" active="true" blockmouse="true" blockmouseactive="false" randomisedelay="false" app="" />
-					</XRight>
-					<TiltLeft action="40" keys="" keyaction="0" keyrepeat="0" active="false" blockmouse="true" blockmouseactive="false" randomisedelay="false" app="" desc="">
-						<mts Lock="0" Sticky="false" StickyBlock="false" Block="true" InvV="false" InvH="false" SensitivityX="5" SensitivityY="5" NoMovementAction="6" keys="" keyaction="0" keyrepeat="0" active="true" blockmouse="true" blockmouseactive="false" randomisedelay="false" app="" />
-					</TiltLeft>
-					<TiltRight action="40" keys="" keyaction="0" keyrepeat="0" active="false" blockmouse="true" blockmouseactive="false" randomisedelay="false" app="" desc="">
-						<mts Lock="0" Sticky="false" StickyBlock="false" Block="true" InvV="false" InvH="false" SensitivityX="5" SensitivityY="5" NoMovementAction="6" keys="" keyaction="0" keyrepeat="0" active="true" blockmouse="true" blockmouseactive="false" randomisedelay="false" app="" />
-					</TiltRight>
-					<WheelUp action="40" keys="" keyaction="0" keyrepeat="0" active="false" blockmouse="true" blockmouseactive="false" randomisedelay="false" app="" desc="">
-						<mts Lock="0" Sticky="false" StickyBlock="false" Block="true" InvV="false" InvH="false" SensitivityX="5" SensitivityY="5" NoMovementAction="6" keys="" keyaction="0" keyrepeat="0" active="true" blockmouse="true" blockmouseactive="false" randomisedelay="false" app="" />
-					</WheelUp>
-					<WheelDown action="40" keys="" keyaction="0" keyrepeat="0" active="false" blockmouse="true" blockmouseactive="false" randomisedelay="false" app="" desc="">
-						<mts Lock="0" Sticky="false" StickyBlock="false" Block="true" InvV="false" InvH="false" SensitivityX="5" SensitivityY="5" NoMovementAction="6" keys="" keyaction="0" keyrepeat="0" active="true" blockmouse="true" blockmouseactive="false" randomisedelay="false" app="" />
-					</WheelDown>
+					<Left action="40" keys="" keyaction="0" keyrepeat="0" active="false" blockmouse="true" blockmouseactive="false" randomisedelay="false" app="" desc="" />
+					<Right action="5" keys="" keyaction="0" keyrepeat="0" active="false" blockmouse="true" blockmouseactive="false" randomisedelay="false" app="" desc="" />
+					<Middle action="40" keys="" keyaction="0" keyrepeat="0" active="false" blockmouse="true" blockmouseactive="false" randomisedelay="false" app="" desc="" />
+					<XLeft action="40" keys="" keyaction="0" keyrepeat="0" active="false" blockmouse="true" blockmouseactive="false" randomisedelay="false" app="" desc="" />
+					<XRight action="40" keys="" keyaction="0" keyrepeat="0" active="false" blockmouse="true" blockmouseactive="false" randomisedelay="false" app="" desc="" />
+					<TiltLeft action="40" keys="" keyaction="0" keyrepeat="0" active="false" blockmouse="true" blockmouseactive="false" randomisedelay="false" app="" desc="" />
+					<TiltRight action="40" keys="" keyaction="0" keyrepeat="0" active="false" blockmouse="true" blockmouseactive="false" randomisedelay="false" app="" desc="" />
+					<WheelUp action="40" keys="" keyaction="0" keyrepeat="0" active="false" blockmouse="true" blockmouseactive="false" randomisedelay="false" app="" desc="" />
+					<WheelDown action="40" keys="" keyaction="0" keyrepeat="0" active="false" blockmouse="true" blockmouseactive="false" randomisedelay="false" app="" desc="" />
 				</chords>
 				<mts Lock="0" Sticky="false" StickyBlock="false" Block="true" InvV="false" InvH="false" SensitivityX="5" SensitivityY="5" NoMovementAction="6" keys="" keyaction="0" keyrepeat="0" active="true" blockmouse="true" blockmouseactive="false" randomisedelay="false" app="" />
 			</Left>
@@ -1318,7 +1300,7 @@
 				<mts Lock="0" Sticky="false" StickyBlock="false" Block="true" InvV="false" InvH="false" SensitivityX="5" SensitivityY="5" NoMovementAction="6" keys="" keyaction="0" keyrepeat="0" active="true" blockmouse="true" blockmouseactive="false" randomisedelay="false" app="" />
 			</WheelDown>
 			<Left_Layer1 action="40" keys="" keyaction="2" keyrepeat="34" active="true" blockmouse="true" blockmouseactive="false" randomisedelay="false" app="" desc="">
-				<mts Lock="0" Sticky="false" StickyBlock="false" Block="true" InvV="false" InvH="false" SensitivityX="5" SensitivityY="5" NoMovementAction="6" keys="" keyaction="0" keyrepeat="0" active="true" blockmouse="true" blockmouseactive="false" randomisedelay="true" app="" />
+				<mts Lock="0" Sticky="false" StickyBlock="false" Block="true" InvV="false" InvH="false" SensitivityX="5" SensitivityY="5" NoMovementAction="6" keys="" keyaction="0" keyrepeat="0" active="true" blockmouse="true" blockmouseactive="false" randomisedelay="false" app="" />
 			</Left_Layer1>
 			<Right_Layer1 action="40" keys="" keyaction="2" keyrepeat="34" active="true" blockmouse="true" blockmouseactive="false" randomisedelay="false" app="" desc="">
 				<mts Lock="0" Sticky="false" StickyBlock="false" Block="true" InvV="false" InvH="false" SensitivityX="5" SensitivityY="5" NoMovementAction="6" keys="" keyaction="0" keyrepeat="0" active="true" blockmouse="true" blockmouseactive="false" randomisedelay="false" app="" />
@@ -1456,7 +1438,7 @@
 				<mts Lock="0" Sticky="false" StickyBlock="false" Block="true" InvV="false" InvH="false" SensitivityX="5" SensitivityY="5" NoMovementAction="6" keys="" keyaction="0" keyrepeat="0" active="true" blockmouse="true" blockmouseactive="false" randomisedelay="false" app="" />
 			</Left_Layer6>
 			<Right_Layer6 action="40" keys="" keyaction="2" keyrepeat="34" active="true" blockmouse="true" blockmouseactive="false" randomisedelay="false" app="" desc="">
-				<mts Lock="0" Sticky="false" StickyBlock="false" Block="true" InvV="false" InvH="false" SensitivityX="5" SensitivityY="5" NoMovementAction="6" keys="" keyaction="0" keyrepeat="0" active="true" blockmouse="true" blockmouseactive="false" randomisedelay="true" app="" />
+				<mts Lock="0" Sticky="false" StickyBlock="false" Block="true" InvV="false" InvH="false" SensitivityX="5" SensitivityY="5" NoMovementAction="6" keys="" keyaction="0" keyrepeat="0" active="true" blockmouse="true" blockmouseactive="false" randomisedelay="false" app="" />
 			</Right_Layer6>
 			<Middle_Layer6 action="40" keys="" keyaction="2" keyrepeat="34" active="true" blockmouse="true" blockmouseactive="false" randomisedelay="false" app="" desc="">
 				<mts Lock="0" Sticky="false" StickyBlock="false" Block="true" InvV="false" InvH="false" SensitivityX="5" SensitivityY="5" NoMovementAction="6" keys="" keyaction="0" keyrepeat="0" active="true" blockmouse="true" blockmouseactive="false" randomisedelay="false" app="" />
@@ -1486,7 +1468,7 @@
 				<mts Lock="0" Sticky="false" StickyBlock="false" Block="true" InvV="false" InvH="false" SensitivityX="5" SensitivityY="5" NoMovementAction="6" keys="" keyaction="0" keyrepeat="0" active="true" blockmouse="true" blockmouseactive="false" randomisedelay="false" app="" />
 			</Right_Layer7>
 			<Middle_Layer7 action="40" keys="" keyaction="2" keyrepeat="34" active="true" blockmouse="true" blockmouseactive="false" randomisedelay="false" app="" desc="">
-				<mts Lock="0" Sticky="false" StickyBlock="false" Block="true" InvV="false" InvH="false" SensitivityX="5" SensitivityY="5" NoMovementAction="6" keys="" keyaction="0" keyrepeat="0" active="true" blockmouse="true" blockmouseactive="false" randomisedelay="true" app="" />
+				<mts Lock="0" Sticky="false" StickyBlock="false" Block="true" InvV="false" InvH="false" SensitivityX="5" SensitivityY="5" NoMovementAction="6" keys="" keyaction="0" keyrepeat="0" active="true" blockmouse="true" blockmouseactive="false" randomisedelay="false" app="" />
 			</Middle_Layer7>
 			<XLeft_Layer7 action="40" keys="" keyaction="2" keyrepeat="34" active="true" blockmouse="true" blockmouseactive="false" randomisedelay="false" app="" desc="">
 				<mts Lock="0" Sticky="false" StickyBlock="false" Block="true" InvV="false" InvH="false" SensitivityX="5" SensitivityY="5" NoMovementAction="6" keys="" keyaction="0" keyrepeat="0" active="true" blockmouse="true" blockmouseactive="false" randomisedelay="false" app="" />
@@ -1495,7 +1477,7 @@
 				<mts Lock="0" Sticky="false" StickyBlock="false" Block="true" InvV="false" InvH="false" SensitivityX="5" SensitivityY="5" NoMovementAction="6" keys="" keyaction="0" keyrepeat="0" active="true" blockmouse="true" blockmouseactive="false" randomisedelay="false" app="" />
 			</XRight_Layer7>
 			<TiltLeft_Layer7 action="40" keys="" keyaction="2" keyrepeat="34" active="true" blockmouse="true" blockmouseactive="false" randomisedelay="false" app="" desc="">
-				<mts Lock="0" Sticky="false" StickyBlock="false" Block="true" InvV="false" InvH="false" SensitivityX="5" SensitivityY="5" NoMovementAction="6" keys="" keyaction="0" keyrepeat="0" active="true" blockmouse="true" blockmouseactive="false" randomisedelay="true" app="" />
+				<mts Lock="0" Sticky="false" StickyBlock="false" Block="true" InvV="false" InvH="false" SensitivityX="5" SensitivityY="5" NoMovementAction="6" keys="" keyaction="0" keyrepeat="0" active="true" blockmouse="true" blockmouseactive="false" randomisedelay="false" app="" />
 			</TiltLeft_Layer7>
 			<TiltRight_Layer7 action="40" keys="" keyaction="2" keyrepeat="34" active="true" blockmouse="true" blockmouseactive="false" randomisedelay="false" app="" desc="">
 				<mts Lock="0" Sticky="false" StickyBlock="false" Block="true" InvV="false" InvH="false" SensitivityX="5" SensitivityY="5" NoMovementAction="6" keys="" keyaction="0" keyrepeat="0" active="true" blockmouse="true" blockmouseactive="false" randomisedelay="false" app="" />
@@ -1522,7 +1504,7 @@
 				<mts Lock="0" Sticky="false" StickyBlock="false" Block="true" InvV="false" InvH="false" SensitivityX="5" SensitivityY="5" NoMovementAction="6" keys="" keyaction="0" keyrepeat="0" active="true" blockmouse="true" blockmouseactive="false" randomisedelay="false" app="" />
 			</XRight_Layer8>
 			<TiltLeft_Layer8 action="40" keys="" keyaction="2" keyrepeat="34" active="true" blockmouse="true" blockmouseactive="false" randomisedelay="false" app="" desc="">
-				<mts Lock="0" Sticky="false" StickyBlock="false" Block="true" InvV="false" InvH="false" SensitivityX="5" SensitivityY="5" NoMovementAction="6" keys="" keyaction="0" keyrepeat="0" active="true" blockmouse="true" blockmouseactive="false" randomisedelay="true" app="" />
+				<mts Lock="0" Sticky="false" StickyBlock="false" Block="true" InvV="false" InvH="false" SensitivityX="5" SensitivityY="5" NoMovementAction="6" keys="" keyaction="0" keyrepeat="0" active="true" blockmouse="true" blockmouseactive="false" randomisedelay="false" app="" />
 			</TiltLeft_Layer8>
 			<TiltRight_Layer8 action="40" keys="" keyaction="2" keyrepeat="34" active="true" blockmouse="true" blockmouseactive="false" randomisedelay="false" app="" desc="">
 				<mts Lock="0" Sticky="false" StickyBlock="false" Block="true" InvV="false" InvH="false" SensitivityX="5" SensitivityY="5" NoMovementAction="6" keys="" keyaction="0" keyrepeat="0" active="true" blockmouse="true" blockmouseactive="false" randomisedelay="false" app="" />
@@ -1537,7 +1519,7 @@
 				<mts Lock="0" Sticky="false" StickyBlock="false" Block="true" InvV="false" InvH="false" SensitivityX="5" SensitivityY="5" NoMovementAction="6" keys="" keyaction="0" keyrepeat="0" active="true" blockmouse="true" blockmouseactive="false" randomisedelay="false" app="" />
 			</Left_Layer9>
 			<Right_Layer9 action="40" keys="" keyaction="2" keyrepeat="34" active="true" blockmouse="true" blockmouseactive="false" randomisedelay="false" app="" desc="">
-				<mts Lock="0" Sticky="false" StickyBlock="false" Block="true" InvV="false" InvH="false" SensitivityX="5" SensitivityY="5" NoMovementAction="6" keys="" keyaction="0" keyrepeat="0" active="true" blockmouse="true" blockmouseactive="false" randomisedelay="true" app="" />
+				<mts Lock="0" Sticky="false" StickyBlock="false" Block="true" InvV="false" InvH="false" SensitivityX="5" SensitivityY="5" NoMovementAction="6" keys="" keyaction="0" keyrepeat="0" active="true" blockmouse="true" blockmouseactive="false" randomisedelay="false" app="" />
 			</Right_Layer9>
 			<Middle_Layer9 action="40" keys="" keyaction="2" keyrepeat="34" active="true" blockmouse="true" blockmouseactive="false" randomisedelay="false" app="" desc="">
 				<mts Lock="0" Sticky="false" StickyBlock="false" Block="true" InvV="false" InvH="false" SensitivityX="5" SensitivityY="5" NoMovementAction="6" keys="" keyaction="0" keyrepeat="0" active="true" blockmouse="true" blockmouseactive="false" randomisedelay="false" app="" />
