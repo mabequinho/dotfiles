@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2024-12-24T18:08:46.070-00:00",
+	"CreationDate" : "2024-12-26T11:19:49.088-00:00",
 	"Sources" : 
 	[
 		{
@@ -28,13 +28,7 @@
 					"PackageIdentifier" : "Microsoft.OneDrive"
 				},
 				{
-					"PackageIdentifier" : "Neovim.Neovim"
-				},
-				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2010.x64"
-				},
-				{
-					"PackageIdentifier" : "calibre.calibre"
 				},
 				{
 					"PackageIdentifier" : "GitHub.cli"
@@ -44,6 +38,9 @@
 				},
 				{
 					"PackageIdentifier" : "Google.GoogleDrive"
+				},
+				{
+					"PackageIdentifier" : "calibre.calibre"
 				},
 				{
 					"PackageIdentifier" : "JohnMacFarlane.Pandoc"
@@ -56,6 +53,9 @@
 				},
 				{
 					"PackageIdentifier" : "Starship.Starship"
+				},
+				{
+					"PackageIdentifier" : "Neovim.Neovim"
 				},
 				{
 					"PackageIdentifier" : "HandBrake.HandBrake"
@@ -83,6 +83,9 @@
 				},
 				{
 					"PackageIdentifier" : "DEVCOM.JetBrainsMonoNerdFont"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DotNet.Runtime.9"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64"
