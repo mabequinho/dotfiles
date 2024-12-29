@@ -20,7 +20,7 @@
   tab   ;    q    b     y    u    r    s    o    .    6    5    =    \
   esc   -    k    c     d    t    h    e    a    z    8    7   @nope 
  @cpw   '    x    g     v    w    n    i    ,    0    9    @cpw
-  lctl lalt M-grv           @l2             ralt comp rctl
+  lctl lalt  lmet           @l2             M-grave   comp rctl
 
 )
 
@@ -78,7 +78,7 @@
  
   (m n) A-tab 30 all-released ( l2 )
 
-  (v b) lalt 30 all-released ( l2 )
+  (v b) tab 30 all-released ( l2 )
 
   (y u) ret 30 all-released ( l2 )
 
