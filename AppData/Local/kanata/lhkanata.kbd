@@ -54,10 +54,10 @@
   f (macro pgdn)
   p (macro pgup)
 
-  s (movemouse-accel-right 1 3000 1 3)
-  r (movemouse-accel-up 1 3000 1 3)
-  u (movemouse-accel-down 1 3000 1 3)
-  y (movemouse-accel-left 1 3000 1 3)
+  s (movemouse-right 1 1)
+  r (movemouse-up 1 1)
+  u (movemouse-down 1 1)
+  y (movemouse-left 1 1)
 
   a (macro mrgt)
   o (macro mlft)
