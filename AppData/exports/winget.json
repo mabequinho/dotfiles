@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2024-12-26T11:19:49.088-00:00",
+	"CreationDate" : "2025-01-17T14:20:44.704-00:00",
 	"Sources" : 
 	[
 		{
@@ -11,9 +11,6 @@
 				},
 				{
 					"PackageIdentifier" : "7zip.7zip"
-				},
-				{
-					"PackageIdentifier" : "KRTirtho.Spotube"
 				},
 				{
 					"PackageIdentifier" : "Git.Git"
@@ -31,31 +28,31 @@
 					"PackageIdentifier" : "Microsoft.VCRedist.2010.x64"
 				},
 				{
-					"PackageIdentifier" : "GitHub.cli"
-				},
-				{
 					"PackageIdentifier" : "ColdTurkeySoftware.ColdTurkeyBlocker"
 				},
 				{
 					"PackageIdentifier" : "Google.GoogleDrive"
 				},
 				{
-					"PackageIdentifier" : "calibre.calibre"
-				},
-				{
-					"PackageIdentifier" : "JohnMacFarlane.Pandoc"
-				},
-				{
 					"PackageIdentifier" : "Microsoft.PowerShell"
+				},
+				{
+					"PackageIdentifier" : "GitHub.cli"
 				},
 				{
 					"PackageIdentifier" : "PDFArranger.PDFArranger"
 				},
 				{
-					"PackageIdentifier" : "Starship.Starship"
+					"PackageIdentifier" : "JohnMacFarlane.Pandoc"
 				},
 				{
 					"PackageIdentifier" : "Neovim.Neovim"
+				},
+				{
+					"PackageIdentifier" : "calibre.calibre"
+				},
+				{
+					"PackageIdentifier" : "Starship.Starship"
 				},
 				{
 					"PackageIdentifier" : "HandBrake.HandBrake"
@@ -76,16 +73,13 @@
 					"PackageIdentifier" : "IPEP.Scantailor-Experimental"
 				},
 				{
-					"PackageIdentifier" : "Highresolution.X-MouseButtonControl"
+					"PackageIdentifier" : "pit-ray.win-vind"
 				},
 				{
 					"PackageIdentifier" : "FelipeEFdeCastro.Klavaro"
 				},
 				{
 					"PackageIdentifier" : "DEVCOM.JetBrainsMonoNerdFont"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.DotNet.Runtime.9"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64"
@@ -98,6 +92,9 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x86"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DotNet.Runtime.9"
 				},
 				{
 					"PackageIdentifier" : "TomWatson.BreakTimer"
@@ -128,6 +125,9 @@
 				},
 				{
 					"PackageIdentifier" : "Gyan.FFmpeg"
+				},
+				{
+					"PackageIdentifier" : "KDE.KDEConnect"
 				},
 				{
 					"PackageIdentifier" : "Foundry376.Mailspring"
