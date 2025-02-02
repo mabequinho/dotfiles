@@ -1,14 +1,11 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2025-01-17T14:20:44.704-00:00",
+	"CreationDate" : "2025-02-02T14:14:31.101-00:00",
 	"Sources" : 
 	[
 		{
 			"Packages" : 
 			[
-				{
-					"PackageIdentifier" : "BiglySoftware.BiglyBT"
-				},
 				{
 					"PackageIdentifier" : "7zip.7zip"
 				},
@@ -17,9 +14,6 @@
 				},
 				{
 					"PackageIdentifier" : "ImageMagick.ImageMagick"
-				},
-				{
-					"PackageIdentifier" : "CondaForge.Miniforge3"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.OneDrive"
@@ -34,9 +28,6 @@
 					"PackageIdentifier" : "Google.GoogleDrive"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.PowerShell"
-				},
-				{
 					"PackageIdentifier" : "GitHub.cli"
 				},
 				{
@@ -46,6 +37,9 @@
 					"PackageIdentifier" : "JohnMacFarlane.Pandoc"
 				},
 				{
+					"PackageIdentifier" : "Microsoft.PowerShell"
+				},
+				{
 					"PackageIdentifier" : "Neovim.Neovim"
 				},
 				{
@@ -53,6 +47,9 @@
 				},
 				{
 					"PackageIdentifier" : "Starship.Starship"
+				},
+				{
+					"PackageIdentifier" : "Klocman.BulkCrapUninstaller"
 				},
 				{
 					"PackageIdentifier" : "HandBrake.HandBrake"
@@ -65,9 +62,6 @@
 				},
 				{
 					"PackageIdentifier" : "OBSProject.OBSStudio"
-				},
-				{
-					"PackageIdentifier" : "martinrotter.RSSGuard"
 				},
 				{
 					"PackageIdentifier" : "IPEP.Scantailor-Experimental"
@@ -121,22 +115,16 @@
 					"PackageIdentifier" : "GIMP.GIMP"
 				},
 				{
-					"PackageIdentifier" : "Google.PlatformTools"
-				},
-				{
 					"PackageIdentifier" : "Gyan.FFmpeg"
-				},
-				{
-					"PackageIdentifier" : "KDE.KDEConnect"
 				},
 				{
 					"PackageIdentifier" : "Foundry376.Mailspring"
 				},
 				{
-					"PackageIdentifier" : "SumatraPDF.SumatraPDF"
+					"PackageIdentifier" : "CondaForge.Miniforge3"
 				},
 				{
-					"PackageIdentifier" : "SamHocevar.WinCompose"
+					"PackageIdentifier" : "SumatraPDF.SumatraPDF"
 				},
 				{
 					"PackageIdentifier" : "ajeetdsouza.zoxide"
@@ -176,6 +164,9 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VisualStudioCode"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.PowerToys"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.AppInstaller"
