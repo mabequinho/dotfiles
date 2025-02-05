@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2025-02-02T14:14:31.101-00:00",
+	"CreationDate" : "2025-02-05T12:44:06.662-00:00",
 	"Sources" : 
 	[
 		{
@@ -28,10 +28,10 @@
 					"PackageIdentifier" : "Google.GoogleDrive"
 				},
 				{
-					"PackageIdentifier" : "GitHub.cli"
+					"PackageIdentifier" : "PDFArranger.PDFArranger"
 				},
 				{
-					"PackageIdentifier" : "PDFArranger.PDFArranger"
+					"PackageIdentifier" : "Neovim.Neovim"
 				},
 				{
 					"PackageIdentifier" : "JohnMacFarlane.Pandoc"
@@ -40,7 +40,7 @@
 					"PackageIdentifier" : "Microsoft.PowerShell"
 				},
 				{
-					"PackageIdentifier" : "Neovim.Neovim"
+					"PackageIdentifier" : "GitHub.cli"
 				},
 				{
 					"PackageIdentifier" : "calibre.calibre"
@@ -119,6 +119,9 @@
 				},
 				{
 					"PackageIdentifier" : "Foundry376.Mailspring"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.Sysinternals"
 				},
 				{
 					"PackageIdentifier" : "CondaForge.Miniforge3"
