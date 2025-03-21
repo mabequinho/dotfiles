@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2025-02-05T12:44:06.662-00:00",
+	"CreationDate" : "2025-03-21T14:30:05.042-00:00",
 	"Sources" : 
 	[
 		{
@@ -34,9 +34,6 @@
 					"PackageIdentifier" : "Neovim.Neovim"
 				},
 				{
-					"PackageIdentifier" : "JohnMacFarlane.Pandoc"
-				},
-				{
 					"PackageIdentifier" : "Microsoft.PowerShell"
 				},
 				{
@@ -44,6 +41,9 @@
 				},
 				{
 					"PackageIdentifier" : "calibre.calibre"
+				},
+				{
+					"PackageIdentifier" : "JohnMacFarlane.Pandoc"
 				},
 				{
 					"PackageIdentifier" : "Starship.Starship"
@@ -76,13 +76,10 @@
 					"PackageIdentifier" : "DEVCOM.JetBrainsMonoNerdFont"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64"
-				},
-				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2010.x86"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.8"
+					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x86"
@@ -91,7 +88,7 @@
 					"PackageIdentifier" : "Microsoft.DotNet.Runtime.9"
 				},
 				{
-					"PackageIdentifier" : "TomWatson.BreakTimer"
+					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.8"
 				},
 				{
 					"PackageIdentifier" : "Kopia.KopiaUI"
@@ -115,6 +112,9 @@
 					"PackageIdentifier" : "GIMP.GIMP"
 				},
 				{
+					"PackageIdentifier" : "Google.PlatformTools"
+				},
+				{
 					"PackageIdentifier" : "Gyan.FFmpeg"
 				},
 				{
@@ -125,6 +125,9 @@
 				},
 				{
 					"PackageIdentifier" : "CondaForge.Miniforge3"
+				},
+				{
+					"PackageIdentifier" : "Stremio.Stremio"
 				},
 				{
 					"PackageIdentifier" : "SumatraPDF.SumatraPDF"
@@ -196,5 +199,5 @@
 			}
 		}
 	],
-	"WinGetVersion" : "1.9.25200"
+	"WinGetVersion" : "1.10.340"
 }
