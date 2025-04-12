@@ -1,53 +1,23 @@
 {
     "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions": 
-    [
-        {
-            "command": 
-            {
-                "action": "copy",
-                "singleLine": false
-            },
-            "id": "User.copy.644BA8F2"
-        },
-        {
-            "command": "paste",
-            "id": "User.paste"
-        },
-        {
-            "command": "find",
-            "id": "User.find"
-        },
-        {
-            "command": 
-            {
-                "action": "splitPane",
-                "split": "auto",
-                "splitMode": "duplicate"
-            },
-            "id": "User.splitPane.A6751878"
-        }
-    ],
+    "actions": [],
+    "compatibility.allowHeadless": true,
     "copyFormatting": "none",
-    "copyOnSelect": true,
+    "copyOnSelect": false,
     "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
     "keybindings": 
     [
         {
-            "id": "User.copy.644BA8F2",
+            "id": "Terminal.CopyToClipboard",
             "keys": "ctrl+c"
         },
         {
-            "id": "User.paste",
+            "id": "Terminal.PasteFromClipboard",
             "keys": "ctrl+v"
         },
         {
-            "id": "User.find",
-            "keys": "ctrl+shift+f"
-        },
-        {
-            "id": "User.splitPane.A6751878",
+            "id": "Terminal.DuplicatePaneAuto",
             "keys": "alt+shift+d"
         }
     ],
@@ -61,16 +31,7 @@
     {
         "defaults": 
         {
-            "adjustIndistinguishableColors": "always",
-            "colorScheme": "Base16 Grayscale Light",
-            "cursorShape": "underscore",
-            "font": 
-            {
-                "face": "JetBrainsMonoNL Nerd Font"
-            },
-            "intenseTextStyle": "bold",
-            "padding": "22",
-            "scrollbarState": "hidden"
+            "colorScheme": "One Half Dark"
         },
         "list": 
         [
@@ -103,41 +64,10 @@
                 "hidden": false,
                 "name": "Git Bash",
                 "source": "Git"
-            },
-            {
-                "guid": "{51855cb2-8cce-5362-8f54-464b92b32386}",
-                "hidden": false,
-                "name": "Ubuntu",
-                "source": "CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc"
             }
         ]
     },
-    "schemes": 
-    [
-        {
-            "background": "#F7F7F7",
-            "black": "#F7F7F7",
-            "blue": "#686868",
-            "brightBlack": "#ABABAB",
-            "brightBlue": "#525252",
-            "brightCyan": "#5E5E5E",
-            "brightGreen": "#E3E3E3",
-            "brightPurple": "#252525",
-            "brightRed": "#999999",
-            "brightWhite": "#101010",
-            "brightYellow": "#B9B9B9",
-            "cursorColor": "#464646",
-            "cyan": "#868686",
-            "foreground": "#464646",
-            "green": "#8E8E8E",
-            "name": "Base16 Grayscale Light",
-            "purple": "#747474",
-            "red": "#7C7C7C",
-            "selectionBackground": "#B9B9B9",
-            "white": "#464646",
-            "yellow": "#A0A0A0"
-        }
-    ],
+    "schemes": [],
     "theme": "system",
     "themes": []
 }
