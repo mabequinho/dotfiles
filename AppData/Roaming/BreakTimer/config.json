@@ -74,7 +74,7 @@
 		"idleResetEnabled": true,
 		"idleResetLength": "1899-12-31T03:39:20.000Z",
 		"idleResetNotification": true,
-		"gongEnabled": true,
+		"soundType": "GONG",
 		"breakTitle": "Time for a break!",
 		"breakMessage": "Rest your eyes. Stretch your legs. Breathe. Relax.",
 		"backgroundColor": "#a2167c",
@@ -84,7 +84,8 @@
 		"backdropOpacity": 1,
 		"endBreakEnabled": false,
 		"skipBreakEnabled": false,
-		"postponeBreakEnabled": true
+		"postponeBreakEnabled": true,
+		"gongEnabled": true
 	},
 	"appInitialized": true,
 	"settingsVersion": 1,
