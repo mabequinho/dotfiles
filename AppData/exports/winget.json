@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2025-05-05T10:49:37.749-00:00",
+	"CreationDate" : "2025-05-17T16:32:54.344-00:00",
 	"Sources" : 
 	[
 		{
@@ -16,13 +16,7 @@
 					"PackageIdentifier" : "Microsoft.OneDrive"
 				},
 				{
-					"PackageIdentifier" : "Neovim.Neovim"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.VCRedist.2010.x64"
-				},
-				{
-					"PackageIdentifier" : "GitHub.cli"
+					"PackageIdentifier" : "VideoLAN.VLC"
 				},
 				{
 					"PackageIdentifier" : "ColdTurkeySoftware.ColdTurkeyBlocker"
@@ -31,25 +25,25 @@
 					"PackageIdentifier" : "Google.GoogleDrive"
 				},
 				{
-					"PackageIdentifier" : "MongoDB.Compass.Community"
+					"PackageIdentifier" : "sylikc.JPEGView"
 				},
 				{
 					"PackageIdentifier" : "calibre.calibre"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.PowerShell"
-				},
-				{
 					"PackageIdentifier" : "Starship.Starship"
 				},
 				{
-					"PackageIdentifier" : "Klocman.BulkCrapUninstaller"
+					"PackageIdentifier" : "GitHub.cli"
+				},
+				{
+					"PackageIdentifier" : "Neovim.Neovim"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.PowerShell"
 				},
 				{
 					"PackageIdentifier" : "HandBrake.HandBrake"
-				},
-				{
-					"PackageIdentifier" : "CodecGuide.K-LiteCodecPack.Standard"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.Edge"
@@ -67,25 +61,7 @@
 					"PackageIdentifier" : "DEVCOM.JetBrainsMonoNerdFont"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.DotNet.Runtime.9"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.8"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.DotNet.SDK.9"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.VCRedist.2010.x86"
-				},
-				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x86"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.DotNet.SDK.8"
 				},
 				{
 					"PackageIdentifier" : "TomWatson.BreakTimer"
@@ -103,22 +79,13 @@
 					"PackageIdentifier" : "BurntSushi.ripgrep.MSVC"
 				},
 				{
-					"PackageIdentifier" : "dbeaver.dbeaver"
+					"PackageIdentifier" : "DBeaver.DBeaver.Community"
 				},
 				{
 					"PackageIdentifier" : "Dystroy.broot"
 				},
 				{
 					"PackageIdentifier" : "GIMP.GIMP.3"
-				},
-				{
-					"PackageIdentifier" : "Google.PlatformTools"
-				},
-				{
-					"PackageIdentifier" : "Gyan.FFmpeg"
-				},
-				{
-					"PackageIdentifier" : "Foundry376.Mailspring"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.Sysinternals"
@@ -181,9 +148,6 @@
 					"PackageIdentifier" : "Microsoft.VCLibs.Desktop.14"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.DevHome"
-				},
-				{
 					"PackageIdentifier" : "Microsoft.WindowsTerminal"
 				}
 			],
@@ -193,6 +157,27 @@
 				"Identifier" : "Microsoft.Winget.Source_8wekyb3d8bbwe",
 				"Name" : "winget",
 				"Type" : "Microsoft.PreIndexed.Package"
+			}
+		},
+		{
+			"Packages" : 
+			[
+				{
+					"PackageIdentifier" : "9NCRCVJC50WL"
+				},
+				{
+					"PackageIdentifier" : "9MZ95KL8MR0L"
+				},
+				{
+					"PackageIdentifier" : "9WZDNCRFJBBG"
+				}
+			],
+			"SourceDetails" : 
+			{
+				"Argument" : "https://storeedgefd.dsx.mp.microsoft.com/v9.0",
+				"Identifier" : "StoreEdgeFD",
+				"Name" : "msstore",
+				"Type" : "Microsoft.Rest"
 			}
 		}
 	],

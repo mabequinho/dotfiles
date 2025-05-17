@@ -77,7 +77,7 @@
 		"soundType": "GONG",
 		"breakTitle": "Time for a break!",
 		"breakMessage": "Rest your eyes. Stretch your legs. Breathe. Relax.",
-		"backgroundColor": "#a2167c",
+		"backgroundColor": "#000000",
 		"backdropColor": "#001914",
 		"textColor": "#ffffff",
 		"showBackdrop": true,
