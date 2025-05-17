@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2025-05-17T16:32:54.344-00:00",
+	"CreationDate" : "2025-05-17T20:11:03.343-00:00",
 	"Sources" : 
 	[
 		{
@@ -17,9 +17,6 @@
 				},
 				{
 					"PackageIdentifier" : "VideoLAN.VLC"
-				},
-				{
-					"PackageIdentifier" : "ColdTurkeySoftware.ColdTurkeyBlocker"
 				},
 				{
 					"PackageIdentifier" : "Google.GoogleDrive"
