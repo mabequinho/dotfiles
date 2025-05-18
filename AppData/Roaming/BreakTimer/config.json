@@ -3,10 +3,10 @@
 		"autoLaunch": true,
 		"breaksEnabled": true,
 		"notificationType": "POPUP",
-		"breakFrequency": "1899-12-31T04:19:20.000Z",
-		"breakLength": "1899-12-31T03:39:20.000Z",
-		"postponeLength": "1899-12-31T03:34:20.000Z",
-		"postponeLimit": 2,
+		"breakFrequency": "1899-12-31T03:24:00.000Z",
+		"breakLength": "1899-12-31T02:44:00.000Z",
+		"postponeLength": "1899-12-31T02:39:00.000Z",
+		"postponeLimit": 1,
 		"workingHoursEnabled": false,
 		"workingHoursMonday": {
 			"enabled": true,
@@ -72,7 +72,7 @@
 			]
 		},
 		"idleResetEnabled": true,
-		"idleResetLength": "1899-12-31T03:39:20.000Z",
+		"idleResetLength": "1899-12-31T02:44:00.000Z",
 		"idleResetNotification": true,
 		"soundType": "GONG",
 		"breakTitle": "Time for a break!",
