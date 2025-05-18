@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2025-05-18T10:41:41.815-00:00",
+	"CreationDate" : "2025-05-18T11:50:38.996-00:00",
 	"Sources" : 
 	[
 		{
@@ -38,9 +38,6 @@
 				},
 				{
 					"PackageIdentifier" : "Neovim.Neovim"
-				},
-				{
-					"PackageIdentifier" : "valinet.ExplorerPatcher"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.PowerShell"
@@ -165,6 +162,9 @@
 		{
 			"Packages" : 
 			[
+				{
+					"PackageIdentifier" : "9NBLGGH4XXVW"
+				},
 				{
 					"PackageIdentifier" : "9NCRCVJC50WL"
 				},
