@@ -31,7 +31,12 @@
     {
         "defaults": 
         {
-            "colorScheme": "Base16 Grayscale Light"
+            "adjustIndistinguishableColors": "always",
+            "colorScheme": "Base16 Grayscale Light",
+            "font": 
+            {
+                "face": "JetBrainsMono Nerd Font Mono"
+            }
         },
         "list": 
         [
