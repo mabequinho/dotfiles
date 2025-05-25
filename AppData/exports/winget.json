@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2025-05-18T12:18:29.500-00:00",
+	"CreationDate" : "2025-05-25T10:11:48.323-00:00",
 	"Sources" : 
 	[
 		{
@@ -34,10 +34,10 @@
 					"PackageIdentifier" : "Starship.Starship"
 				},
 				{
-					"PackageIdentifier" : "GitHub.cli"
+					"PackageIdentifier" : "Neovim.Neovim"
 				},
 				{
-					"PackageIdentifier" : "Neovim.Neovim"
+					"PackageIdentifier" : "GitHub.cli"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.PowerShell"
@@ -65,9 +65,6 @@
 				},
 				{
 					"PackageIdentifier" : "TomWatson.BreakTimer"
-				},
-				{
-					"PackageIdentifier" : "Beeper.Beeper"
 				},
 				{
 					"PackageIdentifier" : "Kopia.KopiaUI"
@@ -136,10 +133,10 @@
 					"PackageIdentifier" : "yt-dlp.yt-dlp"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.VisualStudioCode"
+					"PackageIdentifier" : "Microsoft.PowerToys"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.PowerToys"
+					"PackageIdentifier" : "Microsoft.VisualStudioCode"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.AppInstaller"
