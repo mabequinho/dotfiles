@@ -1,11 +1,21 @@
 {
     "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions": [],
+    "actions": 
+    [
+        {
+            "command": 
+            {
+                "action": "quakeMode"
+            },
+            "id": "User.quakeMode.F1E129A4"
+        }
+    ],
     "compatibility.allowHeadless": true,
     "copyFormatting": "none",
     "copyOnSelect": true,
     "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+    "disableAnimations": true,
     "keybindings": 
     [
         {
@@ -19,6 +29,10 @@
         {
             "id": "Terminal.DuplicatePaneAuto",
             "keys": "alt+shift+d"
+        },
+        {
+            "id": "User.quakeMode.F1E129A4",
+            "keys": "win+sc(41)"
         }
     ],
     "newTabMenu": 
@@ -32,11 +46,14 @@
         "defaults": 
         {
             "adjustIndistinguishableColors": "always",
+            "antialiasingMode": "cleartype",
             "colorScheme": "Base16 Grayscale Light",
+            "experimental.repositionCursorWithMouse": true,
             "font": 
             {
                 "face": "JetBrainsMono Nerd Font Mono"
-            }
+            },
+            "startingDirectory": "%USERPROFILE%"
         },
         "list": 
         [
@@ -99,5 +116,6 @@
         }
     ],
     "theme": "system",
-    "themes": []
+    "themes": [],
+    "windowingBehavior": "useAnyExisting"
 }
