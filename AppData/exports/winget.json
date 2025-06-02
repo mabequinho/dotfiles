@@ -1,13 +1,13 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2025-05-28T20:28:07.940-00:00",
+	"CreationDate" : "2025-06-02T10:57:44.006-00:00",
 	"Sources" : 
 	[
 		{
 			"Packages" : 
 			[
 				{
-					"PackageIdentifier" : "7zip.7zip"
+					"PackageIdentifier" : "ShareX.ShareX"
 				},
 				{
 					"PackageIdentifier" : "Git.Git"
@@ -22,7 +22,16 @@
 					"PackageIdentifier" : "VideoLAN.VLC"
 				},
 				{
+					"PackageIdentifier" : "Giorgiotani.Peazip"
+				},
+				{
+					"PackageIdentifier" : "geeksoftwareGmbH.PDF24Creator"
+				},
+				{
 					"PackageIdentifier" : "OlegShparber.Zeal"
+				},
+				{
+					"PackageIdentifier" : "Neovim.Neovim"
 				},
 				{
 					"PackageIdentifier" : "Google.GoogleDrive"
@@ -38,9 +47,6 @@
 				},
 				{
 					"PackageIdentifier" : "Starship.Starship"
-				},
-				{
-					"PackageIdentifier" : "Neovim.Neovim"
 				},
 				{
 					"PackageIdentifier" : "GitHub.cli"
@@ -68,6 +74,9 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64"
+				},
+				{
+					"PackageIdentifier" : "GeorgieLabs.SoundWireServer"
 				},
 				{
 					"PackageIdentifier" : "TomWatson.BreakTimer"
@@ -100,6 +109,9 @@
 					"PackageIdentifier" : "CondaForge.Miniforge3"
 				},
 				{
+					"PackageIdentifier" : "Meltytech.Shotcut"
+				},
+				{
 					"PackageIdentifier" : "SumatraPDF.SumatraPDF"
 				},
 				{
@@ -116,9 +128,6 @@
 				},
 				{
 					"PackageIdentifier" : "junegunn.fzf"
-				},
-				{
-					"PackageIdentifier" : "KDE.Kdenlive"
 				},
 				{
 					"PackageIdentifier" : "rsteube.Carapace"
@@ -173,9 +182,6 @@
 				},
 				{
 					"PackageIdentifier" : "9NCRCVJC50WL"
-				},
-				{
-					"PackageIdentifier" : "9MZ95KL8MR0L"
 				},
 				{
 					"PackageIdentifier" : "9WZDNCRFJBBG"
