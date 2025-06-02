@@ -73,7 +73,7 @@
 		},
 		"idleResetEnabled": true,
 		"idleResetLength": "1899-12-31T02:44:00.000Z",
-		"idleResetNotification": true,
+		"idleResetNotification": false,
 		"soundType": "GONG",
 		"breakTitle": "Time for a break!",
 		"breakMessage": "Rest your eyes. Stretch your legs. Breathe. Relax.",
