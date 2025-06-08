@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2025-06-02T10:57:44.006-00:00",
+	"CreationDate" : "2025-06-08T12:24:50.125-00:00",
 	"Sources" : 
 	[
 		{
@@ -35,9 +35,6 @@
 				},
 				{
 					"PackageIdentifier" : "Google.GoogleDrive"
-				},
-				{
-					"PackageIdentifier" : "fire-eggs.DarkThumbs"
 				},
 				{
 					"PackageIdentifier" : "sylikc.JPEGView"
