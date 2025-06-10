@@ -48,7 +48,8 @@
             "adjustIndistinguishableColors": "always",
             "antialiasingMode": "cleartype",
             "colorScheme": "Base16 Grayscale Light",
-            "experimental.repositionCursorWithMouse": true,
+            "cursorShape": "underscore",
+            "experimental.repositionCursorWithMouse": false,
             "font": 
             {
                 "face": "JetBrainsMono Nerd Font Mono"
