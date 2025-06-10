@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2025-06-08T12:24:50.125-00:00",
+	"CreationDate" : "2025-06-10T12:18:04.869-00:00",
 	"Sources" : 
 	[
 		{
@@ -74,6 +74,12 @@
 				},
 				{
 					"PackageIdentifier" : "GeorgieLabs.SoundWireServer"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.9"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.8"
 				},
 				{
 					"PackageIdentifier" : "TomWatson.BreakTimer"
