@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2025-06-12T12:46:41.540-00:00",
+	"CreationDate" : "2025-06-12T13:27:49.912-00:00",
 	"Sources" : 
 	[
 		{
@@ -17,9 +17,6 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.OneDrive"
-				},
-				{
-					"PackageIdentifier" : "VideoLAN.VLC"
 				},
 				{
 					"PackageIdentifier" : "GitHub.cli"
@@ -55,6 +52,9 @@
 					"PackageIdentifier" : "HandBrake.HandBrake"
 				},
 				{
+					"PackageIdentifier" : "CodecGuide.K-LiteCodecPack.Standard"
+				},
+				{
 					"PackageIdentifier" : "Microsoft.Edge"
 				},
 				{
@@ -80,9 +80,6 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.9"
-				},
-				{
-					"PackageIdentifier" : "TomWatson.BreakTimer"
 				},
 				{
 					"PackageIdentifier" : "Kopia.KopiaUI"
@@ -122,6 +119,9 @@
 				},
 				{
 					"PackageIdentifier" : "aria2.aria2"
+				},
+				{
+					"PackageIdentifier" : "Zidoro.Pomatez"
 				},
 				{
 					"PackageIdentifier" : "dalance.procs"
