@@ -70,24 +70,30 @@ function o {
 function oo { Start-Process (fzf) }
 
 # --- Editor aliases using $EDITOR ---
-$env:EDITOR = "nvim"
+$env:EDITOR = "vi"
 function note { & $env:EDITOR ("$(Get-Date -Format 'ddd_MMM_dd-HH:mm:ss').txt") }
 function e { & $env:EDITOR @args }
 function ee { & $env:EDITOR (fzf) }
 
 # --- Other command aliases ---
-function x { exit }
 
-Set-PSReadLineOption -EditMode Vi
-Set-PSReadLineKeyHandler -ViMode Insert -Key Ctrl+w -Function BackwardKillWord
-Set-PSReadLineKeyHandler -Chord Ctrl-f -Function ViForwardChar
-# Set-PSReadLineKeyHandler -Key Tab -Function Complete
+function x { exit }
 
 Remove-Alias -Name gp -Force
 Remove-Alias -Name gc -Force
 
+Set-PSReadLineOption -EditMode Vi
+Set-PSReadLineKeyHandler -ViMode Insert -Key Ctrl+w -Function BackwardKillWord
+Set-PSReadLineKeyHandler -Chord Ctrl-f -Function ViForwardChar
+Set-PSReadLineKeyHandler -Chord 'Ctrl+Oem4' -Function ViCommandMode -ViMode Insert
+
 Invoke-Expression (&starship init powershell)
 Invoke-Expression (& { (zoxide init powershell | Out-String) })
+
+#Carapace
+Set-PSReadLineOption -Colors @{ "Selection" = "`e[7m" }
+Set-PSReadlineKeyHandler -Key Tab -Function MenuComplete
+carapace _carapace | Out-String | Invoke-Expression
 
 #region conda initialize
 # !! Contents within this block are managed by 'conda init' !!
@@ -95,9 +101,4 @@ If (Test-Path "C:\Users\lu\miniforge3\Scripts\conda.exe") {
     (& "C:\Users\lu\miniforge3\Scripts\conda.exe" "shell.powershell" "hook") | Out-String | ?{$_} | Invoke-Expression
 }
 #endregion
-
-#Carapace Settings
-Set-PSReadLineOption -Colors @{ "Selection" = "`e[7m" }
-Set-PSReadlineKeyHandler -Key Tab -Function MenuComplete
-carapace _carapace | Out-String | Invoke-Expression
 
