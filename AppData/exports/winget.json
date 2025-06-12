@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2025-06-10T12:18:04.869-00:00",
+	"CreationDate" : "2025-06-12T12:46:41.540-00:00",
 	"Sources" : 
 	[
 		{
@@ -20,6 +20,9 @@
 				},
 				{
 					"PackageIdentifier" : "VideoLAN.VLC"
+				},
+				{
+					"PackageIdentifier" : "GitHub.cli"
 				},
 				{
 					"PackageIdentifier" : "Giorgiotani.Peazip"
@@ -46,9 +49,6 @@
 					"PackageIdentifier" : "Starship.Starship"
 				},
 				{
-					"PackageIdentifier" : "GitHub.cli"
-				},
-				{
 					"PackageIdentifier" : "Microsoft.PowerShell"
 				},
 				{
@@ -70,6 +70,9 @@
 					"PackageIdentifier" : "DEVCOM.JetBrainsMonoNerdFont"
 				},
 				{
+					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.8"
+				},
+				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64"
 				},
 				{
@@ -77,9 +80,6 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.9"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.8"
 				},
 				{
 					"PackageIdentifier" : "TomWatson.BreakTimer"
@@ -130,6 +130,9 @@
 					"PackageIdentifier" : "eza-community.eza"
 				},
 				{
+					"PackageIdentifier" : "frippery.busybox-w32"
+				},
+				{
 					"PackageIdentifier" : "junegunn.fzf"
 				},
 				{
@@ -143,9 +146,6 @@
 				},
 				{
 					"PackageIdentifier" : "twpayne.chezmoi"
-				},
-				{
-					"PackageIdentifier" : "uutils.coreutils"
 				},
 				{
 					"PackageIdentifier" : "yt-dlp.yt-dlp"
@@ -182,6 +182,9 @@
 			[
 				{
 					"PackageIdentifier" : "9NBLGGH4XXVW"
+				},
+				{
+					"PackageIdentifier" : "9NKSQGP7F2NH"
 				},
 				{
 					"PackageIdentifier" : "9NCRCVJC50WL"
