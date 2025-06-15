@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2025-06-13T15:20:10.073-00:00",
+	"CreationDate" : "2025-06-15T10:22:12.956-00:00",
 	"Sources" : 
 	[
 		{
@@ -16,7 +16,7 @@
 					"PackageIdentifier" : "Xanashi.Icaros"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.OneDrive"
+					"PackageIdentifier" : "VideoLAN.VLC"
 				},
 				{
 					"PackageIdentifier" : "GitHub.cli"
@@ -29,9 +29,6 @@
 				},
 				{
 					"PackageIdentifier" : "OlegShparber.Zeal"
-				},
-				{
-					"PackageIdentifier" : "Neovim.Neovim"
 				},
 				{
 					"PackageIdentifier" : "OpenJS.NodeJS.LTS"
@@ -55,9 +52,6 @@
 					"PackageIdentifier" : "HandBrake.HandBrake"
 				},
 				{
-					"PackageIdentifier" : "CodecGuide.K-LiteCodecPack.Standard"
-				},
-				{
 					"PackageIdentifier" : "Microsoft.Edge"
 				},
 				{
@@ -65,6 +59,9 @@
 				},
 				{
 					"PackageIdentifier" : "Workrave.Workrave"
+				},
+				{
+					"PackageIdentifier" : "qBittorrent.qBittorrent"
 				},
 				{
 					"PackageIdentifier" : "Tableau.Public"
@@ -86,9 +83,6 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.9"
-				},
-				{
-					"PackageIdentifier" : "Kopia.KopiaUI"
 				},
 				{
 					"PackageIdentifier" : "Amazon.Kindle"
@@ -183,6 +177,9 @@
 		{
 			"Packages" : 
 			[
+				{
+					"PackageIdentifier" : "9NBLGGH5WLVJ"
+				},
 				{
 					"PackageIdentifier" : "9NBLGGH4XXVW"
 				},
