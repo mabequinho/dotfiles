@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2025-06-18T14:40:32.890-00:00",
+	"CreationDate" : "2025-06-19T21:16:00.288-00:00",
 	"Sources" : 
 	[
 		{
@@ -76,6 +76,9 @@
 					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.8"
 				},
 				{
+					"PackageIdentifier" : "Python.Launcher"
+				},
+				{
 					"PackageIdentifier" : "GeorgieLabs.SoundWireServer"
 				},
 				{
@@ -89,6 +92,9 @@
 				},
 				{
 					"PackageIdentifier" : "BurntSushi.ripgrep.MSVC"
+				},
+				{
+					"PackageIdentifier" : "ByteDance.CapCut"
 				},
 				{
 					"PackageIdentifier" : "DBeaver.DBeaver.Community"
@@ -107,9 +113,6 @@
 				},
 				{
 					"PackageIdentifier" : "CondaForge.Miniforge3"
-				},
-				{
-					"PackageIdentifier" : "Meltytech.Shotcut"
 				},
 				{
 					"PackageIdentifier" : "SumatraPDF.SumatraPDF"
@@ -182,9 +185,6 @@
 				},
 				{
 					"PackageIdentifier" : "9NBLGGH4XXVW"
-				},
-				{
-					"PackageIdentifier" : "9NKSQGP7F2NH"
 				},
 				{
 					"PackageIdentifier" : "9NCRCVJC50WL"
