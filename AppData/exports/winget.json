@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2025-06-19T21:16:00.288-00:00",
+	"CreationDate" : "2025-06-29T20:44:15.334-00:00",
 	"Sources" : 
 	[
 		{
@@ -11,6 +11,9 @@
 				},
 				{
 					"PackageIdentifier" : "Git.Git"
+				},
+				{
+					"PackageIdentifier" : "Gyan.FFmpeg"
 				},
 				{
 					"PackageIdentifier" : "Xanashi.Icaros"
@@ -25,25 +28,25 @@
 					"PackageIdentifier" : "Giorgiotani.Peazip"
 				},
 				{
-					"PackageIdentifier" : "geeksoftwareGmbH.PDF24Creator"
-				},
-				{
 					"PackageIdentifier" : "OlegShparber.Zeal"
-				},
-				{
-					"PackageIdentifier" : "OpenJS.NodeJS.LTS"
 				},
 				{
 					"PackageIdentifier" : "Google.GoogleDrive"
 				},
 				{
+					"PackageIdentifier" : "geeksoftwareGmbH.PDF24Creator"
+				},
+				{
+					"PackageIdentifier" : "OpenJS.NodeJS.LTS"
+				},
+				{
 					"PackageIdentifier" : "sylikc.JPEGView"
 				},
 				{
-					"PackageIdentifier" : "calibre.calibre"
+					"PackageIdentifier" : "Starship.Starship"
 				},
 				{
-					"PackageIdentifier" : "Starship.Starship"
+					"PackageIdentifier" : "calibre.calibre"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.PowerShell"
@@ -76,10 +79,10 @@
 					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.8"
 				},
 				{
-					"PackageIdentifier" : "Python.Launcher"
+					"PackageIdentifier" : "GeorgieLabs.SoundWireServer"
 				},
 				{
-					"PackageIdentifier" : "GeorgieLabs.SoundWireServer"
+					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.6"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64"
@@ -104,12 +107,6 @@
 				},
 				{
 					"PackageIdentifier" : "GIMP.GIMP.3"
-				},
-				{
-					"PackageIdentifier" : "Gyan.FFmpeg"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.Sysinternals"
 				},
 				{
 					"PackageIdentifier" : "CondaForge.Miniforge3"
@@ -202,5 +199,5 @@
 			}
 		}
 	],
-	"WinGetVersion" : "1.10.390"
+	"WinGetVersion" : "1.11.400"
 }
