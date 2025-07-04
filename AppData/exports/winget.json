@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2025-06-29T20:44:15.334-00:00",
+	"CreationDate" : "2025-07-04T11:13:55.609-00:00",
 	"Sources" : 
 	[
 		{
@@ -109,6 +109,9 @@
 					"PackageIdentifier" : "GIMP.GIMP.3"
 				},
 				{
+					"PackageIdentifier" : "Microsoft.Sysinternals.Suite"
+				},
+				{
 					"PackageIdentifier" : "CondaForge.Miniforge3"
 				},
 				{
@@ -148,10 +151,10 @@
 					"PackageIdentifier" : "yt-dlp.yt-dlp"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.PowerToys"
+					"PackageIdentifier" : "Microsoft.VisualStudioCode"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.VisualStudioCode"
+					"PackageIdentifier" : "Microsoft.PowerToys"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.AppInstaller"
