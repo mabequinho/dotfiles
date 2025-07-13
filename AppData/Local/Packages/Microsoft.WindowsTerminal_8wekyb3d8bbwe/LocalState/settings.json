@@ -19,15 +19,15 @@
     "keybindings": 
     [
         {
-            "id": "Terminal.CopyToClipboard",
+            "id": null,
             "keys": "ctrl+c"
         },
         {
-            "id": "Terminal.PasteFromClipboard",
+            "id": null,
             "keys": "ctrl+v"
         },
         {
-            "id": "Terminal.DuplicatePaneAuto",
+            "id": null,
             "keys": "alt+shift+d"
         },
         {
@@ -55,13 +55,11 @@
             ],
             "colorScheme": "Base16 Grayscale Light",
             "cursorShape": "underscore",
-            "experimental.repositionCursorWithMouse": false,
             "font": 
             {
-                "face": "JetBrainsMono Nerd Font Mono"
+                "face": "JetBrainsMono NF"
             },
             "scrollbarState": "hidden",
-            "showMarksOnScrollbar": true,
             "startingDirectory": "%USERPROFILE%"
         },
         "list": 
@@ -85,18 +83,16 @@
                 "source": "Windows.Terminal.Azure"
             },
             {
-                "commandline": "\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\" -nologo",
-                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
-                "hidden": false,
-                "name": "PowerShell",
-                "source": "Windows.Terminal.PowershellCore",
-                "startingDirectory": "%USERPROFILE%"
-            },
-            {
                 "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
                 "hidden": false,
                 "name": "Git Bash",
                 "source": "Git"
+            },
+            {
+                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+                "hidden": false,
+                "name": "PowerShell",
+                "source": "Windows.Terminal.PowershellCore"
             }
         ]
     },

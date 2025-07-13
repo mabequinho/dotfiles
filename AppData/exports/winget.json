@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2025-07-13T13:20:15.491-00:00",
+	"CreationDate" : "2025-07-13T19:42:28.700-00:00",
 	"Sources" : 
 	[
 		{
@@ -11,9 +11,6 @@
 				},
 				{
 					"PackageIdentifier" : "Git.Git"
-				},
-				{
-					"PackageIdentifier" : "Gyan.FFmpeg"
 				},
 				{
 					"PackageIdentifier" : "Xanashi.Icaros"
@@ -32,6 +29,9 @@
 				},
 				{
 					"PackageIdentifier" : "Google.GoogleDrive"
+				},
+				{
+					"PackageIdentifier" : "Transmission.Transmission"
 				},
 				{
 					"PackageIdentifier" : "geeksoftwareGmbH.PDF24Creator"
@@ -64,7 +64,7 @@
 					"PackageIdentifier" : "Workrave.Workrave"
 				},
 				{
-					"PackageIdentifier" : "qBittorrent.qBittorrent"
+					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.6"
 				},
 				{
 					"PackageIdentifier" : "FelipeEFdeCastro.Klavaro"
@@ -85,9 +85,6 @@
 					"PackageIdentifier" : "GeorgieLabs.SoundWireServer"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.6"
-				},
-				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64"
 				},
 				{
@@ -104,6 +101,9 @@
 				},
 				{
 					"PackageIdentifier" : "GIMP.GIMP.3"
+				},
+				{
+					"PackageIdentifier" : "Gyan.FFmpeg"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.Sysinternals.Suite"
@@ -175,21 +175,6 @@
 				"Identifier" : "Microsoft.Winget.Source_8wekyb3d8bbwe",
 				"Name" : "winget",
 				"Type" : "Microsoft.PreIndexed.Package"
-			}
-		},
-		{
-			"Packages" : 
-			[
-				{
-					"PackageIdentifier" : "9WZDNCRFJBBG"
-				}
-			],
-			"SourceDetails" : 
-			{
-				"Argument" : "https://storeedgefd.dsx.mp.microsoft.com/v9.0",
-				"Identifier" : "StoreEdgeFD",
-				"Name" : "msstore",
-				"Type" : "Microsoft.Rest"
 			}
 		}
 	],
