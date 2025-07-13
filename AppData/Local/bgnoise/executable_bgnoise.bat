@@ -2,7 +2,7 @@
 setlocal
 
 rem Define the ffplay command and the media file
-set ffplay_cmd=ffplay -loop 0 -nodisp -af "volume=0.6" "C:\Users\lu\Music\xoxo.mp3"
+set ffplay_cmd=ffplay -loop 0 -nodisp -af "volume=0.6" ""D:\Music\xoxo.mp3""
 
 rem Check if ffplay is running
 tasklist /fi "imagename eq ffplay.exe" 2>NUL | find /I /N "ffplay.exe">NUL
