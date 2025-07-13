@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2025-07-04T11:13:55.609-00:00",
+	"CreationDate" : "2025-07-13T13:20:15.491-00:00",
 	"Sources" : 
 	[
 		{
@@ -19,7 +19,7 @@
 					"PackageIdentifier" : "Xanashi.Icaros"
 				},
 				{
-					"PackageIdentifier" : "VideoLAN.VLC"
+					"PackageIdentifier" : "Mozilla.Thunderbird"
 				},
 				{
 					"PackageIdentifier" : "GitHub.cli"
@@ -37,9 +37,6 @@
 					"PackageIdentifier" : "geeksoftwareGmbH.PDF24Creator"
 				},
 				{
-					"PackageIdentifier" : "OpenJS.NodeJS.LTS"
-				},
-				{
 					"PackageIdentifier" : "sylikc.JPEGView"
 				},
 				{
@@ -55,6 +52,9 @@
 					"PackageIdentifier" : "HandBrake.HandBrake"
 				},
 				{
+					"PackageIdentifier" : "CodecGuide.K-LiteCodecPack.Standard"
+				},
+				{
 					"PackageIdentifier" : "Microsoft.Edge"
 				},
 				{
@@ -67,9 +67,6 @@
 					"PackageIdentifier" : "qBittorrent.qBittorrent"
 				},
 				{
-					"PackageIdentifier" : "Tableau.Public"
-				},
-				{
 					"PackageIdentifier" : "FelipeEFdeCastro.Klavaro"
 				},
 				{
@@ -77,6 +74,12 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.8"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.9"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.PowerBI"
 				},
 				{
 					"PackageIdentifier" : "GeorgieLabs.SoundWireServer"
@@ -88,16 +91,10 @@
 					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.9"
-				},
-				{
 					"PackageIdentifier" : "Amazon.Kindle"
 				},
 				{
 					"PackageIdentifier" : "BurntSushi.ripgrep.MSVC"
-				},
-				{
-					"PackageIdentifier" : "ByteDance.CapCut"
 				},
 				{
 					"PackageIdentifier" : "DBeaver.DBeaver.Community"
@@ -136,6 +133,9 @@
 					"PackageIdentifier" : "junegunn.fzf"
 				},
 				{
+					"PackageIdentifier" : "KDE.Kdenlive"
+				},
+				{
 					"PackageIdentifier" : "rsteube.Carapace"
 				},
 				{
@@ -151,10 +151,10 @@
 					"PackageIdentifier" : "yt-dlp.yt-dlp"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.VisualStudioCode"
+					"PackageIdentifier" : "Microsoft.PowerToys"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.PowerToys"
+					"PackageIdentifier" : "Microsoft.VisualStudioCode"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.AppInstaller"
@@ -180,15 +180,6 @@
 		{
 			"Packages" : 
 			[
-				{
-					"PackageIdentifier" : "9NBLGGH5WLVJ"
-				},
-				{
-					"PackageIdentifier" : "9NBLGGH4XXVW"
-				},
-				{
-					"PackageIdentifier" : "9NCRCVJC50WL"
-				},
 				{
 					"PackageIdentifier" : "9WZDNCRFJBBG"
 				}
