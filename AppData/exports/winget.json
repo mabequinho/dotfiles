@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2025-07-13T19:42:28.700-00:00",
+	"CreationDate" : "2025-07-13T20:55:35.245-00:00",
 	"Sources" : 
 	[
 		{
@@ -31,9 +31,6 @@
 					"PackageIdentifier" : "Google.GoogleDrive"
 				},
 				{
-					"PackageIdentifier" : "Transmission.Transmission"
-				},
-				{
 					"PackageIdentifier" : "geeksoftwareGmbH.PDF24Creator"
 				},
 				{
@@ -62,6 +59,9 @@
 				},
 				{
 					"PackageIdentifier" : "Workrave.Workrave"
+				},
+				{
+					"PackageIdentifier" : "qBittorrent.qBittorrent"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.6"
