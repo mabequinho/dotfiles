@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2025-07-13T20:55:35.245-00:00",
+	"CreationDate" : "2025-07-14T09:57:15.662-00:00",
 	"Sources" : 
 	[
 		{
@@ -14,9 +14,6 @@
 				},
 				{
 					"PackageIdentifier" : "Xanashi.Icaros"
-				},
-				{
-					"PackageIdentifier" : "Mozilla.Thunderbird"
 				},
 				{
 					"PackageIdentifier" : "GitHub.cli"
@@ -175,6 +172,21 @@
 				"Identifier" : "Microsoft.Winget.Source_8wekyb3d8bbwe",
 				"Name" : "winget",
 				"Type" : "Microsoft.PreIndexed.Package"
+			}
+		},
+		{
+			"Packages" : 
+			[
+				{
+					"PackageIdentifier" : "9NCRCVJC50WL"
+				}
+			],
+			"SourceDetails" : 
+			{
+				"Argument" : "https://storeedgefd.dsx.mp.microsoft.com/v9.0",
+				"Identifier" : "StoreEdgeFD",
+				"Name" : "msstore",
+				"Type" : "Microsoft.Rest"
 			}
 		}
 	],
