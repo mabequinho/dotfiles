@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2025-07-15T14:28:38.912-00:00",
+	"CreationDate" : "2025-07-16T09:24:32.597-00:00",
 	"Sources" : 
 	[
 		{
@@ -76,13 +76,13 @@
 					"PackageIdentifier" : "DEVCOM.JetBrainsMonoNerdFont"
 				},
 				{
+					"PackageIdentifier" : "Microsoft.PowerBI"
+				},
+				{
 					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.8"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.9"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.PowerBI"
 				},
 				{
 					"PackageIdentifier" : "GeorgieLabs.SoundWireServer"
@@ -98,6 +98,9 @@
 				},
 				{
 					"PackageIdentifier" : "DBeaver.DBeaver.Community"
+				},
+				{
+					"PackageIdentifier" : "Discord.Discord"
 				},
 				{
 					"PackageIdentifier" : "Dystroy.broot"
