@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2025-07-16T09:24:32.597-00:00",
+	"CreationDate" : "2025-07-19T14:45:36.590-00:00",
 	"Sources" : 
 	[
 		{
@@ -19,16 +19,19 @@
 					"PackageIdentifier" : "Xanashi.Icaros"
 				},
 				{
-					"PackageIdentifier" : "GitHub.cli"
-				},
-				{
 					"PackageIdentifier" : "Giorgiotani.Peazip"
 				},
 				{
 					"PackageIdentifier" : "OlegShparber.Zeal"
 				},
 				{
+					"PackageIdentifier" : "calibre.calibre"
+				},
+				{
 					"PackageIdentifier" : "Google.GoogleDrive"
+				},
+				{
+					"PackageIdentifier" : "GitHub.cli"
 				},
 				{
 					"PackageIdentifier" : "geeksoftwareGmbH.PDF24Creator"
@@ -38,9 +41,6 @@
 				},
 				{
 					"PackageIdentifier" : "Starship.Starship"
-				},
-				{
-					"PackageIdentifier" : "calibre.calibre"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.PowerShell"
@@ -59,9 +59,6 @@
 				},
 				{
 					"PackageIdentifier" : "Workrave.Workrave"
-				},
-				{
-					"PackageIdentifier" : "qBittorrent.qBittorrent"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.6"
@@ -116,6 +113,9 @@
 				},
 				{
 					"PackageIdentifier" : "CondaForge.Miniforge3"
+				},
+				{
+					"PackageIdentifier" : "Ryuapp.Rb"
 				},
 				{
 					"PackageIdentifier" : "SumatraPDF.SumatraPDF"
