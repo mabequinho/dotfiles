@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2025-07-24T10:58:42.536-00:00",
+	"CreationDate" : "2025-07-24T17:58:28.140-00:00",
 	"Sources" : 
 	[
 		{
@@ -89,6 +89,9 @@
 				},
 				{
 					"PackageIdentifier" : "Amazon.Kindle"
+				},
+				{
+					"PackageIdentifier" : "AutoHotkey.AutoHotkey"
 				},
 				{
 					"PackageIdentifier" : "BurntSushi.ripgrep.MSVC"
