@@ -5,7 +5,6 @@
 #SingleInstance Force               ;Run only one instance
 
 CoordMode "ToolTip"             ; for tooltip with clipboad content
-SetTimer tX,50                  ; for tooltip with clipboad content
 
 Global clipboardClearTimer := "" ; Declare a global variable for the timer
 
@@ -33,6 +32,7 @@ ClickCopy(Option:=0){               ;Main Func (Default='0')
     {
         SendInput '^{Insert}'       ;    Send the Copy hotkey
         SetClipboardClearTimer()    ; Call function to set clipboard clear timer
+	tX()
     }
 
 ;;;;;;;;;;;;;;;                   ; block for selection by mouse dragging
@@ -45,6 +45,7 @@ else{
     {
         SendInput '^{Insert}'
         SetClipboardClearTimer()    ; Call function to set clipboard clear timer
+	tX()
     }
 }
 ;;;;;;;;;;;;;;;                   ; end of block mouse dragging
@@ -81,5 +82,7 @@ SetClipboardClearTimer() {
 ClearClipboard() {
     A_Clipboard := "" ; Clears the clipboard
     ToolTip "Clipboard cleared!" ; Optional: Show a tooltip for confirmation
-    SetTimer () => ToolTip(), -3000 ; Optional: Hide the tooltip after 2 seconds
+    SetTimer () => ToolTip(), -2000 ; Optional: Hide the tooltip after 2 seconds
+    Sleep(50)
+    tX()
 }
