@@ -34,7 +34,8 @@ CopyAndShow()
     ClipWait 1
     if A_Clipboard != ""
     {
-        ToolTip A_Clipboard, 0, A_ScreenHeight, 1
+        ToolTip A_Clipboard, , , 1
+        SetTimer () => ToolTip(, , , 1), -3000
         SetTimer ClearClipboard, -60000
     }
 }
