@@ -44,6 +44,7 @@ else{
     If Abs(x2 - x1) >= minDist || Abs(y2 - y1) >= minDist
     {
         SendInput '^{Insert}'
+        Sleep(50)
         SetClipboardClearTimer()    ; Call function to set clipboard clear timer
 	tX()
     }
