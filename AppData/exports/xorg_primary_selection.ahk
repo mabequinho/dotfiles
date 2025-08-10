@@ -22,7 +22,7 @@ CoordMode "ToolTip"
     if A_Clipboard != ""
     {
         SendInput '^{v}'
-        Sleep 50
+	sleep 1000
         ClearClipboard()
     }
 }
@@ -40,6 +40,7 @@ CopyAndShow()
     }
 }
 
+ClearClipboard()
 ClearClipboard()
 {
     A_Clipboard := ""
