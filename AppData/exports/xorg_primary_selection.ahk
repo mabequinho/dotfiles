@@ -2,39 +2,6 @@
 #SingleInstance Force
 CoordMode "ToolTip"
 
-~LButton & MButton::
-{
-    ; Display a tooltip with the starting message.
-    Tooltip("Delayed click in 5...")
-
-    ; Start the 5-second countdown.
-    Loop 5
-    {
-        Sleep(1000) ; Sleep for 1 second.
-        
-        ; Remove the current number from 5.
-        remainingTime := 5 - A_Index
-        
-        ; Update the tooltip with the new remaining time.
-        Tooltip("Clicking in " remainingTime "...")
-        
-        ; This is a special case for the last second to display "1" before the click.
-        if (remainingTime = 1)
-        {
-            Sleep(1000)
-            break
-        }
-    }
-    
-    ; Clear the tooltip after the countdown is complete.
-    Tooltip()
-    
-    ; Perform the left click.
-    MouseClick("left")
-    
-    return
-}
-
 ~*LButton::
 {
     if (A_ThisHotkey == A_PriorHotkey && A_TimeSincePriorHotkey < 400)
