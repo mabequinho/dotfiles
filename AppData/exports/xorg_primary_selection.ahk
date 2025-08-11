@@ -1,5 +1,6 @@
 #Requires AutoHotkey 2.0+
 #SingleInstance Force
+TraySetIcon("C:\Users\lu\AppData\exports\mousetrapmouse_mouse_4603.ico")
 CoordMode "ToolTip"
 
 ~*LButton::
