@@ -1,5 +1,5 @@
 #Requires AutoHotkey 2.0+
-#SingleInstance Force
+#SingleInstance Ignore
 TraySetIcon("C:\Users\lu\AppData\exports\mousetrapmouse_mouse_4603.ico")
 CoordMode "ToolTip"
 
