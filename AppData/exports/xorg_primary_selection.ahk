@@ -5,6 +5,12 @@ CoordMode "ToolTip"
 
 ~*LButton::
 {
+    ; Check if the active window is the ShareX capture window.
+    if WinActive("ahk_class WindowsForms10.Window.8.app.0.bd0a2_r6_ad1") ;; Disable on ShareX Drag Capture
+    {
+        return  ; Do nothing if ShareX is active.
+    }
+
     if (A_ThisHotkey == A_PriorHotkey && A_TimeSincePriorHotkey < 500)
         CopyAndShow()
     else
@@ -20,12 +26,10 @@ CoordMode "ToolTip"
 
 ~MButton::
 {
-
     if A_Clipboard != ""
     {
         SendInput '^{v}'
-	; Actually needed sleep
-	sleep 50
+        sleep 50
         ClearClipboard()
     }
 }
@@ -33,11 +37,8 @@ CoordMode "ToolTip"
 CopyAndShow()
 {
     local temp_clipboard := A_Clipboard
-
     A_Clipboard := ""
-
     SendInput '^{Insert}'
-
     if ClipWait(0.2)
     {
         ToolTip A_Clipboard, , , 1
