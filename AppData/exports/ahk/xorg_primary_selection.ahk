@@ -1,6 +1,6 @@
 #Requires AutoHotkey 2.0+
 #SingleInstance Ignore
-TraySetIcon("C:\Users\lu\AppData\exports\mousetrapmouse_mouse_4603.ico")
+TraySetIcon(A_ScriptDir "\xorg_primary_selection.ico")
 CoordMode "ToolTip"
 
 ~*LButton::
