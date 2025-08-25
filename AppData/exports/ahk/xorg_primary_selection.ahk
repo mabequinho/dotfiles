@@ -53,7 +53,12 @@ CopyAndShow()
 
 ClearClipboard()
 {
-    A_Clipboard := ""
+    try A_Clipboard := ""
+    catch
+    {
+        ; Sometimes it throws an error while returning from suspension, not sure if this fixit.
+    }
+    
     ToolTip "Clipboard cleared!", , , 2
     SetTimer () => ToolTip(, , , 2), -2000
 }
