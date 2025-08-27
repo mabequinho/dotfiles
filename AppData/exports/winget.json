@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2025-08-08T14:34:12.151-00:00",
+	"CreationDate" : "2025-08-27T14:34:44.832-00:00",
 	"Sources" : 
 	[
 		{
@@ -16,7 +16,13 @@
 					"PackageIdentifier" : "Git.Git"
 				},
 				{
+					"PackageIdentifier" : "Gyan.FFmpeg.Shared"
+				},
+				{
 					"PackageIdentifier" : "Xanashi.Icaros"
+				},
+				{
+					"PackageIdentifier" : "GitHub.cli"
 				},
 				{
 					"PackageIdentifier" : "Giorgiotani.Peazip"
@@ -37,13 +43,13 @@
 					"PackageIdentifier" : "sylikc.JPEGView"
 				},
 				{
-					"PackageIdentifier" : "GitHub.cli"
-				},
-				{
 					"PackageIdentifier" : "Starship.Starship"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.PowerShell"
+				},
+				{
+					"PackageIdentifier" : "Klocman.BulkCrapUninstaller"
 				},
 				{
 					"PackageIdentifier" : "HandBrake.HandBrake"
@@ -79,13 +85,13 @@
 					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.8"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.PowerBI"
-				},
-				{
 					"PackageIdentifier" : "GeorgieLabs.SoundWireServer"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.PowerBI"
 				},
 				{
 					"PackageIdentifier" : "Amazon.Kindle"
@@ -100,10 +106,10 @@
 					"PackageIdentifier" : "DBeaver.DBeaver.Community"
 				},
 				{
-					"PackageIdentifier" : "Discord.Discord"
+					"PackageIdentifier" : "Dystroy.broot"
 				},
 				{
-					"PackageIdentifier" : "Dystroy.broot"
+					"PackageIdentifier" : "flux.flux"
 				},
 				{
 					"PackageIdentifier" : "GIMP.GIMP.3"
@@ -116,6 +122,9 @@
 				},
 				{
 					"PackageIdentifier" : "Ryuapp.Rb"
+				},
+				{
+					"PackageIdentifier" : "Sjord.Checkmate"
 				},
 				{
 					"PackageIdentifier" : "SumatraPDF.SumatraPDF"
