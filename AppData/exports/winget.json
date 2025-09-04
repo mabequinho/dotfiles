@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2025-08-27T14:34:44.832-00:00",
+	"CreationDate" : "2025-09-04T17:10:09.909-00:00",
 	"Sources" : 
 	[
 		{
@@ -20,6 +20,9 @@
 				},
 				{
 					"PackageIdentifier" : "Xanashi.Icaros"
+				},
+				{
+					"PackageIdentifier" : "yt-dlp.yt-dlp"
 				},
 				{
 					"PackageIdentifier" : "GitHub.cli"
@@ -82,16 +85,13 @@
 					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.9"
 				},
 				{
+					"PackageIdentifier" : "Microsoft.PowerBI"
+				},
+				{
 					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.8"
 				},
 				{
-					"PackageIdentifier" : "GeorgieLabs.SoundWireServer"
-				},
-				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.PowerBI"
 				},
 				{
 					"PackageIdentifier" : "Amazon.Kindle"
@@ -104,9 +104,6 @@
 				},
 				{
 					"PackageIdentifier" : "DBeaver.DBeaver.Community"
-				},
-				{
-					"PackageIdentifier" : "Dystroy.broot"
 				},
 				{
 					"PackageIdentifier" : "flux.flux"
@@ -124,9 +121,6 @@
 					"PackageIdentifier" : "Ryuapp.Rb"
 				},
 				{
-					"PackageIdentifier" : "Sjord.Checkmate"
-				},
-				{
 					"PackageIdentifier" : "SumatraPDF.SumatraPDF"
 				},
 				{
@@ -134,9 +128,6 @@
 				},
 				{
 					"PackageIdentifier" : "aria2.aria2"
-				},
-				{
-					"PackageIdentifier" : "dalance.procs"
 				},
 				{
 					"PackageIdentifier" : "eza-community.eza"
@@ -157,16 +148,7 @@
 					"PackageIdentifier" : "sharkdp.bat"
 				},
 				{
-					"PackageIdentifier" : "sharkdp.fd"
-				},
-				{
 					"PackageIdentifier" : "twpayne.chezmoi"
-				},
-				{
-					"PackageIdentifier" : "yt-dlp.FFmpeg"
-				},
-				{
-					"PackageIdentifier" : "yt-dlp.yt-dlp"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.PowerToys"
@@ -203,6 +185,9 @@
 				},
 				{
 					"PackageIdentifier" : "9NCRCVJC50WL"
+				},
+				{
+					"PackageIdentifier" : "9PM860492SZD"
 				}
 			],
 			"SourceDetails" : 
