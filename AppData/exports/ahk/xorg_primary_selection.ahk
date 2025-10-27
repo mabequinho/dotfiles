@@ -15,7 +15,7 @@ CoordMode "ToolTip"
         CopyAndShow()
     else
     {
-        static dragThreshold := 10
+        static dragThreshold := 100
         MouseGetPos &startX, &startY
         KeyWait "LButton"
         MouseGetPos &endX, &endY

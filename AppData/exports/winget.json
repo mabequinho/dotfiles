@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2025-09-04T17:10:09.909-00:00",
+	"CreationDate" : "2025-10-27T15:59:52.308-00:00",
 	"Sources" : 
 	[
 		{
@@ -22,19 +22,22 @@
 					"PackageIdentifier" : "Xanashi.Icaros"
 				},
 				{
+					"PackageIdentifier" : "Sandboxie.Plus"
+				},
+				{
 					"PackageIdentifier" : "yt-dlp.yt-dlp"
 				},
 				{
 					"PackageIdentifier" : "GitHub.cli"
 				},
 				{
+					"PackageIdentifier" : "calibre.calibre"
+				},
+				{
 					"PackageIdentifier" : "Giorgiotani.Peazip"
 				},
 				{
 					"PackageIdentifier" : "OlegShparber.Zeal"
-				},
-				{
-					"PackageIdentifier" : "calibre.calibre"
 				},
 				{
 					"PackageIdentifier" : "Google.GoogleDrive"
@@ -47,9 +50,6 @@
 				},
 				{
 					"PackageIdentifier" : "Starship.Starship"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.PowerShell"
 				},
 				{
 					"PackageIdentifier" : "Klocman.BulkCrapUninstaller"
@@ -76,19 +76,22 @@
 					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x86"
 				},
 				{
+					"PackageIdentifier" : "Microsoft.PowerShell"
+				},
+				{
 					"PackageIdentifier" : "FelipeEFdeCastro.Klavaro"
 				},
 				{
 					"PackageIdentifier" : "DEVCOM.JetBrainsMonoNerdFont"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.9"
-				},
-				{
 					"PackageIdentifier" : "Microsoft.PowerBI"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.8"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.9"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64"
@@ -151,6 +154,9 @@
 					"PackageIdentifier" : "twpayne.chezmoi"
 				},
 				{
+					"PackageIdentifier" : "yt-dlp.FFmpeg"
+				},
+				{
 					"PackageIdentifier" : "Microsoft.PowerToys"
 				},
 				{
@@ -199,5 +205,5 @@
 			}
 		}
 	],
-	"WinGetVersion" : "1.11.430"
+	"WinGetVersion" : "1.11.510"
 }

@@ -1,6 +1,6 @@
 {
-  "brightness_day": 80,
-  "brightness_night": 30,
+  "brightness_day": 50,
+  "brightness_night": 0,
   "transition_mins": 360,
   "location": {
     "latitude": -5.08746,
