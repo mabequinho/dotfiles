@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2025-10-27T15:59:52.308-00:00",
+	"CreationDate" : "2025-11-03T10:38:54.515-00:00",
 	"Sources" : 
 	[
 		{
@@ -16,16 +16,10 @@
 					"PackageIdentifier" : "Git.Git"
 				},
 				{
-					"PackageIdentifier" : "Gyan.FFmpeg.Shared"
-				},
-				{
 					"PackageIdentifier" : "Xanashi.Icaros"
 				},
 				{
 					"PackageIdentifier" : "Sandboxie.Plus"
-				},
-				{
-					"PackageIdentifier" : "yt-dlp.yt-dlp"
 				},
 				{
 					"PackageIdentifier" : "GitHub.cli"
@@ -52,6 +46,9 @@
 					"PackageIdentifier" : "Starship.Starship"
 				},
 				{
+					"PackageIdentifier" : "Microsoft.PowerShell"
+				},
+				{
 					"PackageIdentifier" : "Klocman.BulkCrapUninstaller"
 				},
 				{
@@ -76,9 +73,6 @@
 					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x86"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.PowerShell"
-				},
-				{
 					"PackageIdentifier" : "FelipeEFdeCastro.Klavaro"
 				},
 				{
@@ -94,6 +88,9 @@
 					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.9"
 				},
 				{
+					"PackageIdentifier" : "eMClient.eMClient"
+				},
+				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64"
 				},
 				{
@@ -103,13 +100,10 @@
 					"PackageIdentifier" : "AutoHotkey.AutoHotkey"
 				},
 				{
-					"PackageIdentifier" : "BurntSushi.ripgrep.MSVC"
+					"PackageIdentifier" : "BurntSushi.ripgrep.GNU"
 				},
 				{
 					"PackageIdentifier" : "DBeaver.DBeaver.Community"
-				},
-				{
-					"PackageIdentifier" : "flux.flux"
 				},
 				{
 					"PackageIdentifier" : "GIMP.GIMP.3"
@@ -157,6 +151,9 @@
 					"PackageIdentifier" : "yt-dlp.FFmpeg"
 				},
 				{
+					"PackageIdentifier" : "yt-dlp.yt-dlp"
+				},
+				{
 					"PackageIdentifier" : "Microsoft.PowerToys"
 				},
 				{
@@ -188,12 +185,6 @@
 			[
 				{
 					"PackageIdentifier" : "9NBLGGH4XXVW"
-				},
-				{
-					"PackageIdentifier" : "9NCRCVJC50WL"
-				},
-				{
-					"PackageIdentifier" : "9PM860492SZD"
 				}
 			],
 			"SourceDetails" : 
@@ -205,5 +196,5 @@
 			}
 		}
 	],
-	"WinGetVersion" : "1.11.510"
+	"WinGetVersion" : "1.12.350"
 }
