@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2025-11-03T10:38:54.515-00:00",
+	"CreationDate" : "2025-11-11T09:04:50.439-00:00",
 	"Sources" : 
 	[
 		{
@@ -22,16 +22,13 @@
 					"PackageIdentifier" : "Sandboxie.Plus"
 				},
 				{
-					"PackageIdentifier" : "GitHub.cli"
-				},
-				{
-					"PackageIdentifier" : "calibre.calibre"
-				},
-				{
 					"PackageIdentifier" : "Giorgiotani.Peazip"
 				},
 				{
 					"PackageIdentifier" : "OlegShparber.Zeal"
+				},
+				{
+					"PackageIdentifier" : "calibre.calibre"
 				},
 				{
 					"PackageIdentifier" : "Google.GoogleDrive"
@@ -41,6 +38,9 @@
 				},
 				{
 					"PackageIdentifier" : "sylikc.JPEGView"
+				},
+				{
+					"PackageIdentifier" : "GitHub.cli"
 				},
 				{
 					"PackageIdentifier" : "Starship.Starship"
@@ -79,9 +79,6 @@
 					"PackageIdentifier" : "DEVCOM.JetBrainsMonoNerdFont"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.PowerBI"
-				},
-				{
 					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.8"
 				},
 				{
@@ -91,7 +88,13 @@
 					"PackageIdentifier" : "eMClient.eMClient"
 				},
 				{
+					"PackageIdentifier" : "GeorgieLabs.SoundWireServer"
+				},
+				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.PowerBI"
 				},
 				{
 					"PackageIdentifier" : "Amazon.Kindle"
