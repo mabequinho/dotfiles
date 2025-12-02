@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2025-11-18T11:04:49.593-00:00",
+	"CreationDate" : "2025-12-02T16:13:03.042-00:00",
 	"Sources" : 
 	[
 		{
@@ -16,10 +16,10 @@
 					"PackageIdentifier" : "Git.Git"
 				},
 				{
-					"PackageIdentifier" : "Xanashi.Icaros"
+					"PackageIdentifier" : "VideoLAN.VLC"
 				},
 				{
-					"PackageIdentifier" : "ThePokemonCompany.PokemonTCGLive"
+					"PackageIdentifier" : "Starship.Starship"
 				},
 				{
 					"PackageIdentifier" : "Giorgiotani.Peazip"
@@ -28,7 +28,7 @@
 					"PackageIdentifier" : "OlegShparber.Zeal"
 				},
 				{
-					"PackageIdentifier" : "calibre.calibre"
+					"PackageIdentifier" : "GitHub.cli"
 				},
 				{
 					"PackageIdentifier" : "Google.GoogleDrive"
@@ -37,13 +37,10 @@
 					"PackageIdentifier" : "geeksoftwareGmbH.PDF24Creator"
 				},
 				{
-					"PackageIdentifier" : "sylikc.JPEGView"
+					"PackageIdentifier" : "Oracle.VirtualBox"
 				},
 				{
-					"PackageIdentifier" : "GitHub.cli"
-				},
-				{
-					"PackageIdentifier" : "Starship.Starship"
+					"PackageIdentifier" : "calibre.calibre"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.PowerShell"
@@ -55,25 +52,19 @@
 					"PackageIdentifier" : "HandBrake.HandBrake"
 				},
 				{
-					"PackageIdentifier" : "CodecGuide.K-LiteCodecPack.Standard"
-				},
-				{
 					"PackageIdentifier" : "Microsoft.Edge"
 				},
 				{
-					"PackageIdentifier" : "OBSProject.OBSStudio"
+					"PackageIdentifier" : "Microsoft.EdgeWebView2Runtime"
 				},
 				{
-					"PackageIdentifier" : "Workrave.Workrave"
+					"PackageIdentifier" : "OBSProject.OBSStudio"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.6"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x86"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.PowerBI"
 				},
 				{
 					"PackageIdentifier" : "FelipeEFdeCastro.Klavaro"
@@ -85,16 +76,22 @@
 					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.9"
 				},
 				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.PowerBI"
+				},
+				{
 					"PackageIdentifier" : "eMClient.eMClient"
 				},
 				{
 					"PackageIdentifier" : "GeorgieLabs.SoundWireServer"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.8"
+					"PackageIdentifier" : "ModuleArt.QuickPictureViewer"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64"
+					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.8"
 				},
 				{
 					"PackageIdentifier" : "Amazon.Kindle"
@@ -157,10 +154,10 @@
 					"PackageIdentifier" : "yt-dlp.yt-dlp"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.PowerToys"
+					"PackageIdentifier" : "Microsoft.VisualStudioCode"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.VisualStudioCode"
+					"PackageIdentifier" : "Microsoft.PowerToys"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.AppInstaller"
