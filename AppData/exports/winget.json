@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2025-12-03T13:13:57.987-00:00",
+	"CreationDate" : "2025-12-04T13:39:38.429-00:00",
 	"Sources" : 
 	[
 		{
@@ -8,6 +8,9 @@
 			[
 				{
 					"PackageIdentifier" : "ShareX.ShareX"
+				},
+				{
+					"PackageIdentifier" : "CrystalDewWorld.CrystalDiskInfo"
 				},
 				{
 					"PackageIdentifier" : "PaperCutSoftware.GhostTrap"
@@ -83,9 +86,6 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.PowerBI"
-				},
-				{
-					"PackageIdentifier" : "eMClient.eMClient"
 				},
 				{
 					"PackageIdentifier" : "GeorgieLabs.SoundWireServer"
@@ -188,6 +188,9 @@
 			[
 				{
 					"PackageIdentifier" : "9NBLGGH4XXVW"
+				},
+				{
+					"PackageIdentifier" : "9NM8S4PVF0N2"
 				}
 			],
 			"SourceDetails" : 
