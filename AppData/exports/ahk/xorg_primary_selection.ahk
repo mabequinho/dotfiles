@@ -36,9 +36,21 @@ CoordMode "ToolTip"
 
 CopyAndShow()
 {
-    local temp_clipboard := A_Clipboard
-    A_Clipboard := ""
+    local temp_clipboard := ""
+    
+    ; Try to access the clipboard. If it fails (e.g., screen locked), stop the function.
+    try
+    {
+        temp_clipboard := A_Clipboard
+        A_Clipboard := ""
+    }
+    catch
+    {
+        return ; Abort if clipboard is inaccessible
+    }
+
     SendInput '^{Insert}'
+    
     if ClipWait(0.2)
     {
         ToolTip A_Clipboard, , , 1
@@ -47,7 +59,8 @@ CopyAndShow()
     }
     else
     {
-        A_Clipboard := temp_clipboard
+        ; Restore previous clipboard if copy failed
+        try A_Clipboard := temp_clipboard 
     }
 }
 
