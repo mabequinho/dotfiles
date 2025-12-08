@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2025-12-07T10:57:21.240-00:00",
+	"CreationDate" : "2025-12-08T10:21:29.535-00:00",
 	"Sources" : 
 	[
 		{
@@ -22,7 +22,7 @@
 					"PackageIdentifier" : "Xanashi.Icaros"
 				},
 				{
-					"PackageIdentifier" : "VideoLAN.VLC"
+					"PackageIdentifier" : "Daum.PotPlayer"
 				},
 				{
 					"PackageIdentifier" : "Starship.Starship"
@@ -43,10 +43,10 @@
 					"PackageIdentifier" : "geeksoftwareGmbH.PDF24Creator"
 				},
 				{
-					"PackageIdentifier" : "Oracle.VirtualBox"
+					"PackageIdentifier" : "calibre.calibre"
 				},
 				{
-					"PackageIdentifier" : "calibre.calibre"
+					"PackageIdentifier" : "Oracle.VirtualBox"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.PowerShell"
@@ -88,9 +88,6 @@
 					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.PowerBI"
-				},
-				{
 					"PackageIdentifier" : "GeorgieLabs.SoundWireServer"
 				},
 				{
@@ -98,6 +95,9 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.8"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.PowerBI"
 				},
 				{
 					"PackageIdentifier" : "Amazon.Kindle"
