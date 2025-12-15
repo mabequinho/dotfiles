@@ -53,7 +53,18 @@ CopyAndShow()
     
     if ClipWait(0.2)
     {
-        ToolTip A_Clipboard, , , 1
+        ; --- New Logic: Truncate ToolTip Text ---
+        displayText := A_Clipboard
+        maxLength := 600  ; Max characters to allow before truncating
+        
+        if (StrLen(displayText) > maxLength)
+        {
+            ; Show first 300 chars ... last 300 chars
+            displayText := SubStr(displayText, 1, 300) . "`n`n... [Content Truncated] ...`n`n" . SubStr(displayText, -300)
+        }
+        ; ----------------------------------------
+
+        ToolTip displayText, , , 1
         SetTimer () => ToolTip(, , , 1), -2000
         SetTimer ClearClipboard, -60000
     }
