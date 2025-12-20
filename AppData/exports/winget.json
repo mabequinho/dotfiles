@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2025-12-08T10:21:29.535-00:00",
+	"CreationDate" : "2025-12-20T11:20:34.737-00:00",
 	"Sources" : 
 	[
 		{
@@ -8,9 +8,6 @@
 			[
 				{
 					"PackageIdentifier" : "ShareX.ShareX"
-				},
-				{
-					"PackageIdentifier" : "CrystalDewWorld.CrystalDiskInfo"
 				},
 				{
 					"PackageIdentifier" : "PaperCutSoftware.GhostTrap"
@@ -40,19 +37,16 @@
 					"PackageIdentifier" : "Google.GoogleDrive"
 				},
 				{
-					"PackageIdentifier" : "geeksoftwareGmbH.PDF24Creator"
-				},
-				{
 					"PackageIdentifier" : "calibre.calibre"
 				},
 				{
 					"PackageIdentifier" : "Oracle.VirtualBox"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.PowerShell"
+					"PackageIdentifier" : "geeksoftwareGmbH.PDF24Creator"
 				},
 				{
-					"PackageIdentifier" : "Klocman.BulkCrapUninstaller"
+					"PackageIdentifier" : "Microsoft.PowerShell"
 				},
 				{
 					"PackageIdentifier" : "HandBrake.HandBrake"
@@ -110,6 +104,9 @@
 				},
 				{
 					"PackageIdentifier" : "DBeaver.DBeaver.Community"
+				},
+				{
+					"PackageIdentifier" : "DenoLand.Deno"
 				},
 				{
 					"PackageIdentifier" : "GIMP.GIMP.3"
