@@ -2,13 +2,23 @@
 #SingleInstance Ignore
 TraySetIcon(A_ScriptDir "\xorg_primary_selection.ico")
 CoordMode "ToolTip"
+; FIX 1: Ensure mouse coordinates are always absolute to the screen, 
+; preventing calculation errors when switching windows.
+CoordMode "Mouse", "Screen" 
 
 ~*LButton::
 {
+    ; FIX 2: Focus Guard. 
+    ; Check if the window under the mouse is ALREADY active.
+    ; If not, you are just clicking to focus it. We should stop here.
+    MouseGetPos , , &hoverHwnd
+    if (hoverHwnd != WinActive("A"))
+        return
+
     ; Check if the active window is the ShareX capture window.
-    if WinActive("ahk_class WindowsForms10.Window.8.app.0.bd0a2_r6_ad1") ;; Disable on ShareX Drag Capture
+    if WinActive("ahk_class WindowsForms10.Window.8.app.0.bd0a2_r6_ad1") 
     {
-        return  ; Do nothing if ShareX is active.
+        return 
     }
 
     if (A_ThisHotkey == A_PriorHotkey && A_TimeSincePriorHotkey < 500)
@@ -19,6 +29,8 @@ CoordMode "ToolTip"
         MouseGetPos &startX, &startY
         KeyWait "LButton"
         MouseGetPos &endX, &endY
+        
+        ; Because CoordMode is Screen, this calculation is now safe
         if (Abs(endX - startX) > dragThreshold || Abs(endY - startY) > dragThreshold)
             CopyAndShow()
     }
@@ -38,7 +50,6 @@ CopyAndShow()
 {
     local temp_clipboard := ""
     
-    ; Try to access the clipboard. If it fails (e.g., screen locked), stop the function.
     try
     {
         temp_clipboard := A_Clipboard
@@ -46,23 +57,20 @@ CopyAndShow()
     }
     catch
     {
-        return ; Abort if clipboard is inaccessible
+        return 
     }
 
     SendInput '^{Insert}'
     
     if ClipWait(0.2)
     {
-        ; --- New Logic: Truncate ToolTip Text ---
         displayText := A_Clipboard
-        maxLength := 600  ; Max characters to allow before truncating
+        maxLength := 600 
         
         if (StrLen(displayText) > maxLength)
         {
-            ; Show first 300 chars ... last 300 chars
             displayText := SubStr(displayText, 1, 300) . "`n`n... [Content Truncated] ...`n`n" . SubStr(displayText, -300)
         }
-        ; ----------------------------------------
 
         ToolTip displayText, , , 1
         SetTimer () => ToolTip(, , , 1), -2000
@@ -70,7 +78,6 @@ CopyAndShow()
     }
     else
     {
-        ; Restore previous clipboard if copy failed
         try A_Clipboard := temp_clipboard 
     }
 }
@@ -80,7 +87,6 @@ ClearClipboard()
     try A_Clipboard := ""
     catch
     {
-        ; Sometimes it throws an error while returning from suspension, not sure if this fixit.
     }
     
     ToolTip "Clipboard cleared!", , , 2
