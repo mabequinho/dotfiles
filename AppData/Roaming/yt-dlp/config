@@ -1,4 +1,4 @@
 --cookies "C:\Users\lu\AppData\Roaming\yt-dlp\cookies.txt"
 -f bestvideo[height<=?1080]+bestaudio/best
--o "%(playlist)s/%(title)s.%(ext)s"
+-o "%(title)s.%(ext)s"
 --restrict-filenames
