@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2026-01-10T17:14:00.709-00:00",
+	"CreationDate" : "2026-01-20T14:36:41.882-00:00",
 	"Sources" : 
 	[
 		{
@@ -38,6 +38,9 @@
 				},
 				{
 					"PackageIdentifier" : "calibre.calibre"
+				},
+				{
+					"PackageIdentifier" : "Mailbird.Mailbird"
 				},
 				{
 					"PackageIdentifier" : "Oracle.VirtualBox"
@@ -88,10 +91,10 @@
 					"PackageIdentifier" : "ModuleArt.QuickPictureViewer"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.8"
+					"PackageIdentifier" : "Microsoft.PowerBI"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.PowerBI"
+					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.8"
 				},
 				{
 					"PackageIdentifier" : "Amazon.Kindle"
@@ -188,9 +191,6 @@
 			[
 				{
 					"PackageIdentifier" : "9NBLGGH4XXVW"
-				},
-				{
-					"PackageIdentifier" : "9NM8S4PVF0N2"
 				}
 			],
 			"SourceDetails" : 
