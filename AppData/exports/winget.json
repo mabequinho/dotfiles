@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2026-01-20T14:36:41.882-00:00",
+	"CreationDate" : "2026-01-22T18:06:13.541-00:00",
 	"Sources" : 
 	[
 		{
@@ -22,6 +22,9 @@
 					"PackageIdentifier" : "Daum.PotPlayer"
 				},
 				{
+					"PackageIdentifier" : "ThePokemonCompany.PokemonTCGLive"
+				},
+				{
 					"PackageIdentifier" : "Starship.Starship"
 				},
 				{
@@ -38,9 +41,6 @@
 				},
 				{
 					"PackageIdentifier" : "calibre.calibre"
-				},
-				{
-					"PackageIdentifier" : "Mailbird.Mailbird"
 				},
 				{
 					"PackageIdentifier" : "Oracle.VirtualBox"
@@ -95,6 +95,9 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.8"
+				},
+				{
+					"PackageIdentifier" : "Readdle.Spark"
 				},
 				{
 					"PackageIdentifier" : "Amazon.Kindle"
@@ -202,5 +205,5 @@
 			}
 		}
 	],
-	"WinGetVersion" : "1.12.350"
+	"WinGetVersion" : "1.12.460"
 }
