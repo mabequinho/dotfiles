@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2026-01-22T18:06:13.541-00:00",
+	"CreationDate" : "2026-01-23T12:34:39.127-00:00",
 	"Sources" : 
 	[
 		{
@@ -22,7 +22,7 @@
 					"PackageIdentifier" : "Daum.PotPlayer"
 				},
 				{
-					"PackageIdentifier" : "ThePokemonCompany.PokemonTCGLive"
+					"PackageIdentifier" : "GitHub.cli"
 				},
 				{
 					"PackageIdentifier" : "Starship.Starship"
@@ -32,9 +32,6 @@
 				},
 				{
 					"PackageIdentifier" : "OlegShparber.Zeal"
-				},
-				{
-					"PackageIdentifier" : "GitHub.cli"
 				},
 				{
 					"PackageIdentifier" : "Google.GoogleDrive"
@@ -85,6 +82,9 @@
 					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64"
 				},
 				{
+					"PackageIdentifier" : "eMClient.eMClient"
+				},
+				{
 					"PackageIdentifier" : "GeorgieLabs.SoundWireServer"
 				},
 				{
@@ -95,9 +95,6 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.8"
-				},
-				{
-					"PackageIdentifier" : "Readdle.Spark"
 				},
 				{
 					"PackageIdentifier" : "Amazon.Kindle"
