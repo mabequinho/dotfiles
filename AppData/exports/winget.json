@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2026-01-23T12:34:39.127-00:00",
+	"CreationDate" : "2026-02-05T18:01:12.011-00:00",
 	"Sources" : 
 	[
 		{
@@ -8,6 +8,9 @@
 			[
 				{
 					"PackageIdentifier" : "ShareX.ShareX"
+				},
+				{
+					"PackageIdentifier" : "Ditto.Ditto"
 				},
 				{
 					"PackageIdentifier" : "PaperCutSoftware.GhostTrap"
@@ -22,10 +25,10 @@
 					"PackageIdentifier" : "Daum.PotPlayer"
 				},
 				{
-					"PackageIdentifier" : "GitHub.cli"
+					"PackageIdentifier" : "calibre.calibre"
 				},
 				{
-					"PackageIdentifier" : "Starship.Starship"
+					"PackageIdentifier" : "GitHub.cli"
 				},
 				{
 					"PackageIdentifier" : "Giorgiotani.Peazip"
@@ -37,7 +40,7 @@
 					"PackageIdentifier" : "Google.GoogleDrive"
 				},
 				{
-					"PackageIdentifier" : "calibre.calibre"
+					"PackageIdentifier" : "Starship.Starship"
 				},
 				{
 					"PackageIdentifier" : "Oracle.VirtualBox"
@@ -76,6 +79,9 @@
 					"PackageIdentifier" : "DEVCOM.JetBrainsMonoNerdFont"
 				},
 				{
+					"PackageIdentifier" : "Microsoft.PowerBI"
+				},
+				{
 					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.9"
 				},
 				{
@@ -89,9 +95,6 @@
 				},
 				{
 					"PackageIdentifier" : "ModuleArt.QuickPictureViewer"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.PowerBI"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.8"
