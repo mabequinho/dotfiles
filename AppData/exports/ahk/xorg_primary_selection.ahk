@@ -16,7 +16,7 @@ CoordMode "Mouse", "Screen"
         return
 
     ; Check if the active window is the ShareX capture window.
-    if WinActive("ahk_class WindowsForms10.Window.8.app.0.bd0a2_r6_ad1") 
+    if WinActive("ahk_exe ShareX.exe")
     {
         return 
     }
