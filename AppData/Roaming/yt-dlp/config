@@ -1,4 +1,5 @@
 --cookies "C:\Users\lu\AppData\Roaming\yt-dlp\cookies.txt"
 -f bestvideo[height<=?1080]+bestaudio/best
+--use-postprocessor FFmpegCopyStream --ppa CopyStream:"-c:v libx264 -c:a aac -f mp4"
 -o "%(title)s.%(ext)s"
 --restrict-filenames
