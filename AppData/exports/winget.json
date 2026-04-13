@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2026-02-05T18:01:12.011-00:00",
+	"CreationDate" : "2026-04-13T15:23:04.939-00:00",
 	"Sources" : 
 	[
 		{
@@ -25,7 +25,7 @@
 					"PackageIdentifier" : "Daum.PotPlayer"
 				},
 				{
-					"PackageIdentifier" : "calibre.calibre"
+					"PackageIdentifier" : "Microsoft.PowerShell"
 				},
 				{
 					"PackageIdentifier" : "GitHub.cli"
@@ -34,10 +34,10 @@
 					"PackageIdentifier" : "Giorgiotani.Peazip"
 				},
 				{
-					"PackageIdentifier" : "OlegShparber.Zeal"
+					"PackageIdentifier" : "Google.GoogleDrive"
 				},
 				{
-					"PackageIdentifier" : "Google.GoogleDrive"
+					"PackageIdentifier" : "calibre.calibre"
 				},
 				{
 					"PackageIdentifier" : "Starship.Starship"
@@ -46,10 +46,13 @@
 					"PackageIdentifier" : "Oracle.VirtualBox"
 				},
 				{
+					"PackageIdentifier" : "OlegShparber.Zeal"
+				},
+				{
 					"PackageIdentifier" : "geeksoftwareGmbH.PDF24Creator"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.PowerShell"
+					"PackageIdentifier" : "EPSON.EpsonScan2"
 				},
 				{
 					"PackageIdentifier" : "HandBrake.HandBrake"
@@ -64,13 +67,13 @@
 					"PackageIdentifier" : "OBSProject.OBSStudio"
 				},
 				{
-					"PackageIdentifier" : "AllanChain.SaneBreak"
-				},
-				{
 					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.6"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x86"
+				},
+				{
+					"PackageIdentifier" : "EPSON.PrinterDriverSecuritySupportTool"
 				},
 				{
 					"PackageIdentifier" : "FelipeEFdeCastro.Klavaro"
@@ -79,16 +82,31 @@
 					"PackageIdentifier" : "DEVCOM.JetBrainsMonoNerdFont"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.PowerBI"
+					"PackageIdentifier" : "EPSON.Scan.PDFExtensions"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.9"
+					"PackageIdentifier" : "eMClient.eMClient"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.8.x64"
+				},
+				{
+					"PackageIdentifier" : "EPSON.PrinterConnectionChecker"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.10"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64"
 				},
 				{
-					"PackageIdentifier" : "eMClient.eMClient"
+					"PackageIdentifier" : "EPSON.SoftwareUpdater"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.9"
+				},
+				{
+					"PackageIdentifier" : "EPSON.Scan.OCRComponent"
 				},
 				{
 					"PackageIdentifier" : "GeorgieLabs.SoundWireServer"
@@ -97,7 +115,7 @@
 					"PackageIdentifier" : "ModuleArt.QuickPictureViewer"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.8"
+					"PackageIdentifier" : "Microsoft.PowerBI"
 				},
 				{
 					"PackageIdentifier" : "Amazon.Kindle"
@@ -163,10 +181,10 @@
 					"PackageIdentifier" : "yt-dlp.yt-dlp"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.VisualStudioCode"
+					"PackageIdentifier" : "Microsoft.PowerToys"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.PowerToys"
+					"PackageIdentifier" : "Microsoft.VisualStudioCode"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.AppInstaller"
@@ -176,6 +194,15 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCLibs.Desktop.14"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCLibs.14"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.WindowsAppRuntime.1.5"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.WindowsAppRuntime.1.8"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.WindowsTerminal"
@@ -205,5 +232,5 @@
 			}
 		}
 	],
-	"WinGetVersion" : "1.12.460"
+	"WinGetVersion" : "1.28.220"
 }
