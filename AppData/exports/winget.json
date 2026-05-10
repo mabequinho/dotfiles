@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2026-04-15T15:52:35.082-00:00",
+	"CreationDate" : "2026-05-10T18:01:48.590-00:00",
 	"Sources" : 
 	[
 		{
@@ -25,10 +25,10 @@
 					"PackageIdentifier" : "Daum.PotPlayer"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.PowerShell"
+					"PackageIdentifier" : "geeksoftwareGmbH.PDF24Creator"
 				},
 				{
-					"PackageIdentifier" : "GitHub.cli"
+					"PackageIdentifier" : "Oracle.VirtualBox"
 				},
 				{
 					"PackageIdentifier" : "Giorgiotani.Peazip"
@@ -37,19 +37,19 @@
 					"PackageIdentifier" : "Google.GoogleDrive"
 				},
 				{
-					"PackageIdentifier" : "calibre.calibre"
-				},
-				{
-					"PackageIdentifier" : "Starship.Starship"
-				},
-				{
-					"PackageIdentifier" : "Oracle.VirtualBox"
+					"PackageIdentifier" : "Microsoft.PowerShell"
 				},
 				{
 					"PackageIdentifier" : "OlegShparber.Zeal"
 				},
 				{
-					"PackageIdentifier" : "geeksoftwareGmbH.PDF24Creator"
+					"PackageIdentifier" : "Starship.Starship"
+				},
+				{
+					"PackageIdentifier" : "GitHub.cli"
+				},
+				{
+					"PackageIdentifier" : "calibre.calibre"
 				},
 				{
 					"PackageIdentifier" : "EPSON.EpsonScan2"
@@ -76,6 +76,9 @@
 					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x86"
 				},
 				{
+					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.10"
+				},
+				{
 					"PackageIdentifier" : "EPSON.PrinterDriverSecuritySupportTool"
 				},
 				{
@@ -94,28 +97,31 @@
 					"PackageIdentifier" : "EPSON.PrinterConnectionChecker"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.10"
-				},
-				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64"
 				},
 				{
 					"PackageIdentifier" : "EPSON.SoftwareUpdater"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.9"
-				},
-				{
 					"PackageIdentifier" : "EPSON.Scan.OCRComponent"
 				},
 				{
-					"PackageIdentifier" : "GeorgieLabs.SoundWireServer"
+					"PackageIdentifier" : "EPSON.ScanSmart"
 				},
 				{
 					"PackageIdentifier" : "ModuleArt.QuickPictureViewer"
 				},
 				{
+					"PackageIdentifier" : "EPSON.EventManager"
+				},
+				{
 					"PackageIdentifier" : "Microsoft.PowerBI"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.8"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.9"
 				},
 				{
 					"PackageIdentifier" : "Amazon.Kindle"
@@ -190,6 +196,9 @@
 					"PackageIdentifier" : "Microsoft.AppInstaller"
 				},
 				{
+					"PackageIdentifier" : "Microsoft.DotNet.Native.Runtime"
+				},
+				{
 					"PackageIdentifier" : "Microsoft.UI.Xaml.2.8"
 				},
 				{
@@ -238,5 +247,5 @@
 			}
 		}
 	],
-	"WinGetVersion" : "1.28.220"
+	"WinGetVersion" : "1.28.240"
 }
