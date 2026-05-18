@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2026-05-10T18:01:48.590-00:00",
+	"CreationDate" : "2026-05-18T14:20:01.821-00:00",
 	"Sources" : 
 	[
 		{
@@ -82,6 +82,9 @@
 					"PackageIdentifier" : "EPSON.PrinterDriverSecuritySupportTool"
 				},
 				{
+					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.8"
+				},
+				{
 					"PackageIdentifier" : "FelipeEFdeCastro.Klavaro"
 				},
 				{
@@ -116,9 +119,6 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.PowerBI"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.8"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.9"
