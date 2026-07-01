@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2026-05-18T14:20:01.821-00:00",
+	"CreationDate" : "2026-07-01T11:30:41.311-00:00",
 	"Sources" : 
 	[
 		{
@@ -25,10 +25,13 @@
 					"PackageIdentifier" : "Daum.PotPlayer"
 				},
 				{
-					"PackageIdentifier" : "geeksoftwareGmbH.PDF24Creator"
+					"PackageIdentifier" : "calibre.calibre"
 				},
 				{
-					"PackageIdentifier" : "Oracle.VirtualBox"
+					"PackageIdentifier" : "Google.Chrome"
+				},
+				{
+					"PackageIdentifier" : "geeksoftwareGmbH.PDF24Creator"
 				},
 				{
 					"PackageIdentifier" : "Giorgiotani.Peazip"
@@ -40,16 +43,19 @@
 					"PackageIdentifier" : "Microsoft.PowerShell"
 				},
 				{
+					"PackageIdentifier" : "GitHub.cli"
+				},
+				{
 					"PackageIdentifier" : "OlegShparber.Zeal"
 				},
 				{
 					"PackageIdentifier" : "Starship.Starship"
 				},
 				{
-					"PackageIdentifier" : "GitHub.cli"
+					"PackageIdentifier" : "Oracle.VirtualBox"
 				},
 				{
-					"PackageIdentifier" : "calibre.calibre"
+					"PackageIdentifier" : "EPSON.EpsonNetPrint"
 				},
 				{
 					"PackageIdentifier" : "EPSON.EpsonScan2"
@@ -73,16 +79,13 @@
 					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.6"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x86"
-				},
-				{
 					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.10"
 				},
 				{
-					"PackageIdentifier" : "EPSON.PrinterDriverSecuritySupportTool"
+					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.8"
+					"PackageIdentifier" : "EPSON.PrinterDriverSecuritySupportTool"
 				},
 				{
 					"PackageIdentifier" : "FelipeEFdeCastro.Klavaro"
@@ -91,34 +94,40 @@
 					"PackageIdentifier" : "DEVCOM.JetBrainsMonoNerdFont"
 				},
 				{
+					"PackageIdentifier" : "Microsoft.PowerBI"
+				},
+				{
 					"PackageIdentifier" : "EPSON.Scan.PDFExtensions"
 				},
 				{
 					"PackageIdentifier" : "eMClient.eMClient"
 				},
 				{
-					"PackageIdentifier" : "EPSON.PrinterConnectionChecker"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64"
+					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.8"
 				},
 				{
 					"PackageIdentifier" : "EPSON.SoftwareUpdater"
 				},
 				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x86"
+				},
+				{
 					"PackageIdentifier" : "EPSON.Scan.OCRComponent"
 				},
 				{
+					"PackageIdentifier" : "EPSON.PrinterConnectionChecker"
+				},
+				{
 					"PackageIdentifier" : "EPSON.ScanSmart"
+				},
+				{
+					"PackageIdentifier" : "GeorgieLabs.SoundWireServer"
 				},
 				{
 					"PackageIdentifier" : "ModuleArt.QuickPictureViewer"
 				},
 				{
 					"PackageIdentifier" : "EPSON.EventManager"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.PowerBI"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.9"
@@ -131,6 +140,9 @@
 				},
 				{
 					"PackageIdentifier" : "BurntSushi.ripgrep.GNU"
+				},
+				{
+					"PackageIdentifier" : "ByteDance.CapCut"
 				},
 				{
 					"PackageIdentifier" : "DBeaver.DBeaver.Community"
@@ -169,9 +181,6 @@
 					"PackageIdentifier" : "junegunn.fzf"
 				},
 				{
-					"PackageIdentifier" : "KDE.Kdenlive"
-				},
-				{
 					"PackageIdentifier" : "rsteube.Carapace"
 				},
 				{
@@ -187,10 +196,10 @@
 					"PackageIdentifier" : "yt-dlp.yt-dlp"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.PowerToys"
+					"PackageIdentifier" : "Microsoft.VisualStudioCode"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.VisualStudioCode"
+					"PackageIdentifier" : "Microsoft.PowerToys"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.AppInstaller"
@@ -215,6 +224,9 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.WindowsAppRuntime.1.8"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.WindowsAppRuntime.2.1"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.WindowsTerminal"
@@ -247,5 +259,5 @@
 			}
 		}
 	],
-	"WinGetVersion" : "1.28.240"
+	"WinGetVersion" : "1.29.280"
 }
